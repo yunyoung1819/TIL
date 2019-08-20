@@ -1,4 +1,4 @@
-### 2장. JSX
+## 2장. JSX
 
 
 #### 코드 이해
@@ -14,7 +14,7 @@ import React, { Component } from 'react';
 var fs = require('fs');
 ```
 
-- ES6(ECMAScript6)에서는 모듈을 불러오는 새로운 키워드가 생김. 바로 import 이다.
+- ES6 (ECMAScript6) 에서는 모듈을 불러오는 새로운 키워드가 생겼다. 바로 import 이다.
 - import를 키워드를 사용하여 모듈을 불러오는 방법은 아래와 같다.
 
 ```
