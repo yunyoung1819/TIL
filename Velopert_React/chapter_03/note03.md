@@ -76,3 +76,56 @@ this.setState({
     수정할 또 다른 필드 이름: 값
 });
 ```
+
+### ES6의 화살표 함수
+
+- 화살표 함수(arrow function)는 ES6 문법에서 함수를 표현하는 새로운 방식이다.
+- 그렇다고해서 기존 function을 이용한 함수 선언 방식을 아예 대체하지는 않는다.
+- 일반 함수는 자신이 종속된 객체를 this로 가리키며, 화살표 함수는 자신이 종속된 인스턴스를 가리킨다.
+- 화살표 함수는 값을 연산하여 바로 반환해야 할 때 사용하면 가독성이 높다. 
+
+```
+function twice(value) {
+    return value * 2;
+}
+```
+
+```
+const triple = (value) => value * 3;
+```
+
+- 위처럼 따로 {}를 열어주지 않으면 연산한 값을 그대로 반환한다는 의미이다. 
+
+
+### state를 constructor에서 꺼내기
+
+- 원래 초기 state는 constructor 메서드에서 정의해야 하지만, defaultProps와 propTypes를 정의할 때 사용한 transform-class-properties 문법으로 constructor 바깥에서 정의할 수도 있다.
+
+```
+class MyComponent extends Component {
+    
+    static defaultProps = {
+        name: '기본 이름'
+    }
+    
+    static propTypes = {
+        name: PropTypes.string,
+        age: PropTypes.number.isRequired
+    }
+    
+    state = {
+        number:0
+    }
+}
+```
+
+### state 값을 업데이트할 때 주의 사항
+
+- state 값을 업데이트할 때는 언제나 .setState로만 업데이트해야 한다.
+- setState() 메서드가 하는 역할은 파라미터로 전달받은 필드를 업데이트한 후 컴포넌트가 리렌더링하도록 트리거하는 것이다.
+- 하지만 state에 직접 접근하여 값을 수정하면 컴포넌트를 자동으로 리렌더링하지 않는다.
+
+### props vs state
+
+- props와 state는 둘 다 컴포넌트에서 사용하거나 렌더링할 데이터를 담고 있으므로 비슷해보일 수도 있지만, 역할은 매우 다르다.
+- props는 부모 컴포넌트가 설정하고, state는 컴포넌트 자체적으로 진니 값으로 컴포넌트 내부에서 값을 업데이트한다. 
