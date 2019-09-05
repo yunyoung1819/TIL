@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="418">
+              <first_editor relative-caret-position="417">
                 <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               </first_editor>
               <second_editor />
@@ -108,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567698497058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567698504188" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -140,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562986838107</updated>
       <workItem from="1562986841653" duration="2393000" />
-      <workItem from="1566575792456" duration="24994000" />
+      <workItem from="1566575792456" duration="25243000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -156,15 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567697533831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="react study chapter06 note update">
+      <created>1567698513256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567698513256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27387000" />
+    <option name="totallyTimeSpent" value="27636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1678" height="924" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.199877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -202,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react study chapter05 note update" />
-    <option name="LAST_COMMIT_MESSAGE" value="react study chapter05 note update" />
+    <MESSAGE value="react study chapter06 note update" />
+    <option name="LAST_COMMIT_MESSAGE" value="react study chapter06 note update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md">
@@ -266,7 +272,7 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
+          <first_editor relative-caret-position="417">
             <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           </first_editor>
           <second_editor />
