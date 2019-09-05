@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_05/note05.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_05/note05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_05/note05.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1938">
-                <caret line="102" selection-start-line="102" selection-end-line="102" selection-end-column="3" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+              <first_editor relative-caret-position="418">
+                <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,12 +99,6 @@
               <item name="Velopert_React" type="462c0819:PsiDirectoryNode" />
               <item name="chapter_05" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="Velopert_React" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -115,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567697444958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567698497058" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -147,15 +140,31 @@
       <option name="presentableId" value="Default" />
       <updated>1562986838107</updated>
       <workItem from="1562986841653" duration="2393000" />
-      <workItem from="1566575792456" duration="24228000" />
+      <workItem from="1566575792456" duration="24994000" />
     </task>
+    <task id="LOCAL-00001" summary="react study chapter05 note update">
+      <created>1567697429134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567697429134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="react study chapter05 note update">
+      <created>1567697533831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567697533831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26621000" />
+    <option name="totallyTimeSpent" value="27387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1678" height="924" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.199877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -173,9 +182,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3296433" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.301353" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.301353" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -190,6 +199,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="react study chapter05 note update" />
+    <option name="LAST_COMMIT_MESSAGE" value="react study chapter05 note update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md">
@@ -243,8 +256,8 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_05/note05.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1938">
-            <caret line="102" selection-start-line="102" selection-end-line="102" selection-end-column="3" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -253,8 +266,8 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
