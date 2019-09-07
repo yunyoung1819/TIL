@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Velopert_React/chapter_07/note07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanCode/chapter_03/study03.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanCode/chapter_02/study02.md" beforeDir="false" afterPath="$PROJECT_DIR$/CleanCode/chapter_02/study02.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_07/note07.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_07/note07.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +18,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_05/note05.md">
+        <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_07/note07.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1516">
-                <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="703">
+                <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -28,11 +30,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
+        <entry file="file://$PROJECT_DIR$/CleanCode/chapter_02/study02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1292">
-                <caret line="68" column="119" selection-start-line="68" selection-start-column="119" selection-end-line="68" selection-end-column="119" />
+              <first_editor>
+                <caret selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -40,23 +42,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_07/note07.md">
+        <entry file="file://$PROJECT_DIR$/CleanCode/chapter_03/study03.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CleanCode/chapter_01/study01.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1">
-                <caret selection-end-column="20" />
+              <first_editor relative-caret-position="479">
+                <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -81,9 +71,10 @@
         <option value="$PROJECT_DIR$/Velopert_React/chapter_03/note03.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_04/note04.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_05/note05.md" />
-        <option value="$PROJECT_DIR$/CleanCode/chapter_02/study02.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_07/note07.md" />
+        <option value="$PROJECT_DIR$/CleanCode/chapter_02/study02.md" />
+        <option value="$PROJECT_DIR$/CleanCode/chapter_03/study03.md" />
       </list>
     </option>
   </component>
@@ -153,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567825404034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567867897253" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -185,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562986838107</updated>
       <workItem from="1562986841653" duration="2393000" />
-      <workItem from="1566575792456" duration="29989000" />
+      <workItem from="1566575792456" duration="36985000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -229,15 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567776755332</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="React study 2019.09.07">
+      <created>1567825439989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567825439989</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32382000" />
+    <option name="totallyTimeSpent" value="39378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1678" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.199877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -277,7 +274,8 @@
     <MESSAGE value="react study chapter05 note update" />
     <MESSAGE value="react study chapter06 note update" />
     <MESSAGE value="clean code chapter 02 study note add" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code chapter 02 study note add" />
+    <MESSAGE value="React study 2019.09.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="React study 2019.09.07" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md">
@@ -318,26 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CleanCode/chapter_02/study02.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CleanCode/chapter_01/study01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1">
-            <caret selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_05/note05.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -359,8 +337,8 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_06/note06.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1292">
-            <caret line="68" column="119" selection-start-line="68" selection-start-column="119" selection-end-line="68" selection-end-column="119" />
+          <first_editor relative-caret-position="117">
+            <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -369,8 +347,38 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_07/note07.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <first_editor relative-caret-position="703">
+            <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CleanCode/chapter_01/study01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CleanCode/chapter_02/study02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CleanCode/chapter_03/study03.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="479">
+            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           </first_editor>
           <second_editor />
         </state>
