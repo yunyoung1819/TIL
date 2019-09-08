@@ -53,3 +53,94 @@
     - componentWillUnmount: 컴포넌트가 웹 브라우저상에서 사라지기 전에 호출하는 메서드.
     
     
+### render() 함수
+
+```
+render() { ... }
+```
+
+- 이 메서드는 컴포넌트 모양새를 정의합니다.
+
+
+### constructor 메서드
+
+```
+constructor(props) { ... }
+```
+
+- 컴포넌트의 생성자 메서드
+- 컴포넌트를 만들때 처음으로 실행된다.
+- 이 메서드에서는 초기 state를 정할 수 있다.
+
+
+### getDerivedStateFromProps 메서드
+
+```
+static getDerivedStateFromProps(nextProps, prevState) {
+    if (nextProps.value !== prevState.value) {
+        return { value: nextProps.value };
+    }
+    return null;
+}
+```
+    
+- props로 받아온 값을 state에 동기화시키는 용도로 사용
+- 컴포넌트를 마운트하거나 props를 변경할 때 호출한다.
+
+
+### componentDidMount 메서드
+
+```
+componentDidMount() { ... }
+```
+
+- 이것은 컴포넌트를 만들고, 첫 렌더링을 다 마친 후에 실행한다.
+- 이 안에서 다른 자바스크립트 라이브러리 또는 프레임워크의 함수를 호출하거나 이벤트 등록, setTimeout,
+setInterval, 네트워크 요청 같은 비동기 작업을 처리한다.
+
+
+### shouldComponentUpdate 메서드
+
+```
+shouldComponentUpdate(nextProps, nextState) { ... }
+```
+
+- 이것은 props 또는 state를 변경했을 때, 리렌더링을 시작할지 여부를 지정하는 메서드이다.
+- 이 메서드에서는 반드시 true 값 또는 false 값을 반환해야 한다.
+- 프로젝트 성능을 최적화할 때, 상황에 맞는 알고리즘을 작성하여 리렌더링을 방지할 때는 false 값을 반한하게 한다.
+
+
+### getSnapshotBeforeUpdate 메서드
+
+- 이 메서드는 render 메서드를 호출한 후 DOM에 변화를 반영하기 바로 직전에 호출하는 메서드
+- 주로 업데이트하기 직전의 값을 참고할 일이 있을 때 활용된다. (ex: 스크롤바 위치)
+
+```
+getSnapshotBeforeUpdate(prevProps, prevState) {
+    if (prevState.array !== this.state.array) {
+        const { scrollTop, scrollHeight } = this.list
+        return { scrollTop, scrollHeight };
+    }
+}
+```
+
+
+### componentDidUpdate 메서드
+
+```
+componentDidUpdate(prevProps, prevState, snapshot) { ... }
+```
+
+- 이것은 리렌더링을 완료한 후 실행한다.
+- 업데이트가 끝난 직후이므로, DOM 관련 처리를 해도 무방하다.
+- 여기에서는 prevProps 또는 prevState를 사용하여 컴포넌트가 이전에 가졌던 데이터에 접근할 수 있다.
+
+
+### componentWillUnmount 메서드
+
+```
+componentWillUnmount() { ... }
+```
+
+- 이것은 컴포넌트를 DOM에서 제거할 때 실행한다.
+- componentDidMount에서 등록한 이벤트, 타이머,직접 생성한 DOM이 있다면 여기에서 제거 작업을 해야 한다.
