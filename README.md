@@ -9,5 +9,5 @@ TIL : Today I Learn Note
 
 ## Computer Science
 
-- [모두의 네트워크 미즈구치 카츠야] (https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
+- [모두의 네트워크 미즈구치 카츠야](https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
 
