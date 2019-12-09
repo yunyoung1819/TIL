@@ -50,4 +50,4 @@ connect([mapStateToProps], [mapDispatchToProps], [mergeProps])
 
 > - mapStateToProps: store.getState() 결과 값인 state를 파라미터로 받아 컴포넌트의 props로 사용할 객체를 반환
 > - mapDispatchToProps: dispatch를 파라미터로 받아 액션을 디스패치하는 함수들을 객체 안에 넣어서 반환
-> - mergeProps: state와 dispatch가 동시에 필요한 함수를 props로 전달해야할 때 사용하는데, 일반적으로 잘 사용하지 않는다.
+> - mergeProps: state와 dispatch가 동시에 필요한 함수를 props로 전달해야할 때 사용하는데, 일반적으로 잘 사용하지않음
