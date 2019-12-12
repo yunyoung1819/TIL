@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_15/note15.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="478">
+                <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,12 +148,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575911433596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575911662249" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -193,7 +193,8 @@
       <workItem from="1567874760903" duration="11210000" />
       <workItem from="1569028522709" duration="1735000" />
       <workItem from="1569857338661" duration="5398000" />
-      <workItem from="1575120279525" duration="5338000" />
+      <workItem from="1575120279525" duration="5570000" />
+      <workItem from="1575912166127" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -321,16 +322,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575907579691</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="React study note 14장 추가">
+      <created>1575911455938</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575911455938</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63191000" />
+    <option name="totallyTimeSpent" value="64160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1678" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21217713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21525215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +386,8 @@
     <MESSAGE value="Clean code study note 3장 추가" />
     <MESSAGE value="모두의 네트워크 1장 노트 추가" />
     <MESSAGE value="react study note 13장 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="react study note 13장 추가" />
+    <MESSAGE value="React study note 14장 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="React study note 14장 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -541,8 +551,8 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_15/note15.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="478">
+            <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
