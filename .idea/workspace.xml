@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_15/note15.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="478">
-                <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <first_editor relative-caret-position="481">
+                <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,7 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +148,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +194,8 @@
       <workItem from="1569028522709" duration="1735000" />
       <workItem from="1569857338661" duration="5398000" />
       <workItem from="1575120279525" duration="5570000" />
-      <workItem from="1575912166127" duration="737000" />
+      <workItem from="1575912166127" duration="2898000" />
+      <workItem from="1576323556461" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -329,17 +330,23 @@
       <option name="project" value="LOCAL" />
       <updated>1575911455938</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="React study note 15장 추가">
+      <created>1576157684674</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576157684674</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64160000" />
+    <option name="totallyTimeSpent" value="67046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1678" height="975" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21525215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21832718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,9 +361,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3090278" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3090278" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2175926" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30324075" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -387,7 +394,8 @@
     <MESSAGE value="모두의 네트워크 1장 노트 추가" />
     <MESSAGE value="react study note 13장 추가" />
     <MESSAGE value="React study note 14장 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="React study note 14장 추가" />
+    <MESSAGE value="React study note 15장 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="React study note 15장 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -551,8 +559,8 @@
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_15/note15.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="478">
-            <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <first_editor relative-caret-position="481">
+            <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
