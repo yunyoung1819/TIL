@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Velopert_React/chapter16.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkForEveryone/chapter_01/note01.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkForEveryone/chapter01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkForEveryone/chapter_02/note02.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkForEveryone/chapter02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_01/note01.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_02/note02.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_03/note03.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_04/note04.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_05/note05.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_06/note06.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_07/note07.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter07.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_08/note08.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter08.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_12/note12.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_13/note13.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter13.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_14/note14.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Velopert_React/chapter16.md" beforeDir="false" afterPath="$PROJECT_DIR$/Velopert_React/chapter16.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/생활코딩/Hibernate.md" beforeDir="false" afterPath="$PROJECT_DIR$/생활코딩/Hibernate/study01.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,24 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Velopert_React/chapter15.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="969">
-                <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Velopert_React/chapter16.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="450">
+                <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -81,15 +56,16 @@
         <option value="$PROJECT_DIR$/Velopert_React/chapter_13/note13.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_14/note14.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" />
+        <option value="$PROJECT_DIR$/백준알고리즘/알고리즘기초/study01.md" />
+        <option value="$PROJECT_DIR$/생활코딩/Hibernate/study01.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter16.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="23" />
-    <option name="width" value="1678" />
-    <option name="height" value="975" />
+    <option name="width" value="1680" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,6 +75,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -112,17 +89,27 @@
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
               <item name="Velopert_React" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="생활코딩" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="생활코딩" type="462c0819:PsiDirectoryNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576342185654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577874412528" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -131,6 +118,8 @@
       <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/생활코딩/Hibernate" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Velopert_React" />
       <recent name="$PROJECT_DIR$/NetworkForEveryone" />
       <recent name="$PROJECT_DIR$/CleanCode" />
@@ -165,7 +154,11 @@
       <workItem from="1569857338661" duration="5398000" />
       <workItem from="1575120279525" duration="5570000" />
       <workItem from="1575912166127" duration="2898000" />
-      <workItem from="1576323556461" duration="1908000" />
+      <workItem from="1576323556461" duration="2547000" />
+      <workItem from="1577502107692" duration="2886000" />
+      <workItem from="1577592921238" duration="564000" />
+      <workItem from="1577873981342" duration="636000" />
+      <workItem from="1580526558248" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -314,17 +307,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576330884098</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="React study note chapter 16장 추가">
+      <created>1576342218584</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576342218584</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68229000" />
+    <option name="totallyTimeSpent" value="74186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1678" height="975" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21832718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1431204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3090278" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30324075" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30243337" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,6 +353,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +374,8 @@
     <MESSAGE value="react study note 13장 추가" />
     <MESSAGE value="React study note 14장 추가" />
     <MESSAGE value="React study note 15장 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="React study note 15장 추가" />
+    <MESSAGE value="React study note chapter 16장 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="React study note chapter 16장 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -504,26 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CleanCode/chapter01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CleanCode/chapter02.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CleanCode/chapter03.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -544,11 +526,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CleanCode/chapter01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1171">
+            <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CleanCode/chapter02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준알고리즘/알고리즘기초/study01.md" />
+    <entry file="file://$PROJECT_DIR$/생활코딩/Hibernate/study01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter16.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="450">
+            <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
