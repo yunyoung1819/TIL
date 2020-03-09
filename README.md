@@ -11,7 +11,7 @@
 
 - [모두의 네트워크 미즈구치 카츠야](https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
 
-## [인프런 JPA 강의]
+## 인프런 JPA 강의
 
 - [자바 ORM 표준 JPA 프로그래밍 - 기본편](https://github.com/yunyoung1819/TIL/tree/master/jpa)
 
