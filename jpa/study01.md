@@ -6,6 +6,9 @@
 - 지금 시대는 객체를 관계형 DB에 관리 - SQL! SQL!! SQL!!!
 - SQL에 의존적인 개발을 피하기 어렵다.
 - 무한 반복, 지루한 코드
+- 계층형 아키텍처 => 진정한 의미의 계층 분할이 어렵다.
+- 객체답게 모델링 할수록 매핑 작업만 늘어난다.
+- 객체를 자바 컬렉션에 저장하듯이 DB에 저장할 수는 없을까? => JPA (Java Persistence API)
 
 
 ### 패러다임의 불일치
@@ -20,12 +23,18 @@
 ### 객체와 관계형 데이터베이스의 차이
 - 상속
 - 연관관계
-    - 객체는 참조를 사용: member.getTeam()
-    - 테이블은 외래 키를 사용: JOIN ON M.TEAM_ID = T.TEAM_ID
 - 데이터 타입
 - 데이터 식별 방법
 
 ### 객체 그래프 탐색
 - 객체는 자유롭게 객체 그래프를 탐색할 수 있어야한다.
+- 처음 실행하는 SQL 범위에 따라 탐색 범위 결정
 
+```
+SELECT M.*, T.*
+FROM MEMBER M
+JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID
 
+member.getTeam();   // OK
+member.getOrder();  // null
+```
