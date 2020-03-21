@@ -16,7 +16,7 @@
 
 ### JPA는 애플리케이션과 JDBC 사이에서 동작
 
-![JPA](C:\Users\NKIA\Desktop\이미지\JPA.PNG)
+![JPA](./image/JPA.png)
 
 
 ### JPA 소개
