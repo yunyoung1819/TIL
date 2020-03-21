@@ -112,6 +112,9 @@ String teamName = team.getName();
 ```
 
 
+### ORM은 객체와 RDB 두 기둥 위에 있는 기술
+
+
 
 
 
