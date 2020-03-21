@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Front-End/study02.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/study01.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/study01.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/study02.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study02.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jpa/study02.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="548">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -140,10 +138,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,12 +159,13 @@
             <path>
               <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,15 +183,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\blog\TIL\jpa\image" />
+      <recent name="D:\blog\TIL\jpa" />
       <recent name="$PROJECT_DIR$/생활코딩/Hibernate" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Velopert_React" />
-      <recent name="$PROJECT_DIR$/NetworkForEveryone" />
-      <recent name="$PROJECT_DIR$/CleanCode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,7 +235,7 @@
       <workItem from="1583852009361" duration="1003000" />
       <workItem from="1584506938526" duration="28000" />
       <workItem from="1584507099002" duration="64000" />
-      <workItem from="1584580581120" duration="7696000" />
+      <workItem from="1584580581120" duration="10578000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -457,11 +454,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584611457738</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="2020.03.21 Study note add">
+      <created>1584751292832</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1584751292833</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2020.03.21 Study note add">
+      <created>1584751555148</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1584751555148</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89691000" />
+    <option name="totallyTimeSpent" value="92573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -527,7 +538,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Study02 note add" />
     <MESSAGE value="2020.03.13 Study note add" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.03.13 Study note add" />
+    <MESSAGE value="2020.03.21 Study note add" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.03.21 Study note add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -779,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa/study02.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="548">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
         </state>
       </provider>
     </entry>
