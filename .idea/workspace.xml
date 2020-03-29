@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/image/JPA구동방식.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/study04.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/study04.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study04.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/jpa/study04.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <first_editor relative-caret-position="186">
+                <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585455068357" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585457382071" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -210,7 +209,7 @@
       <workItem from="1581852842005" duration="29000" />
       <workItem from="1583033277598" duration="1912000" />
       <workItem from="1585144443430" duration="408000" />
-      <workItem from="1585144876841" duration="5012000" />
+      <workItem from="1585144876841" duration="6938000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -394,15 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585393786488</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="김영한 JPA 강의 study note 04 추가">
+      <created>1585455080564</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585455080564</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83490000" />
+    <option name="totallyTimeSpent" value="85416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1680" height="974" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -457,7 +462,8 @@
     <MESSAGE value="React study note chapter 16장 추가" />
     <MESSAGE value="모두의 네트워크 2,3장 스터디 노트 추가" />
     <MESSAGE value="김영한 JPA 강의 study note 03 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="김영한 JPA 강의 study note 03 추가" />
+    <MESSAGE value="김영한 JPA 강의 study note 04 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="김영한 JPA 강의 study note 04 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -706,8 +712,8 @@
     <entry file="file://$PROJECT_DIR$/jpa/study04.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <first_editor relative-caret-position="186">
+            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           </first_editor>
           <second_editor />
         </state>
