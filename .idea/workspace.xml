@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deeplearning/image/지도학습.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearning/lecture01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/study05.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/study04.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study04.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/jpa/study04.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="101">
-                <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <first_editor>
+                <caret column="9" selection-start-column="9" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,12 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="458">
                 <caret line="55" selection-start-line="55" selection-end-line="55" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpa/study05.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,12 +131,13 @@
         <option value="$PROJECT_DIR$/NetworkForEveryone/chapter03.md" />
         <option value="$PROJECT_DIR$/jpa/study03.md" />
         <option value="$PROJECT_DIR$/deeplearning/secssion01.md" />
-        <option value="$PROJECT_DIR$/jpa/study04.md" />
         <option value="$PROJECT_DIR$/deeplearning/lecture01.md" />
+        <option value="$PROJECT_DIR$/jpa/study04.md" />
+        <option value="$PROJECT_DIR$/jpa/study05.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -148,22 +161,6 @@
             <path>
               <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="CleanCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -177,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585574032718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585574675183" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -232,7 +229,7 @@
       <workItem from="1583033277598" duration="1912000" />
       <workItem from="1585144443430" duration="408000" />
       <workItem from="1585144876841" duration="7547000" />
-      <workItem from="1585571706817" duration="2116000" />
+      <workItem from="1585571706817" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -430,14 +427,22 @@
       <option name="project" value="LOCAL" />
       <updated>1585457390668</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="모두의 딥러닝 lecture 01 add">
+      <created>1585574053438</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585574053438</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88141000" />
+    <option name="totallyTimeSpent" value="88742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1680" height="974" extended-state="6" />
+    <frame x="1" y="23" width="1680" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -493,7 +498,8 @@
     <MESSAGE value="모두의 네트워크 2,3장 스터디 노트 추가" />
     <MESSAGE value="김영한 JPA 강의 study note 03 추가" />
     <MESSAGE value="김영한 JPA 강의 study note 04 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="김영한 JPA 강의 study note 04 추가" />
+    <MESSAGE value="모두의 딥러닝 lecture 01 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="모두의 딥러닝 lecture 01 add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -713,22 +719,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/study01.md">
+    <entry file="file://$PROJECT_DIR$/deeplearning/image/지도학습.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="458">
+            <caret line="55" selection-start-line="55" selection-end-line="55" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/image/지도학습.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpa/study04.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="101">
-            <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <first_editor>
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
@@ -754,11 +762,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
+    <entry file="file://$PROJECT_DIR$/jpa/study01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/study05.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
