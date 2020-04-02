@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/image/엔티티생명주기.png" afterDir="false" />
+    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="jpa study note add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/study05.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study05.md" afterDir="false" />
     </list>
@@ -78,7 +77,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="475">
-                <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+                <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -180,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585836746110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585837394945" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -235,7 +234,7 @@
       <workItem from="1583033277598" duration="1912000" />
       <workItem from="1585144443430" duration="408000" />
       <workItem from="1585144876841" duration="7547000" />
-      <workItem from="1585571706817" duration="6378000" />
+      <workItem from="1585571706817" duration="6985000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -454,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585665932255</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="jpa study note add">
+      <created>1585836759608</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585836759608</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92403000" />
+    <option name="totallyTimeSpent" value="93010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1680" height="974" extended-state="0" />
@@ -519,7 +525,8 @@
     <MESSAGE value="김영한 JPA 강의 study note 03 추가" />
     <MESSAGE value="김영한 JPA 강의 study note 04 추가" />
     <MESSAGE value="모두의 딥러닝 lecture 01 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="모두의 딥러닝 lecture 01 add" />
+    <MESSAGE value="jpa study note add" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa study note add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter_01/chap01.md" />
@@ -794,7 +801,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="475">
-            <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
