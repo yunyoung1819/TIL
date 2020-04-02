@@ -36,3 +36,34 @@
     - 영속성 컨텍스트에 저장되었다가 분리된 상태
 - 삭제 (removed)
     - 삭제된 상태
+
+
+![엔티티생명주기](./image/엔티티생명주기.png)
+
+
+### 비영속
+
+````
+// 객체를 생성한 상태 (비영속)
+
+Member member = new Member();
+member.setId("member1");
+member.setUsername("회원1");
+````
+
+
+### 영속
+
+````
+
+// 객체를 생성한 상태 (비영속)
+Member member = new Member();
+member.setId("member1");
+member.setUsername("회원1");
+
+EntityManager em = emf.createEntityManager();
+em.getTransaction().begin();
+
+// 객체를 저장한 상태 (영속)
+em.persist(member);
+````
