@@ -82,3 +82,33 @@ em.remove(member);
 - 트랜잭션을 지원하는 쓰기 지연 (transactional write-behind)
 - 변경 감지 (Dirty Checking)
 - 지연 로딩 (Lazy Loading)
+
+
+### 엔티티 조회, 1차 캐시 
+
+````
+// 엔티티를 생성한 상태 (비영속)
+Member member = new Member();
+member.setId("member1");
+member.setUsername("회원1");
+
+// 엔티티를 영속
+em.persist(member);
+````
+
+### 1차 캐시에서 조회
+
+````
+Member member = new Member();
+member.setId("member");
+member.setUsername("회원1");
+
+// 1차 캐시에 저장됨
+em.persist(member);
+
+// 1차 캐시에서 조회
+Member findMember = em.find(Member.class, "member1");
+````
+
+
+![1차캐시](./image/1차캐시.png);

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="jpa study note add">
+    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jpa/image/1차캐시.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/study05.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study05.md" afterDir="false" />
     </list>
@@ -18,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/jpa/study02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="132">
+              <first_editor relative-caret-position="306">
                 <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               </first_editor>
               <second_editor />
@@ -64,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
+              <first_editor relative-caret-position="935">
                 <caret line="55" selection-start-line="55" selection-end-line="55" />
               </first_editor>
               <second_editor />
@@ -77,7 +78,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="475">
-                <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+                <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -136,8 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="974" />
@@ -172,28 +172,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585837394945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585838149450" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jpa/image" />
       <recent name="$PROJECT_DIR$/deeplearning/image" />
       <recent name="$PROJECT_DIR$/생활코딩/Hibernate" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Velopert_React" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,7 +234,8 @@
       <workItem from="1583033277598" duration="1912000" />
       <workItem from="1585144443430" duration="408000" />
       <workItem from="1585144876841" duration="7547000" />
-      <workItem from="1585571706817" duration="6985000" />
+      <workItem from="1585571706817" duration="7648000" />
+      <workItem from="1586101178737" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -460,17 +461,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585836759608</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="jpa study note add">
+      <created>1585837415429</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585837415429</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93010000" />
+    <option name="totallyTimeSpent" value="94588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1680" height="974" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22405373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -738,32 +746,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/preview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deeplearning/image/지도학습.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
+    <entry file="file://$PROJECT_DIR$/jpa/study02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="55" selection-start-line="55" selection-end-line="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/study04.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -779,11 +769,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/study02.md">
+    <entry file="file://$PROJECT_DIR$/jpa/study04.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <first_editor>
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/preview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="935">
+            <caret line="55" selection-start-line="55" selection-end-line="55" />
           </first_editor>
           <second_editor />
         </state>
@@ -801,7 +809,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="475">
-            <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
