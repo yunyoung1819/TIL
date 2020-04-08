@@ -15,6 +15,10 @@
 
 - [자바 ORM 표준 JPA 프로그래밍 - 기본편](https://github.com/yunyoung1819/TIL/tree/master/jpa)
 
+## 인프런 스프링부트 강의
+
+- [스프링부트 개념과 활용 - 백기선](https://github.com/yunyoung1819/TIL/tree/master/springboot)
+
 ## 모두를 위한 딥러닝 
 
 - [인프런 모두를 위한 딥러닝](https://github.com/yunyoung1819/TIL/tree/master/deeplearning)
