@@ -123,4 +123,4 @@ Member findMember2 = em.find(Member.class, "member2");
 > 1. find("member2")    // 1차 캐시에 없음
 > 2. DB 조회
 > 3. 1차 캐시에 저장
-> 4. 반환 
+> 4. 반환  
