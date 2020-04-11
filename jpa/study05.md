@@ -124,3 +124,79 @@ Member findMember2 = em.find(Member.class, "member2");
 > 2. DB 조회
 > 3. 1차 캐시에 저장
 > 4. 반환  
+
+![데이터베이스조회](./image/데이터베이스조회.png)
+
+
+### 영속 엔티티의 동일성 보장 
+
+````
+Member a = em.find(Member.class, "member1");
+Member b = em.find(Member.class, "member2");
+
+System.out.println(a == b);     // 동일성 비교 true
+````
+
+- 1차 캐시로 반복 가능한 읽기(REPEATABLE READ) 등급의 트랜잭션 격리 수준을 데이터베이스가 아닌
+애플리케이션 차원에서 제공
+
+
+### 엔티티 등록
+- 트랜잭션을 지원하는 쓰기 지연
+
+```
+EntityManager em = emf.createEntityManager();
+EntityTransaction transaction = em.getTransaction();
+
+// 엔티티 매니저는 데이터 변경시 트랜잭션을 시작해야 한다.
+transaction.begin();    // [트랜잭션] 시작
+
+em.persist(memberA);
+em.persist(memberB);
+// 여기까지 INSERT SQL을 데이터베이스에 보내지 않는다.
+
+// 커밋하는 순간 데이터베이스에 INSERT SQL을 보낸다.
+transaction.commit():   // [트랜잭션] 커밋 
+
+```
+
+
+![엔티티등록1](./image/엔티티등록1.png)
+![엔티티등록2](./image/엔티티등록2.png)
+
+- transaction.commit();
+
+![트랜잭션커밋](./image/트랜잭션커밋.png)
+
+
+### 엔티티 수정 변경 감지
+
+````
+EntityManager em = emf.createEntityManager();
+EntityTransaction transaction = em.getTransaction();
+transaction.begin();
+
+Member memberA = em.find(Member.class, "memberA");
+
+memberA.setUsername("임슬기");
+memberA.setAge(25);
+
+// em.update(member) 이런 코드가 있어야하지 않을까? JPA는 필요없다.
+
+transaction.commit();
+````
+
+
+### 엔티티 삭제
+
+````
+// 삭제 대상 엔티티 조회
+Member memberA = em.find(Member.class, "memberA");
+
+em.remove(memberA); // 엔티티 삭제 
+````
+
+
+### 플러시
+
+- 영속성 컨텍스트의 변경 내용을 데이터베이스에 반영 
