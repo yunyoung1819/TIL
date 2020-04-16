@@ -196,7 +196,3 @@ Member memberA = em.find(Member.class, "memberA");
 em.remove(memberA); // 엔티티 삭제 
 ````
 
-
-### 플러시
-
-- 영속성 컨텍스트의 변경 내용을 데이터베이스에 반영 
