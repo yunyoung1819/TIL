@@ -75,4 +75,7 @@ none | 사용하지 않음
 > Column(nullable = false, length = 10)
 - 유니크 제약조건 추가
 > @Table(uniqueConstraints = {@UniqueConstraint(name = "NAME_AGE_UNIQUE", columnNames={"NAME", "AGE"}})
-- DDL 생성 기능은 DDL을 자동 생성할 때만 사용되고 JPA의 실행 로직에는 영향을 주지 않는다.     
+- DDL 생성 기능은 DDL을 자동 생성할 때만 사용되고 JPA의 실행 로직에는 영향을 주지 않는다.
+
+
+### 필드와 컬럼 매핑  
