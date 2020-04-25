@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study01.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study01_JPA소개.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study02.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study02_JPA소개.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study03.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study03_JPA시작하기.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study04.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study04_JPA구동방식.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study05.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study05_영속성컨텍스트.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study06.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study06_플러시.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/study07.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study07_엔티티매핑.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/study07_엔티티매핑.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study07_엔티티매핑.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/jpa/study07_엔티티매핑.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="471">
-                <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+              <first_editor relative-caret-position="755">
+                <caret line="142" column="33" selection-start-line="142" selection-start-column="33" selection-end-line="142" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -90,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="974" />
@@ -126,7 +120,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587801630427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587819144040" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -185,7 +179,7 @@
       <workItem from="1585571706817" duration="7648000" />
       <workItem from="1586101178737" duration="2673000" />
       <workItem from="1586353355228" duration="6508000" />
-      <workItem from="1587042505312" duration="9715000" />
+      <workItem from="1587042505312" duration="14569000" />
     </task>
     <task id="LOCAL-00001" summary="react study chapter05 note update">
       <created>1567697429134</created>
@@ -495,14 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587801366431</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="jpa study07 note add">
+      <created>1587801637453</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1587801637453</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112569000" />
+    <option name="totallyTimeSpent" value="117423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22893773" />
@@ -520,7 +521,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.30831409" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30831409" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.30138567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -875,8 +876,8 @@
     <entry file="file://$PROJECT_DIR$/jpa/study07_엔티티매핑.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="471">
-            <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <first_editor relative-caret-position="755">
+            <caret line="142" column="33" selection-start-line="142" selection-start-column="33" selection-end-line="142" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
