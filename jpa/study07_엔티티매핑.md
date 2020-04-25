@@ -26,7 +26,7 @@
 
 - 속성: name
 - JPA에서 사용할 엔티티 이름을 지정한다.
-- 기본값: 쿨래스 이름을 그대로 사용 (예: Member)
+- 기본값: 클래스 이름을 그대로 사용 (예: Member)
 - 같은 클래스 이름이 없으면 가급적 기본값을 사용한다.
 
 
@@ -152,3 +152,42 @@ value | TemporalType.TIMESTAMP: 날짜와 시간, 데이터베이스 timestamp �
 
 - @Transient 
 - private Integer temp;
+
+
+### 기본 키 매핑 어노테이션
+
+> @Id  
+> @GeneratedValue
+
+````
+@Id @GeneratedValue(strategy = GenerationType.AUTO)
+private Long id;
+````
+
+
+### 기본 키 매핑 방법
+
+- 직접 할당: @Id만 사용
+- 자동 생성(@GeneratedValue)
+    - IDENTITY: 데이터베이스에 위임, MYSQL
+    - SEQUENCE: 데이터베이스 시퀀스 오브젝트 사용, ORACLE
+        - @SequenceGenerator 필요
+    - TABLE: 키 생성용 테이블 사용, 모든 DB에서 사용
+        - @TableGenerator 필요
+    - AUTO: 방언에 따라 자동 지, 기본값 
+
+
+### 직접 할당
+
+- @Id 사용
+
+
+### IDENTITY 전략 - 특징
+
+- 기본 키 생성을 데이터베이스에 위임
+- 주로 MySQL, PostGreSQL, SQL Server, DB2에서 사용 (예: MySQL의 AUTO_INCREMENT)
+- JPA는 보통 트랜잭션 커밋 시점에 INSERT SQL 실행
+- AUTO_INCREMENT는 데이터베이스에 INSERT SQL을 실행한 이후에 ID 값을 알 수 있음
+- IDENTITY 전략은 em.persist() 시점에 즉시 INSERT SQL 실행하고 DB에서 식별자를 조회 
+
+
