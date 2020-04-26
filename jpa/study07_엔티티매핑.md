@@ -191,3 +191,101 @@ private Long id;
 - IDENTITY 전략은 em.persist() 시점에 즉시 INSERT SQL 실행하고 DB에서 식별자를 조회 
 
 
+### SEQUENCE 전략 - 특징
+
+- 데이터베이스 시퀀스는 유일한 값을 순서대로 생성하는 특별한 데이터베이스 오브젝트(예: 오라클 시퀀스)
+- 오라클, PostgreSQL, DB2, H2 데이터베이스에서 사용 
+
+````
+@Entity
+@SequenceGenerator(
+    name = "MEMBER_SEQ_GENERATOR",
+    sequenceName = "MEMBER_SEQ",    // 매핑할 데이터베이스 시퀀스 이름
+    initialValue = 1, allocationSize = 1)
+public class Member {
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+        generator = "MEMBER_SEQ_GENERATOR")
+    private Long id;
+}
+````
+
+
+### 테이블 전략
+
+- 키 생성 전용 테이블을 하나 만들어서 데이터베이스 시퀀스를 흉내내는 전략
+- 장점: 모든 데이터베이스에 적용 가능
+- 단점: 성능 
+
+````
+create table MY_SEQUENCES (
+    sequence_name varchar(255) not null,
+    next_val bigint,
+    primary key (sequence_name)
+)
+
+@Entity
+@TableGenerator(
+    name = "MEMBER_SEQ_GENERATOR",
+    table = "MY_SEQUENCES",
+    pkColumnValue = "MEMBER_SEQ", allocationSize = 1)
+public class Mameber {
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.TABLE, generator = "MEMBER_SEQ_GENERATOR")
+    private Long id;
+}
+````
+
+
+### 권장하는 식별자 전략
+
+- 기본 키 제약 조건: null 아님, 유일, **변하면 안된다.**
+- 미래까지 이 조건을 만족하는 자연키는 찾기 어렵다. 대리키(대체키)를 사용하자.
+- 예를 들어 주민등록번호도 기본 키로 적절하지 않다.
+- 권장: Long형 + 대체키 + 키 생성전략 사용 
+
+
+### :pushpin: 실전예제 - 1. 요구사항 분석과 기본 매핑
+
+#### :bulb: 요구사항 분석
+
+- 회원은 상품을 주문할 수 있다.
+- 주문 시 여러 종류의 상품을 선택할 수 있다.
+
+
+#### :bulb: 기능 목록
+
+- 회원 기능
+    - 회원등록
+    - 회원조회
+- 상품 기능
+    - 상품등록
+    - 상품수정
+    - 상품조회
+- 주문 기능
+    - 상품주문
+    - 주문내역조회
+    - 주문취소
+
+
+### 도메인 모델 분석 
+
+- 회원과 주문의 관계: 회원은 여러 번 주문할 수 있다. (일대다)
+- 주문과 상품의 관계: 주문할 때 여러 상품을 선택할 수 있다. 반대로 같은 상품도 여러 번 주문될 수 있다.
+주문상품이라는 모델을 만들어서 다대다 관계를, 일다대, 다대일 관계로 풀어냄
+
+
+### 도메인 모델 
+
+![도메인모델](./image/도메인모델.png)
+
+
+### 테이블 설계
+
+![테이블설계](./image/테이블설계.png)
+
+
+### 엔티티 설계
+
+![엔티티설계](./image/엔티티설계.png)
