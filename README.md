@@ -22,3 +22,7 @@
 ## 모두를 위한 딥러닝 
 
 - [인프런 모두를 위한 딥러닝](https://github.com/yunyoung1819/TIL/tree/master/deeplearning)
+
+## 리팩토링
+
+- [자바로 배우는 리팩토링 입문](https://github.com/yunyoung1819/TIL/tree/master/refactoring)
