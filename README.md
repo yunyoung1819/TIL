@@ -25,4 +25,4 @@
 
 ## 리팩토링
 
-- [자바로 배우는 리팩토링 입문](https://github.com/yunyoung1819/TIL/tree/master/refactoring)
+- [자바로 배우는 리팩토링 입문 - 유키 히로시](https://github.com/yunyoung1819/TIL/tree/master/refactoring)
