@@ -100,7 +100,7 @@ Team findTeam = em.find(Team.class, team.getId());
 ## 단방향 연관관계
 
 
-### 객체 지향ㅁ ㅗ델링
+### 객체 지향 모델링
 
 > 객체 연관관계 사용
 
@@ -127,7 +127,7 @@ public class Member {
 
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
-    private Team team;
+    private Team team;  // 멤버는 여러명, 팀은 하나 (ManyToOne)
 }
 ````
 
