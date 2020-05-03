@@ -134,3 +134,24 @@ JOIN MEMBER M ON T.TEAM_ID = M.TEAM_ID
 
 ![매핑주인](./image/매핑주인.png)
 
+
+### 양방향 매핑시 가장 많이 하는 실수 
+
+> 연관관계의 주인에 값을 입력하지 않음
+
+````
+Team team = new Team();
+team.setName("레알 마드리드");
+em.persist(team);
+
+Member member = new Member();
+member.setName("크리스티아누 호날두");
+
+// 역방향 (주인이 아닌 방향)만 연관관계 설정
+team.getMembers().add(member);
+
+em.persist(member);››
+````
+
+
+![연관관계실수](./image/연관관계실수.png)
