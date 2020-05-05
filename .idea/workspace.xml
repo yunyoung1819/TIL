@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/image/일대다단방향.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/study12_일대다.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/image/일대다양방향.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/study12_일대다.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/study12_일대다.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/jpa/study12_일대다.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <first_editor relative-caret-position="646">
+                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -255,7 +255,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588687908950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588694800886" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -323,14 +323,7 @@
       <workItem from="1587831420201" duration="14488000" />
       <workItem from="1588248135740" duration="8479000" />
       <workItem from="1588513171973" duration="2935000" />
-      <workItem from="1588595961562" duration="5297000" />
-    </task>
-    <task id="LOCAL-00013" summary="React 스터디 8장_2019.09.11">
-      <created>1568203656696</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1568203656696</updated>
+      <workItem from="1588595961562" duration="7341000" />
     </task>
     <task id="LOCAL-00014" summary="Clean code study note 3장 추가">
       <created>1568510327379</created>
@@ -668,14 +661,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588612272472</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add: jpa study note 12 일대다">
+      <created>1588687921476</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1588687921476</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149165000" />
+    <option name="totallyTimeSpent" value="151209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="1" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18009768" />
@@ -714,7 +714,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clean code study 2019.09.07" />
     <MESSAGE value="React study 2019.09.08" />
     <MESSAGE value="React study 2019.09.10" />
     <MESSAGE value="클린코드 3장 복습_2019.09.11" />
@@ -739,7 +738,8 @@
     <MESSAGE value="add: jpa study note 09 양방향 연관관계" />
     <MESSAGE value="add: jpa study note 10 연관관계 매핑" />
     <MESSAGE value="add: jpa study note 11 다대일" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: jpa study note 11 다대일" />
+    <MESSAGE value="add: jpa study note 12 일대다" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: jpa study note 12 일대다" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1141,8 +1141,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <first_editor relative-caret-position="646">
+            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           </first_editor>
           <second_editor />
         </state>
