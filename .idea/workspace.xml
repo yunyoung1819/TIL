@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Elastic Search/03_엘라스틱서치란.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elastic Search/엘라스틱스택이란.md" beforeDir="false" afterPath="$PROJECT_DIR$/Elastic Search/01_엘라스틱스택이란.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elastic Search/03_엘라스틱서치란.md" beforeDir="false" afterPath="$PROJECT_DIR$/Elastic Search/03_엘라스틱서치란.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,8 +131,8 @@
         <entry file="file://$PROJECT_DIR$/Elastic Search/03_엘라스틱서치란.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="578">
-                <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <first_editor relative-caret-position="755">
+                <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -271,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589035508532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589041436055" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -340,14 +339,7 @@
       <workItem from="1588248135740" duration="8479000" />
       <workItem from="1588513171973" duration="2935000" />
       <workItem from="1588595961562" duration="7700000" />
-      <workItem from="1589014753278" duration="2840000" />
-    </task>
-    <task id="LOCAL-00016" summary="Clean code study note 3장 추가">
-      <created>1568510351757</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1568510351757</updated>
+      <workItem from="1589014753278" duration="4397000" />
     </task>
     <task id="LOCAL-00017" summary="모두의 네트워크 1장 노트 추가">
       <created>1575462584704</created>
@@ -685,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589015990872</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add: Elk stack">
+      <created>1589035518158</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1589035518158</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154408000" />
+    <option name="totallyTimeSpent" value="155965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="0" />
@@ -1177,8 +1176,8 @@
     <entry file="file://$PROJECT_DIR$/Elastic Search/03_엘라스틱서치란.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="578">
-            <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <first_editor relative-caret-position="755">
+            <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
