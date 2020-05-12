@@ -30,4 +30,4 @@
 
 ### ElasticSearch
 
-- [엘라스틱서치(elasticsearch)](https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
+- [엘라스틱서치(elasticsearch)](https://github.com/yunyoung1819/TIL/tree/master/elasticsearch)
