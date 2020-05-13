@@ -29,3 +29,9 @@
         
     > GET /_cat/nodes?v
     
+    
+- 데이터베이스가 가진 데이터 확인하기
+    - 갖고 있는 모든 인덱스 항목 조회
+    - index는 일반 RDB에서의 데이터베이스 역할
+    
+    > GET /_cat/indices?v
