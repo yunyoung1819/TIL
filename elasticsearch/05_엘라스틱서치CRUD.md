@@ -27,11 +27,64 @@
         - 노란색 - 모든 데이터를 사용할 수 있지만 일부 복제본은 아직 할당되지 않음 (클러스터는 완전히 작동함)
         - 빨간색 - 어떤 이유로든 일부 데이터를 사용할 수 없음 (클러스터가 부분적으로 작동함)
         
-    > GET /_cat/nodes?v
+> GET /_cat/nodes?v
     
     
 - 데이터베이스가 가진 데이터 확인하기
     - 갖고 있는 모든 인덱스 항목 조회
     - index는 일반 RDB에서의 데이터베이스 역할
     
-    > GET /_cat/indices?v
+> GET /_cat/indices?v
+
+
+### HTTP 메서드와 CRUD, SQL을 비교
+
+
+HTTP 메서드 | CRUD | SQL | 
+------| -----| ------|
+GET | Read   | Select
+PUT | Update | Update
+POST | Create | Insert
+DELETE | Delete | Delete
+
+
+### 엘라스틱서치 데이터 구조
+
+- 인덱스(Index), 타입(Type), 도큐먼트(Document)의 단위를 가짐
+- 도큐먼트는 엘라스틱서치의 데이터가 저장되는 최소 단위
+- 여러 개의 도큐먼트는 하나의 타입
+- 다시 여러 개의 타입은 하나의 인덱스로 구성
+
+관계형 DB | 엘라스틱서치
+-------- | --------|
+데이터베이스(Database) | 인덱스(Index)
+테이블(Table) | 타입(Type)
+열(Row) | 도큐먼트(Document)
+행(Column) | 필드(Field)
+스키마 | 매핑(Mapping)
+
+![앨라스틱서치데이터구조](./image/앨라스틱서치데이터구조.png)
+
+
+### 엘라스틱서치의 질의 방법
+
+1. 커맨드라인의 curl 명령어 사용
+2. postman 응용프로그램 사용
+3. kibana에서 devtool 사용
+
+
+
+### 인덱스 만들기
+
+- customer라는 인덱스를 만들어보자.
+
+````
+PUT /customer?pretty
+GET /_cat/indices?v
+
+<curl 명령어>
+curl -X PUT "localhost:9200/customer?pretty"
+curl -X GET "localhost:9200/_cat/indices?v"
+````
+
+
