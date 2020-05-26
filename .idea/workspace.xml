@@ -4,12 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/jpa/study09_양방향연관관계.md" line="152" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="add: Elk stack">
-      <change afterPath="$PROJECT_DIR$/jpa/image/양방향.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/image/일대일.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/image/일대일단방향.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/image/일대일양방향.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/study13_일대일.md" afterDir="false" />
+    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jpa/image/객체다대다.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/image/다대다.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/study14_다대다.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,18 +70,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa/study10_연관관계매핑.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="17" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticsearch/04_엘라스틱서치설치.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -119,12 +105,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jpa/study13_일대일.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="773">
-                <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <first_editor>
+                <caret selection-end-line="5" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpa/study14_다대다.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -225,6 +223,7 @@
         <option value="$PROJECT_DIR$/elasticsearch/10_로그스태시파일비트개요.md" />
         <option value="$PROJECT_DIR$/jpa/study12_일대다.md" />
         <option value="$PROJECT_DIR$/jpa/study13_일대일.md" />
+        <option value="$PROJECT_DIR$/jpa/study14_다대다.md" />
       </list>
     </option>
   </component>
@@ -257,11 +256,6 @@
             <path>
               <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589984632133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590496854884" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -349,14 +343,7 @@
       <workItem from="1588248135740" duration="8479000" />
       <workItem from="1588513171973" duration="2935000" />
       <workItem from="1588595961562" duration="7700000" />
-      <workItem from="1589014753278" duration="21190000" />
-    </task>
-    <task id="LOCAL-00025" summary="모두의 네트워크 2,3장 스터디 노트 추가">
-      <created>1583041001506</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1583041001506</updated>
+      <workItem from="1589014753278" duration="22985000" />
     </task>
     <task id="LOCAL-00026" summary="김영한 JPA 강의 study note 03 추가">
       <created>1585393786488</created>
@@ -694,14 +681,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589905886633</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add: jpa study note 13">
+      <created>1589984654012</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1589984654012</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172758000" />
+    <option name="totallyTimeSpent" value="174553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="978" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18192919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -739,7 +734,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="React study 2019.09.10" />
     <MESSAGE value="클린코드 3장 복습_2019.09.11" />
     <MESSAGE value="React 스터디 8장_2019.09.11" />
     <MESSAGE value="Clean code study note 3장 추가" />
@@ -764,23 +758,14 @@
     <MESSAGE value="add: jpa study note 11 다대일" />
     <MESSAGE value="add: jpa study note 12 일대다" />
     <MESSAGE value="add: Elk stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: Elk stack" />
+    <MESSAGE value="add: jpa study note 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: jpa study note 13" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter03.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Velopert_React/chapter05.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1226,8 +1211,18 @@
     <entry file="file://$PROJECT_DIR$/jpa/study13_일대일.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="773">
-            <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/study14_다대다.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
         </state>
