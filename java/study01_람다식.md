@@ -1,4 +1,4 @@
-# :book: Java
+# :book: Java Study
 
 ## :pushpin: 람다식
 
@@ -143,3 +143,46 @@ interface MyFunction {
 
 - 단, 함수형 인터페이스에는 오직 하나의 추상 메서드만 정의되어 있어야함
 - 그래야 람다식과 인터페이스의 메서드가 1:1로 연결될 수 있기 때문 
+
+- 기존
+````
+List<String> list = Arrays.asList("abc", "aaa", "bbb", "ddd", "aaa");
+		
+Collections.sort(list, new Comparator<String>() {
+    public int compare(String s1, String s2) {
+        return s2.compareTo(s1);
+        }
+	});
+````
+
+- 람다식
+````
+List<String> list = Arrays.asList("abc", "aaa", "bbb", "ddd", "aaa");
+Collections.sort(list, (s1, s2) -> s2.compareTo(s1));
+````
+
+
+### 람다식의 타입과 형변환
+
+- 함수형 인터페이스로 람다식을 참조할 수 있지만 람다식의 타입이 함수형 인터페이스의 타입과 일치하는 것은 아님
+- 람다식은 익명 객체이고 익명 객체는 타입이 없음
+- 아래처럼 대입 연산자의 양변 타입을 일치시키기위해 형 변환이 필요
+
+> MyFunction f = (MyFunction) (() -> {});
+
+- 람다식은 MyFunction 인터페이스를 직접 구현하지 않았지만, 이 인터페이스를 구현한 클래스의 객체와 완전히 동일하기 때문에 위와 같은 형 변환을 허용함
+- 그리고 이 형 변환은 생략 가능
+
+> Object obj = (Object) (() -> {});     // 에러. 함수형 인터페이스로만 형 변환 가능 
+
+- 람다식은 Object 타입으로 형 변환할 수 없음
+- 람다식은 오직 함수형 인터페이스로만 형 변환이 가능함
+- Object 타입으로 형 변환하려면, 먼저 함수형 인터페이스로 변환
+
+> Object obj = ((Object) (MyFunction) (() -> {})).toString();
+
+
+### 외부 변수를 참조하는 람다식
+
+- 람다식도 익명 객체, 즉 익명 클래스의 인스턴스이므로 람다식에서 외부에 선언된 변수에 접근하는 규칙은 익명 클래스와 동일하다.
+†
