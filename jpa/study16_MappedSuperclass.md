@@ -1,9 +1,9 @@
 # :book: 자바 ORM 프로그래밍 기본편
 
-## :pushpin: Mapped Superclass - 매핑 정보 상속
+## :pushpin: MappedSuperclass - 매핑 정보 상속
 
 
-> @Mapped Superclass
+> @MappedSuperclass
 
 - 공통 매핑 정보가 필요할 때 사용 (id, name)
 
