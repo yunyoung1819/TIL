@@ -15,3 +15,16 @@
 
 - 메인 애플리케이션 위치
     - 기본 패키지 
+
+
+### 의존성 관리 이해
+
+- https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-dependency-management
+
+
+### 의존성 관리 응용
+
+- 버전 관리 해주는 의존성 추가
+- 버전 관리 안해주는 의존성 추가
+- 기존 의존성 버전 변경하기
+- https://mvnrepository.com/
