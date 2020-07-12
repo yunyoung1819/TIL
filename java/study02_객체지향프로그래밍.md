@@ -33,7 +33,7 @@ cf. 절차 지형 프로그래밍 (Procedural Programming)
 ![객체지향프로그래밍](./image/객체지향프로그래밍.png)
 
 
-### :seedling: 클래스(class)
+## :seedling: 클래스(class)
 
 - 객체를 코드를 구현한 것
 - 객체 지향 프로그래밍의 가장 기본 요소
@@ -74,3 +74,33 @@ cf. 절차 지형 프로그래밍 (Procedural Programming)
 - 자바 파일 하나에 여러 개의 클래스가 존재할 수도 있음
 - 단, public 클래스는 하나이고, public 클래스와 자바 파일 이름은 동일해야함 
 
+
+## :seedling: 함수와 메서드
+
+### 함수(function) 
+
+- 하나의 기능을 수행하는 일련의 코드
+- 함수는 호출하여 사용하고 기능이 수행된 후 값을 반환할 수 있음
+- 함수로 구현된 기능은 여러 곳에서 호출되어 사용될 수 있음 
+
+![함수](./image/함수.png)
+
+
+### 함수의 입력과 반환
+
+![입력반환](./image/입력반환.png)
+
+
+### 함수 정의하기
+
+- 함수는 이름, 매개변수, 반환 값, 함수 몸체(body)로 구성됨
+
+```
+int add(int num1, int num2) 
+{
+    int result;
+    result = num1 + num2;
+    return result;    
+} 
+
+```
