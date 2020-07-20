@@ -109,3 +109,57 @@ Arrays.stream(arr).reduce(0, (a,b) -> a + b));
 ````
 
 - 두 번째 요소로 전달되는 람다식에 따라 다양한 기능을 수행 
+
+```
+public class ReduceTest {
+	
+	public static void main(String[] args) {
+		
+		String[] greetings = {"안녕하세요~~~", "hello", "Good morning", "반갑습ㄴ디"};
+		
+		System.out.println(Arrays.stream(greetings).reduce("", (s1, s2) -> {
+			if (s1.getBytes().length >= s2.getBytes().length)
+				return s1;
+			else return s2;
+		}));
+	}
+	
+}
+
+```
+
+- BinaryOperator로 구현하기 
+
+```
+import java.util.Arrays;
+import java.util.function.BinaryOperator;
+
+class CompareString implements BinaryOperator<String> {
+
+	@Override
+	public String apply(String s1, String s2) {
+		if (s1.getBytes().length >= s2.getBytes().length)
+			return s1;
+		else return s2;
+	}
+	
+}
+
+public class ReduceTest {
+	
+	public static void main(String[] args) {
+		
+		String[] greetings = {"안녕하세요~~~", "hello", "Good morning", "반갑습ㄴ디"};
+		
+		System.out.println(Arrays.stream(greetings).reduce("", (s1, s2) -> {
+			if (s1.getBytes().length >= s2.getBytes().length)
+				return s1;
+			else return s2;
+		}));
+		
+		System.out.println(Arrays.stream(greetings).reduce(new CompareString()).get());
+	}
+	
+}
+
+```
