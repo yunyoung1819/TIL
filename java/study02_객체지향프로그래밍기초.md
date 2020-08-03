@@ -193,3 +193,20 @@ Subject 참조 자료형 멤버 변수를 Student에 정의하여 사용함
 
 ![subject](./image/Subject.png)
 
+
+## :pushpin: 정보 은닉
+
+### 접근 제어자(access modifier)
+˚
+- 변수, 메서드, 생성자에 대한 접근 권한 지정
+- public, private, protected, 아무 것도 안쓰는 경우 (기본 접근 제어자)
+- private을 사용하면 클래스 외부에서는 접근할 수 없음
+
+
+### 정보 은닉 (information hiding)
+
+- 외부에서 클래스 내부의 정보에 접근하지 못하도록 함
+- private 키워드를 활용
+- private 변수를 외부에서 접근하게 하려면 public 메서드 제공함
+- 클래스 내부 데이터를 잘못 사용하는 오류를 방지할 수 있음 
+
