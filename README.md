@@ -1,4 +1,4 @@
-> TIL : Today I Learn Note
+> TIL : Today I Learn Note (기억은 기록을 이길 수 없다)
 
 
 ## React
