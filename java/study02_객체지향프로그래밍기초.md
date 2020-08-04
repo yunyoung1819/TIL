@@ -210,3 +210,31 @@ Subject 참조 자료형 멤버 변수를 Student에 정의하여 사용함
 - private 변수를 외부에서 접근하게 하려면 public 메서드 제공함
 - 클래스 내부 데이터를 잘못 사용하는 오류를 방지할 수 있음 
 
+
+### this의 역할
+
+- 자신의 메모리를 가리킴
+- 생성자에서 다른 생성자를 호출함
+- 인스턴스 자신의 주소를 반환
+
+
+### 자기 자신의 메모리를 가리키는 this
+
+![this](./image/this.png)
+
+
+### 생성자에서 다른 생성자를 호출
+
+````
+public Person() {
+    this("이름없음",1);
+}
+
+public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+}
+````
+
+
+
