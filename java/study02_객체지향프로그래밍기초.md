@@ -237,4 +237,158 @@ public Person(String name, int age) {
 ````
 
 
+### 객체 간 협력
 
+- 객체 지향 프로그램은 객체를 정의하고 객체간의 협력을 구현한 프로그램
+- 학생이 지하철이나 버스를 타고 학교 가는 과정에서 일어나는 협력
+
+![객체간협력](./image/객체협력.png)
+
+> Student 클래스 
+
+```
+public class Student {
+
+    String studentName;
+    int grade;
+    int money;
+    
+    public Student(String studentName, int money) {
+    	this.studentName = studentName;
+    	this.money = money;
+    }
+    
+    public void takeBus(Bus bus) {
+    	bus.take(1000);
+    	this.money -= 1000;
+    }
+    
+    public void takeSubway(Subway subway) {
+    	subway.take(1200);
+    	this.money -= 1200;
+    }
+    
+    public void takeTaxi(Taxi taxi) {
+    	taxi.take(10000);
+    	this.money -= 10000;
+    }
+    
+    public void showInfo() {
+    	System.out.println(studentName + "님의 남은 돈은 " + money + "원 입니다");
+    }
+    
+}
+
+```
+
+> Bus 클래스 
+
+````
+public class Bus {
+	
+	int busNumber;
+	int passengerCount;
+	int money;
+	
+	public Bus(int busNumber) {
+		this.busNumber = busNumber;
+	}
+	
+	public void take(int money) {	// 승차
+		this.money += money;
+		passengerCount++;
+	}
+	
+	public void showBusInfo() {
+		System.out.println(busNumber + "번 버스의 승객은 " + passengerCount + "명 이고, 수입은 " + money + "입니다.");
+	}
+}
+
+````
+
+> Subway 클래스 
+
+```
+public class Subway {
+	
+	int lineNumber;
+	int passengerCount;
+	int money;
+	
+	public Subway(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
+	
+	public void take(int money) {
+		this.money += money;
+		passengerCount++;
+	}
+	
+	public void showSubwayInfo() {
+		System.out.println(lineNumber + "번 지하철의 승객은 " + passengerCount + "명 이고, 수입은 " + money + "입니다.");
+	}
+	
+}
+```
+
+> Taxi 클래스
+
+````
+public class Taxi {
+	
+	int taxiNumber;
+	int passengerCount;
+	int money;
+	
+	public Taxi(int taxiNumber) {
+		this.taxiNumber = taxiNumber;
+	}
+	
+	public void take(int money) {
+		this.money += money;
+		passengerCount++;
+	}
+	
+	public void showTaxiInfo() {
+		System.out.println(taxiNumber + "번 택시의 승객은 " + passengerCount + "명 이고, 수입은 " + money + "입니다.");
+	}
+
+}
+````
+
+> TakeTransTest
+
+```
+public class TakeTransTest {
+	
+	public static void main(String[] args) {
+		Student studentJ = new Student("James", 5000);
+		Student studentT = new Student("Tomas", 10000);
+		Student studentE = new Student("Edward", 12000);
+		
+		Bus bus100 = new Bus(100);
+		Bus bus500 = new Bus(500);
+		
+		Subway subwayGreen = new Subway(2);
+		Subway subwayBlue = new Subway(4);
+		
+		Taxi taxi2049 = new Taxi(2049);
+		
+		studentJ.takeBus(bus100);
+		studentT.takeSubway(subwayGreen);
+		studentE.takeTaxi(taxi2049);
+		
+		studentJ.showInfo();
+		studentT.showInfo();
+		studentE.showInfo();
+		
+		bus100.showBusInfo();
+		bus500.showBusInfo();
+		
+		subwayGreen.showSubwayInfo();
+		
+		taxi2049.showTaxiInfo();
+	}
+
+}
+```
