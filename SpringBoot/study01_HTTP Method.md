@@ -19,3 +19,21 @@
 
 ![통신](./image/통신.png)
 
+
+### :seedling: HTTP Method
+
+### Rest API
+
+- HTTP - GET Method 
+- 주소 창에 파라미터가 노출 된다.
+- Example
+
+````
+www.localhost:8080/search?id=account&password=1234
+www.google.com/search?id=abcd
+````
+
+- 브라우저에서 주소에 대한 캐시가 이루어 지므로, 정보를 얻을 때 사용한다.
+
+
+
