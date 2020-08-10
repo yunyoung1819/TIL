@@ -36,4 +36,17 @@ www.google.com/search?id=abcd
 - 브라우저에서 주소에 대한 캐시가 이루어 지므로, 정보를 얻을 때 사용한다.
 
 
+- HTTP - POST Method
+- 주소 창에 파라미터가 노출 되지 않는다.
+- Example
+````
+www.localhost:8080/search
+www.google.com/search
+````
+
+- 주소 창에 사용자의 요청 사항이 노출되지 않는다.
+- Get 방식에서는 주소 길이 제한이 있지만 POST는 그보다 길게 사용 가능(제한 존재)
+- 브라우저가 주소 캐시를 하지 못하는 특성이 있다.
+
+
 
