@@ -1,0 +1,31 @@
+# :book: 벨로퍼트와 함께 하는 모던 리액트
+
+## :pushpin: 리액트 입
+
+
+### 리액트는 어쩌다 만들어졌을까
+
+- JavaScript를 사용한 DOM 변형 
+
+![DOM업데이트](./image/DOM업데이트.png)
+
+- Ember, Backbone, AngularJS, ...
+
+
+### 리액트 개발팀의 새로운 발상
+
+- Virtual DOM (가상의 DOM)
+
+![VirtualDOM](./image/virtualDOM.png)
+
+- UI를 어떻게 업데이트할지가 아니라 UI를 어떯게 보여줄지 집중!
+
+
+### 컴포넌트
+
+- UI 조각
+
+```
+const Hello = ({ name }) => <div> Hello, {name} </div>
+
+```
