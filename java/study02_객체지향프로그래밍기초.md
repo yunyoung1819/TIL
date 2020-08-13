@@ -442,3 +442,19 @@ Student.getSerialNUm();
 - 외부에서 유일한 객체를 참조할 수 있는 public static get() 메서드 구현
 
 ![싱글톤](./image/싱글톤.png)
+
+
+### 배열이란?
+
+- 동일한 자료형의 순차적 자료 구조
+- 배열 선언하기 
+
+```
+int[] arr = new int[10];
+int arr[] = new int[10];
+```
+
+- 메모리 구조 
+
+![배열](./image/배열.png)
+
