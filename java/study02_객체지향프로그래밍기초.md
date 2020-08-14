@@ -458,3 +458,27 @@ int arr[] = new int[10];
 
 ![배열](./image/배열.png)
 
+
+### 배열 문제
+
+- 문자 배열을 생성하고 출력해보세요. 대문자 A-Z까지 배열에 저장하고 이를 다시 출력하는 프로그램을 만들어보세요.
+
+```
+public class CharArrayTest {
+	
+	public static void main(String[] args) {
+		char[] alphabets = new char[26];
+		char ch = 'A';
+		
+		for (int i = 0; i < alphabets.length; i++) {
+			alphabets[i] = ch++;
+		}
+		
+		for (int i = 0; i < alphabets.length; i++) {
+			System.out.println(alphabets[i] + "," + (int) alphabets[i]);
+		}
+	}
+
+}
+
+```
