@@ -482,3 +482,38 @@ public class CharArrayTest {
 }
 
 ```
+
+## 객체 배열
+
+### 기본 자료형 배열과 참조 자료형 배열 (객체 배열)
+
+> int[] arr = new int[10];
+
+![arr1](./image/arr1.png)
+
+> Book[] library = new Book[5];
+
+![arr2](./image/arr2.png)
+
+
+### 배열의 복사 
+
+> System.arrarycopy()
+
+```
+public class ArrayCopy {
+	
+	public static void main(String[] args) {
+		
+		int[] arr1 = {10, 20, 30, 40, 50};
+		int[] arr2 = {1, 2, 3, 4, 5};
+		
+		System.arraycopy(arr1, 0, arr2, 0, 4);
+		
+		for (int i = 0; i < arr2.length; i++) {
+			System.out.println(arr2[i]);
+		}
+	}
+
+}s
+```

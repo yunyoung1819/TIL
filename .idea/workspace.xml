@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/image/싱글톤.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/image/arr1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/image/arr2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md" afterDir="false" />
     </list>
@@ -37,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="613">
-                <caret line="443" column="22" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+              <first_editor relative-caret-position="619">
+                <caret line="517" column="2" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,6 +58,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>l</find>
+      <find>|</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -71,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Velopert_React/chapter_13/note13.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_14/note14.md" />
         <option value="$PROJECT_DIR$/Velopert_React/chapter_15/note15.md" />
         <option value="$PROJECT_DIR$/백준알고리즘/알고리즘기초/study01.md" />
@@ -111,7 +112,6 @@
         <option value="$PROJECT_DIR$/jpa/study16_Mapped Superclass.md" />
         <option value="$PROJECT_DIR$/springboot/study01.md" />
         <option value="$PROJECT_DIR$/springboot/study01_스프링부트구조.md" />
-        <option value="$PROJECT_DIR$/deeplearning/lecture02.md" />
         <option value="$PROJECT_DIR$/java/study01_프로그래밍.md" />
         <option value="$PROJECT_DIR$/java/study02_객체지향프로그래밍.md" />
         <option value="$PROJECT_DIR$/java/study04_람다식.md" />
@@ -121,6 +121,8 @@
         <option value="$PROJECT_DIR$/java/study04_객체지향프로그래밍중급-2.md" />
         <option value="$PROJECT_DIR$/SpringBoot/study01_HTTP_Method.md" />
         <option value="$PROJECT_DIR$/SpringBoot/study01_HTTP Method.md" />
+        <option value="$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md" />
+        <option value="$PROJECT_DIR$/deeplearning/lecture02.md" />
         <option value="$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md" />
       </list>
     </option>
@@ -155,12 +157,17 @@
             <path>
               <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="modern-react" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597161794666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597405270993" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -189,10 +196,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/image" />
-      <recent name="$PROJECT_DIR$/SpringBoot/image" />
-      <recent name="$PROJECT_DIR$/springboot/image" />
       <recent name="$PROJECT_DIR$/java" />
-      <recent name="$PROJECT_DIR$/jpa/image" />
+      <recent name="$PROJECT_DIR$/deeplearning/image" />
+      <recent name="$PROJECT_DIR$/modern-react/image" />
+      <recent name="$PROJECT_DIR$/SpringBoot/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,49 +259,9 @@
       <workItem from="1595042769368" duration="20690000" />
       <workItem from="1596895627296" duration="4556000" />
       <workItem from="1597068447582" duration="1225000" />
-      <workItem from="1597159023599" duration="712000" />
-    </task>
-    <task id="LOCAL-00056" summary="add: jpa study note 08 연관관계 매핑">
-      <created>1588330341460</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1588330341460</updated>
-    </task>
-    <task id="LOCAL-00057" summary="add: jpa study note 09 양방향 연관관계">
-      <created>1588336997514</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1588336997514</updated>
-    </task>
-    <task id="LOCAL-00058" summary="add: jpa study note 09 양방향 연관관계">
-      <created>1588513666016</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1588513666016</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add: jpa study note 09 양방향 연관관계">
-      <created>1588522705466</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1588522705466</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add: jpa study note 10 연관관계 매핑">
-      <created>1588603858773</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1588603858773</updated>
-    </task>
-    <task id="LOCAL-00061" summary="add: jpa study note 11 다대일">
-      <created>1588612272472</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1588612272472</updated>
+      <workItem from="1597159023599" duration="15291000" />
+      <workItem from="1597424584649" duration="1466000" />
+      <workItem from="1597473227407" duration="4436000" />
     </task>
     <task id="LOCAL-00062" summary="add: jpa study note 12 일대다">
       <created>1588687921476</created>
@@ -597,16 +564,59 @@
       <option name="project" value="LOCAL" />
       <updated>1597069775934</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="스프링부트 Study01 add">
+      <created>1597161806150</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1597161806151</updated>
+    </task>
+    <task id="LOCAL-00106" summary="스프링부트 Study01 add">
+      <created>1597334875573</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1597334875573</updated>
+    </task>
+    <task id="LOCAL-00107" summary="모던리액트 study">
+      <created>1597338071907</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1597338071907</updated>
+    </task>
+    <task id="LOCAL-00108" summary="java study note add">
+      <created>1597426749633</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1597426749635</updated>
+    </task>
+    <task id="LOCAL-00109" summary="모두를 위한 딥러닝 강의 lecture 02 study">
+      <created>1597474680220</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1597474680220</updated>
+    </task>
+    <task id="LOCAL-00110" summary="모두를 위한 딥러닝 강의 lecture 02 study">
+      <created>1597492669659</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1597492669659</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246994000" />
+    <option name="totallyTimeSpent" value="267475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23565324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24114774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -621,7 +631,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.1408776" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.14058957" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.30138567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -642,9 +652,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="모두의 네트워크 2,3장 스터디 노트 추가" />
-    <MESSAGE value="김영한 JPA 강의 study note 03 추가" />
-    <MESSAGE value="김영한 JPA 강의 study note 04 추가" />
     <MESSAGE value="모두의 딥러닝 lecture 01 add" />
     <MESSAGE value="jpa study note add" />
     <MESSAGE value="jpa study05 note add" />
@@ -667,110 +674,16 @@
     <MESSAGE value="jpa study Note add" />
     <MESSAGE value="객체지향 프로그래밍 study note add" />
     <MESSAGE value="스프링부트 Study01 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링부트 Study01 add" />
+    <MESSAGE value="모던리액트 study" />
+    <MESSAGE value="java study note add" />
+    <MESSAGE value="모두를 위한 딥러닝 강의 lecture 02 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="모두를 위한 딥러닝 강의 lecture 02 study" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter16.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1105">
-            <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkForEveryone/chapter02.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="1" selection-start-column="1" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkForEveryone/chapter01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter15.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="867">
-            <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter14.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1037">
-            <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkForEveryone/chapter03.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/image/지도학습.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/study02_JPA소개.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-209">
-            <caret line="17" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactoring/src/Ch06_ExtractClass/ExtractClass.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1615">
-            <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactoring/src/Ch06_ExtractClass/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/refactoring/src/Ch06_ExtractClass/Author.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -850,16 +763,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch/10_로그스태시/파일비트개요.md" />
-    <entry file="file://$PROJECT_DIR$/jpa/study07_엔티티매핑.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2227">
-            <caret line="131" selection-start-line="131" selection-end-line="131" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpa/study09_양방향연관관계.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -964,16 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa/study15_상속관계매핑.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/hamburger-restaurant/src/com/example/fastcampus/machin/HamburgerOrderMachine.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1025,26 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="647">
-            <caret line="55" selection-start-line="55" selection-end-line="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/lecture02.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpa/preview.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1083,16 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/study03_객체지향프로그래밍중급.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/study04_객체지향프로그래밍중급-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1103,11 +966,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter03.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter05.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter07.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter08.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter12.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter13.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter15.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Velopert_React/chapter16.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/study15_상속관계매핑.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/study03_객체지향프로그래밍중급.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="425">
+            <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearning/lecture01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="559">
+            <caret line="55" selection-start-line="55" selection-end-line="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/study07_엔티티매핑.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="227">
+            <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearning/lecture02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="613">
-            <caret line="443" column="22" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+          <first_editor relative-caret-position="619">
+            <caret line="517" column="2" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
