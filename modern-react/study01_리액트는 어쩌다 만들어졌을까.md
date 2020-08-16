@@ -29,3 +29,26 @@
 const Hello = ({ name }) => <div> Hello, {name} </div>
 
 ```
+
+
+### 작업환경 준비하기 
+
+![작업환경](./image/작업환경.png)
+
+
+### 새 프로젝트 만들어보기 
+
+- 새로운 리액트 프로젝트를 만들기
+- 터미널을 열은 뒤, 다음 명령어를 실행 (윈도우 사용자는 Git Bash를 사용)
+
+````
+$ npx create-react-app begin react
+````
+
+```
+cd begin-react
+yarn start
+```
+
+
+![프로젝트](./image/프로젝트생성.png)
