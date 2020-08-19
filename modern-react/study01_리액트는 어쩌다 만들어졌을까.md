@@ -52,3 +52,62 @@ yarn start
 
 
 ![프로젝트](./image/프로젝트생성.png)
+
+
+### JSX
+
+- 태그는 꼭 닫혀야한다.
+
+````
+<div> 태그는 꼭 닫혀야한다! </div>
+<Hello />
+````
+
+- 두개 이상의 태그는 감싸자
+
+```
+<>
+    <div> 두개 이상의 </div>
+    <p> 태그는 감싸자 </p>
+</>
+```
+
+- JavaScript 값 표현하기
+
+````
+const name = '이렇게';
+return <div> JavaScript 값을 보여줄 땐, {name} </div>
+````
+
+- JSX 내부에서 스타일 사용 
+
+````
+const style = {
+    background: 'gray',
+}
+return (
+    <div style={style}>
+        <div className="my-style">
+            style 과 className
+        </div>
+    </div>
+}
+````
+
+- 주석
+
+````
+return (
+    <div>
+        {/*주석은 이렇게*/}
+        <input 
+            // 또는 이렇게 
+        />
+    </div>
+)
+````
+
+
+### props를 통해 컴포넌트에게 값 전달하기
+
+![props](./image/props.png)
