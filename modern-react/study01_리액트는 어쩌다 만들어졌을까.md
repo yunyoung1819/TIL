@@ -113,4 +113,16 @@ return (
 ![props](./image/props.png)
 
 
-### 조건부 렌더링
+### 조건부 렌더
+
+### 리액트에서 input 상태 관리하기
+
+### useRef 로 특정 DOM 선택하기
+
+- ref
+
+- 함수형 컴포넌트
+    - useRef
+- 클래스형 컴포넌트
+    - React.createRef()
+

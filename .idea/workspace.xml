@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modern-react/image/props.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md" beforeDir="false" afterPath="$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md" afterDir="false" />
     </list>
@@ -33,24 +32,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="661">
-                <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+              <first_editor relative-caret-position="113">
+                <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               </first_editor>
               <second_editor />
             </state>
@@ -147,7 +134,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="974" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +159,18 @@
             <path>
               <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-With-Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-With-Book" type="462c0819:PsiDirectoryNode" />
               <item name="modern-react" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -194,18 +186,18 @@
     <property name="settings.editor.splitter.proportion" value="0.22657743" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Ch06_ExtractClass" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/image" />
+      <recent name="$PROJECT_DIR$/modern-react/image" />
+      <recent name="$PROJECT_DIR$/java" />
+      <recent name="$PROJECT_DIR$/deeplearning/image" />
+      <recent name="$PROJECT_DIR$/SpringBoot/image" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modern-react/image" />
-      <recent name="$PROJECT_DIR$/java/image" />
-      <recent name="$PROJECT_DIR$/java" />
-      <recent name="$PROJECT_DIR$/deeplearning/image" />
-      <recent name="$PROJECT_DIR$/SpringBoot/image" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Ch06_ExtractClass" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,21 +259,8 @@
       <workItem from="1597068447582" duration="1225000" />
       <workItem from="1597159023599" duration="15291000" />
       <workItem from="1597424584649" duration="1466000" />
-      <workItem from="1597473227407" duration="9137000" />
-    </task>
-    <task id="LOCAL-00064" summary="add: Elk stack">
-      <created>1589015990872</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1589015990872</updated>
-    </task>
-    <task id="LOCAL-00065" summary="add: Elk stack">
-      <created>1589035518158</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1589035518158</updated>
+      <workItem from="1597473227407" duration="9744000" />
+      <workItem from="1598100238317" duration="3000000" />
     </task>
     <task id="LOCAL-00066" summary="add: Elk stack">
       <created>1589041444366</created>
@@ -612,16 +591,31 @@
       <option name="project" value="LOCAL" />
       <updated>1597583741744</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="modern react study">
+      <created>1597856585317</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1597856585317</updated>
+    </task>
+    <task id="LOCAL-00114" summary="modern react study">
+      <created>1598161780052</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1598161780052</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272176000" />
+    <option name="totallyTimeSpent" value="275783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="976" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24114774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21245421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,7 +630,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.14058957" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.12782806" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.30138567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -1104,8 +1098,8 @@
     <entry file="file://$PROJECT_DIR$/java/study02_객체지향프로그래밍기초.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
+          <first_editor relative-caret-position="337">
+            <caret line="519" lean-forward="true" selection-start-line="519" selection-end-line="519" />
           </first_editor>
           <second_editor />
         </state>
@@ -1114,8 +1108,8 @@
     <entry file="file://$PROJECT_DIR$/modern-react/study01_리액트는 어쩌다 만들어졌을까.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="661">
-            <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+          <first_editor relative-caret-position="113">
+            <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           </first_editor>
           <second_editor />
         </state>
