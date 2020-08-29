@@ -113,10 +113,6 @@ return (
 ![props](./image/props.png)
 
 
-### 조건부 렌더
-
-### 리액트에서 input 상태 관리하기
-
 ### useRef 로 특정 DOM 선택하기
 
 - ref
@@ -126,3 +122,10 @@ return (
 - 클래스형 컴포넌트
     - React.createRef()
 
+
+### useRef로 컴포넌트 안의 변수 만들기
+
+- setTimeout, setInterval 의 id
+- 외부 라이브러리를 사용하여 생성된 인스턴스
+- Scroll 위치 등...
+- useRef로 관리하는 값은 바뀌어도 컴포넌트가 리렌더링되지 않음
