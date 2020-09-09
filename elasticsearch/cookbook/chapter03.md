@@ -46,3 +46,47 @@ curl -XGET http://127.0.0.1:9200/test/mytype/_mapping?pretty-true
     - 필드가 없다면 필드의 타입을 자동으로 알아내 새 필드 매핑으로 매핑을 변경한다.
 - 매핑 타입을 생성하거나 변경한다면 일래스틱서치는 매핑 변경을 자동으로 클러스터의 모든 노드에 전파하고, 모든 샤드는 특정 타입을 처리하도록 조정된다.
 
+
+### 매핑 종류
+
+- 기본 타입 매핑
+- 배열 매핑 
+- 겍체 매핑
+- 도큐먼트 매핑 
+
+
+### 예졔 구현
+
+- 이베이 같은 쇼핑몰을 위한 실제와 유사한 쇼핑 주문 예제를 사용해보자. 처음에는 다음과 같은 주문서(order)를 정의한다.
+
+필드 이름 | 타입 | 설명
+-------| -----| ----|
+id | identifier | 주문식별자
+date | date(time) | 주문 일
+customer_id | id reference | 고객 ID 참조
+name | string | 상품 이름
+quantity | integer | 상품 수량
+vat | double | 상품 부가가치세
+sent | boolean | 주문서 제출 여부
+
+- 이 주문서 레코드는 일래스틱서치 매핑 정의로 변환해야 한다.
+
+````
+{
+    "order": {
+        "properties": {
+            "id": {"type": "keyword"},
+            "date": {"type": "date},
+            "customer_id": {"type": "keyword"},
+            "sent": {"type": "boolean"},
+            "name": {"type": "keyword"},
+            "quantity": {"type": "integer"},
+            "vat": {"type": "dobule", "index": "false"}
+        }
+    }
+}
+```` 
+
+### 다중 매핑으로 필드 추가
+
+- 다중 필드 특수 속성인 fields를 정의해야 한다.
