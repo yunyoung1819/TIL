@@ -24,7 +24,7 @@
 
 ### Rest API
 
-- HTTP - GET Method 
+#### HTTP - GET Method 
 - 주소 창에 파라미터가 노출 된다.
 - Example
 
@@ -36,8 +36,9 @@ www.google.com/search?id=abcd
 - 브라우저에서 주소에 대한 캐시가 이루어 지므로, 정보를 얻을 때 사용한다.
 
 
-- HTTP - POST Method
+#### HTTP - POST Method
 - 주소 창에 파라미터가 노출 되지 않는다.
+
 - Example
 ````
 www.localhost:8080/search
@@ -48,5 +49,28 @@ www.google.com/search
 - Get 방식에서는 주소 길이 제한이 있지만 POST는 그보다 길게 사용 가능(제한 존재)
 - 브라우저가 주소 캐시를 하지 못하는 특성이 있다.
 
+
+#### HTTP - PUT/PATCH Method
+
+- POST와 마찬가지로 BODY에 데이터가 들어 있으며, 주로 업데이트에 사용한다.
+
+
+#### HTTP - DELETE Method
+
+- Get과 마찬가지로 주소에 파라미터가 들어가며, 데이터를 삭제할 때 사용한다.
+
+
+### REST의 개념
+
+- HTTP 프로토콜에 있는 Method를 활용한 아키텍처 스타일이다.
+- HTTP Method를 통해서 Resource를 처리한다.
+- CRUD를 통한 Resource 조작을 할 때 사용한다.
+
+HTTP Method | 동작 | URL 형태
+-----------| ------| ------
+GET | 조회 (SELECT * READ) | /user/{id}
+POST | 생성 (CREATE) | /user
+PUT/PATCH | 수정 (UPDATE) * CREATE | /user
+DELETE | 삭제(DELETE) | /user/{1}
 
 
