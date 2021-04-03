@@ -1,8 +1,16 @@
-## 스프링부트 소개 
+## :book: 백기선의 스프링부트
 
 ### 스프링부트
 
+- 스프링 부트(https://spring.io/projects/spring-boot) 프로젝트는 스프링 프레임워크를 
+더 빠르고 쉽게 사용할 수 있게 도와주는 툴입니다.
 - 제품 수준의 스프링 기반 애플리케이션을 만들때 빠르고 쉽게 만들 수 있도록 도와준다.
+
+
+### System Requirements
+
+- Spring Boot 2.0.3 RELEASE requires Java 8 or 9 and Spring Framework 5.0.7.RELEASE or above.
+Explicit build support is provided for Maven 3.2+ and Gradle 4.
 
 
 ### 스프링부트 프로젝트 구조
