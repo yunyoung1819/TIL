@@ -50,3 +50,29 @@ Explicit build support is provided for Maven 3.2+ and Gradle 4.
 
 - 기존 의존성 버전 변경하기
 - https://mvnrepository.com/
+
+
+### 자동 설정 개요
+
+- @EnableAutoConfiguration (@SpringBootApplication 안에 숨어 있음)
+- 빈은 사실 두 단계로 나눠서 읽힘
+  - 1단계: @ComponentScan
+  - 2단계: @EnableAutoConfiguration
+  
+- @ComponentScan
+  - @Component
+  - @Configuration @Repository @Service @Controller @RestController
+  - @Component 애노테이션이 붙은 클래스를 스캔해서 빈으로 등록해주는 애노테이션
+  
+- @EnableAutoConfiguration
+  - spring.factories
+    - org.springframework.boot.autoconfigure.EnableAutoConfiguration
+    - @Configuration
+    - @ConditionalOnXxxYyyZzz
+  
+- @Configuration : 빈을 등록하는 설정 파일
+  
+### @SpringBootApplication은 아래 3가지 애노테이션이 합쳐진 것과 같음 
+- @SpringBootConfiguration (@Configuration)과 비슷
+- @ComponentScan
+- @EnableAutoConfiguration
