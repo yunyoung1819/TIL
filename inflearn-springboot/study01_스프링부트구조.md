@@ -37,7 +37,7 @@ Explicit build support is provided for Maven 3.2+ and Gradle 4.
 ### 의존성 관리 응용
 
 - 버전 관리 해주는 의존성 추가
-- 인텔리제이에서 라인 넘버에 아래 그림처럼 표시가 뜨는 것은 자동으로 버전 관리를 해주는 의존
+- 인텔리제이에서 라인 넘버에 아래 그림처럼 표시가 뜨는 것은 자동으로 버전 관리를 해주는 의존성
 
 ![의존성](./image/의존성.png)
 
@@ -72,7 +72,7 @@ Explicit build support is provided for Maven 3.2+ and Gradle 4.
   
 - @Configuration : 빈을 등록하는 설정 파일
   
-### @SpringBootApplication은 아래 3가지 애노테이션이 합쳐진 것과 같음 
+### @SpringBootApplication은 아래 3가지 애노테이션을 합친 것과 같음 
 - @SpringBootConfiguration (@Configuration)과 비슷
 - @ComponentScan
 - @EnableAutoConfiguration
