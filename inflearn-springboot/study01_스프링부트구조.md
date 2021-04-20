@@ -76,3 +76,9 @@ Explicit build support is provided for Maven 3.2+ and Gradle 4.
 - @SpringBootConfiguration (@Configuration)과 비슷
 - @ComponentScan
 - @EnableAutoConfiguration
+
+
+### 자동 설정 구현
+
+- xxx-Spring-Boot-Autoconfigure 모듈 : 자동설정
+- xxx-Spring-Boot-Starter 모듈 : 필요한 의존성 정의
