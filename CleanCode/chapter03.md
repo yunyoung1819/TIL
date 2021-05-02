@@ -24,7 +24,7 @@
 ### 한가지만 해라
 
 - 함수는 한 가지를 해야 한다. 그 한 가지를 잘해야한다. 그 한 가지만을 해야한다. 
-- - 여기서 한 가지는 추상화 수준을 말한다.
+- 여기서 한 가지는 추상화 수준을 말한다.
 - 함수는 간단한 TO 문단으로 기술할 수 있다.
 
 > TO RenderPageWithSetupsAndTeardowns, 페이지가 테스트 페이지인지 확인한 후 테스트 페이지라면 
@@ -185,3 +185,58 @@ if (attributeExists("username")) {
     ...
 }
 ```
+
+
+### 오류 코드보다 예외를 사용하라!
+
+- 명령 함수에서 오류 코드를 반환하는 방식은 명령/조회 분리 규칙을 미묘하게 위반한다.
+- 자칫하면 if 문에서 명령을 표현식으로 사용하기 쉬운 탓이다.
+
+````
+if (deletePage(page) == E_OK)
+````
+
+- 위 코드는 동사/형용사 혼란을 일으키지 않는 대신 여러 단계로 중첩되는 코드를 야기한다.
+- 오류 코드를 반환하면 호출자는 오류 코드를 곧바로 처리해야 한다는 문제에 부딪힌다.
+
+````
+    if (deletePage(page) == E_OK) {
+        if (registry.deleteReference(page.name) == E_OK) {
+            if (configKeys.deleteKey(page.name.makeKey()) == E_OK) {
+                logger.log("page deleted");
+            } else {
+                logger.log("configKey not deleted");
+            }
+        } else {
+            logger.log("deleteReference from registry failed");
+        }
+    } else {
+        logger.log("delete failed");
+        return E_ERROR;
+    }
+````
+
+- 반면 오류 코드 대신 예외를 사용하면 오류 처리 코드가 원래 코드에서 분리되므로 코드가 깔끔해진다.
+
+````
+    try {
+        deletePage(page);
+        registry.deleteReference(page.name);
+        configKeys.deleteKey(page.name.makeKey());
+    } catch (Exception e) {
+        logger.log(e.getMessage());
+    }
+````
+
+### Try/Catch 블록 뽑아내기
+
+- try/catch 블록은 원래 추하다.
+- 코드 구조에 혼란을 일으키며, 정상 동작과 오류 처리 동작을 뒤섞는다.
+- 그러므로 try/catch 블록을 별도 함수로 뽑아내는 편이 좋다.
+
+
+### 오류 처리도 한 가지 작업이다!
+
+- 함수는 '한 가지' 작업만 해야 한다.
+- 오류 처리도 '한 가지' 작업에 속한다. 그러므로 오류를 처리하는 함수는 오류만 처리해야 마땅하다.
+- 함수에 키워드 try가 있다면 함수는 try 문으로 싲가해 catch/finally 문으로 끝나야 한다는 말이다.
