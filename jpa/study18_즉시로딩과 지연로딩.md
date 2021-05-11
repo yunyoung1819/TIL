@@ -30,3 +30,14 @@ public class Member {
     ...
 }
 ```
+
+
+### 지연로딩
+
+```aidl
+@ManyToOne(fetch = FetchType.LAZY)
+@JoinColumn(name = "TEAM_ID")
+private Team team;
+```
+
+![지연로딩](./image/지연로딩1.png)
