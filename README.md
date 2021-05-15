@@ -1,15 +1,16 @@
-> TIL : Today I Learn Note (기억은 기록을 이길 수 없다)
+> 해당 TIL(Today I Learned) Repository는 책 또는 인터넷 강의를 학습한 내용들을 요약 및 정리한 레포지토리 입니다.
+> 출처는 아래와 같습니다. 
 
 
 ## React
-- [리액트를 다루는 기술 김민준](https://github.com/yunyoung1819/TIL/tree/master/Velopert_React)
+- 출처 : [리액트를 다루는 기술 김민준](https://github.com/yunyoung1819/TIL/tree/master/Velopert_React)
 
 ## Clean Code
-- [클린코드 로버트 C.마틴](https://github.com/yunyoung1819/TIL/tree/master/CleanCode)
+- 출처 : [클린코드 로버트 C.마틴](https://github.com/yunyoung1819/TIL/tree/master/CleanCode)
 
 ## Computer Science
 
-- [모두의 네트워크 미즈구치 카츠야](https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
+- 출처 : [모두의 네트워크 미즈구치 카츠야](https://github.com/yunyoung1819/TIL/tree/master/NetworkForEveryone)
 
 ## 인프런 JPA 강의
 
