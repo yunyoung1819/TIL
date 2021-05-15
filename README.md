@@ -1,4 +1,4 @@
-> 해당 TIL(Today I Learned) Repository는 책 또는 인터넷 강의를 학습한 내용들을 요약 및 정리한 레포지토리 입니다.
+> 해당 TIL(Today I Learned) Repository는 책 또는 인터넷 강의를 학습하면서 요약 및 정리한 레포지토리 입니다.
 > 출처는 아래와 같습니다. 
 
 #### 출처
