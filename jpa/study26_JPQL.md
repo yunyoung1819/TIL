@@ -34,3 +34,35 @@ delete_문 :: = delete_절 [where_절]
 - JPQL 키워드는 대소문자 구분 X (SELECT, FROM, where)
 - 엔티티 이름 사용, 테이블 이름이 아님 (Member)
 - 별칭은 필수 (m) (as는 생략 가능)
+
+
+### 집합과 정렬
+
+````
+select 
+    COUNT(m),   // 회원수
+    SUM(m.age), // 나이 합
+    AVG(m.age), // 평균 나이
+    MAX(m.age), // 최대 나이
+    MIN(m.age), // 최소 나이
+from Member m
+````
+
+- GROUP BY, HAVING
+- ORDER BY
+
+
+### TypeQuery, Query
+
+- TypeQuery: 반환 타입이 명확할 때 사용
+- Query: 반환 타입이 명확하지 않을 때 사용
+
+```
+TypedQuery<Member> query =
+    em.createQuery("SELECT m FROM Member m", Member.class);
+```
+
+```
+Query query =
+    em.createQuery("SELECT m.username, m.age from Member m")
+```
