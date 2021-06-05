@@ -14,3 +14,22 @@
 ````
 
 - DISTINCT로 중복 제거
+
+
+### 프로젝션 - 여러 값 조회
+
+- SELECT m.username, m.age FROM Member m
+1. Query 타입으로 조회
+2. Object[] 타입으로 조회
+3. new 명령어로 조회
+    - 단순 값을 DTO로 바로 조회
+    - SELECT new jpabook.jpql.UserDTO(m.username, m.age) FROM Member m
+    - 패키지 명을 포함한 전체 클래스 명 입력
+    - 순서와 타입이 일치하는 생성자 필요
+    
+
+### 페이징
+
+- JPA는 페이징을 다음 두 API로 추상화
+- setFirstResult(int startPosition): 조회 시작 위치 (0부터 시작)
+- setMaxResults(int maxResult): 조회할 데이터 수
