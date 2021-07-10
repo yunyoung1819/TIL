@@ -4,13 +4,16 @@
 
 ### 조인
 
-#### 내부 조인 
+#### 내부 조인
+
 - SELECT m FROM Member m [INNER] JOIN m.team t
 
 #### 외부 조인
+
 - SELECT m FROM Member m LEFT [OUTER] JOIN m.team t
 
 #### 세타 조인
+
 - select count(m) from Member m, Team t where m.username = t.name
 
 
@@ -20,3 +23,37 @@
     1. 조인 대상 피러링
     2. 연관관계 없는 엔티티 외부 조인(하이버네이트 5.1부터)
     
+    
+### 조인 대상 필터링
+
+- 예) 회원과 팀을 조인하면서, 팀 이름이 A인 팀만 조인
+
+```
+JPQL:
+
+SELECT m, t FROM Member m LEFT JOIN m.team t on t.name = 'A'
+```
+
+````
+SQL:
+SELECT m.*, t.* FROM
+Member m LEFT JOIN Team t ON m.TEAM_ID=t.id and t.name = 'A'
+````
+
+
+### 연관관계 없는 엔티티 외부 조인
+
+- 예) 회원의 이름과 팀의 이름이 같은 대상 외부 조인
+
+````
+JPQL:
+SELECT m, t FROM
+Member m LEFT JOIN Team t on m.username = t.name
+````
+
+````
+SQL:
+SELECT m.*, t.* FROM
+Member m LEFT JOIN Team t ON m.username = t.name
+````
+
