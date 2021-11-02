@@ -28,3 +28,65 @@
 
     - @Entity: 상속관계 매핑
     - @MappedSuperclass: 속성만 매핑
+
+### 실전 예제 4 - 상속 관계 매핑
+
+```
+@Entity
+public class Album extends Item {
+
+  private String artist;
+  private String etc;
+  
+  // getter and setter
+}
+```
+
+```
+@Entity
+public class Book extends Item {
+  
+  private String author;
+  private String isbn;
+  
+  // getter and setter
+}
+```
+
+```
+@Entity
+public class Movie extends Item {
+  
+  private String director;
+  private String actor;
+  
+  // getter and setter
+}
+```
+
+```
+@Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE) // @Inheritance(strategy = InheritanceType.JOINED) 도 있음 
+@DiscriminatorColumn
+public abstract class Item extends BaseEntity {
+  
+  @Id @GeneratedValue
+  @Column(name = "ITEM_ID")
+  private Long id;
+  
+  private String name;
+  private int price;
+  private int stockQuantity;
+}
+```
+
+```
+@MappedSuperclass
+public abstract class BaseEntity {
+
+  private String createdBy;
+  private LocalDateTime createdDate;
+  private String lastModifiedBy;
+  private LocalDateTime lastModifiedDate;
+}
+```
