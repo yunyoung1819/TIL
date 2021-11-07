@@ -15,5 +15,25 @@
 - 메인 애플리케이션 위치
     - 기본 패키지
   
+### 자동 설정 개요
+- **@EnableAutoConfiguration** (@SpringBootApplication 안에 숨어 있음)
+- 빈은 사실 두 단계로 나눠서 읽힘
+  - 1단계: **@ComponentScan**
+  - 2단계: **@EnableAutoConfiguration**
+  
+- **@ComponentScan**
+  - @Component
+  - @Configuration @Repository @Service @Controller @RestController
+  
+- **@EnableAutoConfiguration**
+  - spring.factories
+    - org.springframework.boot.autoconfigure.EnableAutoConfiguration
+  - @Configuration
+  - @ConditionOnXxxYyyZzz
+  
 
-### 스프링
+### @SpringBootApplication
+- @SpringBootApplication은 아래 3가지 애노테이션을 하나로 합친 것과 같다.
+  - @Configuration
+  - @ComponentScan
+  - @EnableAutoConfiguration
