@@ -1,4 +1,4 @@
-# :book: 백기선 스프링 부트 개념과 활용 
+# :book: 스프링 부트 개념과 활용 (백기선) 
 
 ## :pushpin: 스프링 부트 소개
 
@@ -33,7 +33,7 @@
   
 
 ### @SpringBootApplication
-- @SpringBootApplication은 아래 3가지 애노테이션을 하나로 합친 것과 같다.
+- **@SpringBootApplication**은 아래 3가지 애노테이션을 하나로 합친 것과 같다.
   - @Configuration
   - @ComponentScan
   - @EnableAutoConfiguration
