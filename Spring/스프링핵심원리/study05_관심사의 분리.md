@@ -89,3 +89,37 @@ public class MemberServiceImpl implements MemberService {
 - 클라이언트인 `memberSrivceImpl` 입장에서 보면 의존관계를 마치 외부에서 주입해주는 것 같다고 해서
 `DI(Dependency Injection)` 우리말로 의존관계 주입 또는 의존성 주입이라고 한다.
   
+
+```
+public class OrderServiceTest {
+
+    MemberService memberService;
+    OrderService orderService;
+
+    @BeforeEach
+    public void beforeEach() {
+        AppConfig appConfig = new AppConfig();
+        memberService = appConfig.memberService();
+        orderService = appConfig.orderService();
+    }
+
+    @Test
+    void createOrder() {
+        Long memberId = 1L;
+        Member member = new Member(memberId, "손나은", Grade.VIP);
+        memberService.join(member);
+
+        Order order = orderService.createOrder(memberId, "아이맥", 10000);
+        Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+    }
+}
+```
+
+- `@BeforeEach` : 테스트 코드에서 `@BeforeEach`는 각 테스트를 실행하기 전에 호출된다.
+- AppConfig를 통해서 관심사를 확실하게 분리했다.
+- 배역, 배우를 생각해보자.
+- AppConfig는 공연 기획자다.
+- AppConfig는 구체 클래스를 선택한다. 배역에 맞는 담당 배우를 선택한다. 애플리케이션이 어떻게 동작해야 할지 전체 구성을 책임진다.
+- 이제 각 배우들은 담당 기능을 실행하는 책임만 지면 된다.
+- OrderServiceImpl은 기능을 실행하는 책임만 지면 된다. 
+  
