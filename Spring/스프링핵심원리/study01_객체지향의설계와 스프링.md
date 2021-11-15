@@ -1,6 +1,6 @@
 # :book: 스프링 핵심 원리
 
-## :pushpin: 1. 객체 지향 설계와 스프링
+## :pushpin: 객체 지향 설계와 스프링
 
 ### 자바 진영의 추운 겨울과 스프링의 탄생
 - 자바당 정파 기술 EJB (Enterprise Java Beans)
