@@ -122,4 +122,23 @@ public class OrderServiceTest {
 - AppConfig는 구체 클래스를 선택한다. 배역에 맞는 담당 배우를 선택한다. 애플리케이션이 어떻게 동작해야 할지 전체 구성을 책임진다.
 - 이제 각 배우들은 담당 기능을 실행하는 책임만 지면 된다.
 - OrderServiceImpl은 기능을 실행하는 책임만 지면 된다. 
+
+
+### 새로운 구조와 할인 정책 적용
+- 처음으로 돌아가서 정액 할인 정책을 정률 % 할인 정책으로 변경해보자.
+- FixDiscountPolicy -> RateDiscountPolicy
+- 어떤 부분만 변경하면 되겠는가?
+  - `AppConfig`에서 할인 정책 역할을 담당하는 구현을 FixDiscountPolicy -> RateDiscountPolicy 객체로 변경했다.
+  - 이제 할인 정책을 변경해도, 애플리케이션의 구성 역할을 담당하는 AppConfig만 변경하면 된다. 클라이언트 코드인
+  OrderServiceImpl를 포함해서 사용 영역의 어떤 코드도 변경할 필요가 없다.
+  - 구성 영역은 당연히 변경된다. 구성 역할을 담당하는 AppConfig를 애플리케이션이라는 공연의 기획자로 생각하자.
+  공연 기획자는 공연 참여자인 구현 객체들을 모두 알아야 한다.
+
+> AppConfig의 등장으로 애플리케이션이 크게 사용 영역과, 객체를 생성하고 구성(Configuration)하는 영역으로 분리되었다.
+
+- 사용, 구성의 분리
+![](./image/AppConfig1.png)
+  
+- 할인 정책의 변경
+![](./image/AppConfig2.png)
   
