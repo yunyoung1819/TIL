@@ -142,3 +142,13 @@ public class OrderServiceTest {
 - 할인 정책의 변경
 ![](./image/AppConfig2.png)
   
+
+### 전체 흐름 정리
+- 새로운 할인 정책 개발
+- 새로운 할인 정책 적용과 문제점
+  - 새로 개발한 정률 할인 정책을 적용하려고 하니 클라이언트 코드인 주문 서비스 구현체도 함께 변경해야함
+  - 주문 서비스 클라이언트가 인터페이스인 DiscountPolicy뿐만 아니라, 구체 클래스인 FixDiscountPolicy도 함께 의존 -> DIP 위반
+- 관심사의 분리
+- AppConfig 리팩터링
+- 새로운 구조와 할인 정책 적요 
+  
