@@ -110,3 +110,8 @@ class ApplicationContextInfoTest {
 - `ac.getBeansOfType()`을 사용하면 해당 타입의 모든 빈을 조회할 수 있다.
 
 
+### 스프링 빈 조회 - 상속관계
+- 부모 타입으로 조회하면, 자식 타입도 함께 조회한다.
+- 그래서 모든 자바 객체의 최고 부모인 `Object` 타입으로 조회하면, 모든 스프링 빈을 조회한다.
+
+![](./image/스프링빈상속.png)
