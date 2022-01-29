@@ -16,3 +16,9 @@
 - row: 테이블에서 하나의 개체
 - column: 각 객체가 가지는 하나의 속성 
 
+### DBMS
+- DBMS: DataBase Management System (=데이터베이스 관리 시스템)
+- DBMS 종류: MySQL, ORACLE, MariaDB, SQLite, SQL Server
+- SQL
+  - Structured Query Language
+  - DBMS에 명령을 내리기 위해 사용하는 언어
