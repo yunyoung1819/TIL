@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="">
+    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="엘라스틱서치 쿡북 스터디">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/cookbook/chapter01.md" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/cookbook/chapter01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/스프링핵심원리/study15_조회 빈이 2개 이상.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/스프링핵심원리/study15_조회 빈이 2개 이상.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,13 +47,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1hBwOxGU9nIXaCbQ5VA7T5pgh5e" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -59,26 +72,41 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599403680412" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SQL/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.22657743" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Ch06_ExtractClass" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SQL/images" />
+      <recent name="$PROJECT_DIR$/Spring/스프링핵심원리/image" />
+      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring/스프링핵심원리/image" />
       <recent name="$PROJECT_DIR$/java/image" />
       <recent name="$PROJECT_DIR$/modern-react/image" />
       <recent name="$PROJECT_DIR$/java" />
       <recent name="$PROJECT_DIR$/deeplearning/image" />
-      <recent name="$PROJECT_DIR$/SpringBoot/image" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Ch06_ExtractClass" />
-    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -92,6 +120,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,223 +174,20 @@
       <workItem from="1599301293455" duration="178000" />
       <workItem from="1599386480601" duration="2134000" />
       <workItem from="1599497768204" duration="3329000" />
-    </task>
-    <task id="LOCAL-00071" summary="add: Elk stack">
-      <created>1589721454403</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1589721454403</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add: Elk stack">
-      <created>1589898424668</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1589898424668</updated>
-    </task>
-    <task id="LOCAL-00073" summary="add: Elk stack">
-      <created>1589905886633</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1589905886633</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add: jpa study note 13">
-      <created>1589984654012</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1589984654012</updated>
-    </task>
-    <task id="LOCAL-00075" summary="add: jpa study note 14">
-      <created>1590496867313</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1590496867313</updated>
-    </task>
-    <task id="LOCAL-00076" summary="add: jpa study note 14">
-      <created>1590510954400</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1590510954401</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add: jpa study note 15">
-      <created>1590939566257</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1590939566258</updated>
-    </task>
-    <task id="LOCAL-00078" summary="add: jpa study note 15">
-      <created>1591028545834</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1591028545834</updated>
-    </task>
-    <task id="LOCAL-00079" summary="jpa 상속관계 study">
-      <created>1591436735220</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1591436735220</updated>
-    </task>
-    <task id="LOCAL-00080" summary="람다식 스터디">
-      <created>1591438770140</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1591438770140</updated>
-    </task>
-    <task id="LOCAL-00081" summary="java 람다식 스터디">
-      <created>1591456471441</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1591456471441</updated>
-    </task>
-    <task id="LOCAL-00082" summary="java 람다식 스터디">
-      <created>1591547123237</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1591547123237</updated>
-    </task>
-    <task id="LOCAL-00083" summary="jpa study Note add">
-      <created>1592639419404</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1592639419404</updated>
-    </task>
-    <task id="LOCAL-00084" summary="jpa study Note add">
-      <created>1592639720438</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1592639720438</updated>
-    </task>
-    <task id="LOCAL-00085" summary="jpa study Note add">
-      <created>1592833957931</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1592833957931</updated>
-    </task>
-    <task id="LOCAL-00086" summary="jpa study Note add">
-      <created>1592843643605</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1592843643605</updated>
-    </task>
-    <task id="LOCAL-00087" summary="jpa study Note add">
-      <created>1593101765999</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1593101765999</updated>
-    </task>
-    <task id="LOCAL-00088" summary="jpa study Note add">
-      <created>1593844547884</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1593844547885</updated>
-    </task>
-    <task id="LOCAL-00089" summary="jpa study Note add">
-      <created>1593882825094</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1593882825094</updated>
-    </task>
-    <task id="LOCAL-00090" summary="jpa study Note add">
-      <created>1594557038361</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1594557038361</updated>
-    </task>
-    <task id="LOCAL-00091" summary="jpa study Note add">
-      <created>1595046127248</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1595046127249</updated>
-    </task>
-    <task id="LOCAL-00092" summary="jpa study Note add">
-      <created>1595255191574</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1595255191574</updated>
-    </task>
-    <task id="LOCAL-00093" summary="jpa study Note add">
-      <created>1595265313766</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1595265313766</updated>
-    </task>
-    <task id="LOCAL-00094" summary="jpa study Note add">
-      <created>1595436608482</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1595436608482</updated>
-    </task>
-    <task id="LOCAL-00095" summary="jpa study Note add">
-      <created>1595955785740</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1595955785740</updated>
-    </task>
-    <task id="LOCAL-00096" summary="jpa study Note add">
-      <created>1596039329425</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1596039329425</updated>
-    </task>
-    <task id="LOCAL-00097" summary="jpa study Note add">
-      <created>1596254485120</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1596254485120</updated>
-    </task>
-    <task id="LOCAL-00098" summary="jpa study Note add">
-      <created>1596340907128</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1596340907128</updated>
-    </task>
-    <task id="LOCAL-00099" summary="객체지향 프로그래밍 study note add">
-      <created>1596470638813</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1596470638814</updated>
-    </task>
-    <task id="LOCAL-00100" summary="객체지향 프로그래밍 study note add">
-      <created>1596557357317</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1596557357317</updated>
-    </task>
-    <task id="LOCAL-00101" summary="객체지향 프로그래밍 study note add">
-      <created>1596897932714</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1596897932715</updated>
+      <workItem from="1637239302574" duration="2817000" />
+      <workItem from="1637340329224" duration="2071000" />
+      <workItem from="1638027432926" duration="5313000" />
+      <workItem from="1638413192669" duration="807000" />
+      <workItem from="1638637698766" duration="1336000" />
+      <workItem from="1638688228726" duration="5296000" />
+      <workItem from="1639276717816" duration="3436000" />
+      <workItem from="1640093880334" duration="3213000" />
+      <workItem from="1640423955397" duration="7706000" />
+      <workItem from="1641607809835" duration="22159000" />
+      <workItem from="1642777491403" duration="6447000" />
+      <workItem from="1643422978036" duration="1580000" />
+      <workItem from="1643448440375" duration="472000" />
+      <workItem from="1643458704938" duration="6264000" />
     </task>
     <task id="LOCAL-00102" summary="객체지향 프로그래밍 study note add">
       <created>1596940943469</created>
@@ -489,53 +315,256 @@
       <option name="project" value="LOCAL" />
       <updated>1599500820948</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="[docs] 인프런 스프링 핵심 원리 study05_관심사의 분리.md">
+      <created>1637015580174</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1637015580175</updated>
+    </task>
+    <task id="LOCAL-00121" summary="[docs] #자바8 함수형 인터페이스 study">
+      <created>1637046753394</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1637046753394</updated>
+    </task>
+    <task id="LOCAL-00122" summary="[docs] 회사 TIL 위키 docs 추가">
+      <created>1637240029546</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1637240029549</updated>
+    </task>
+    <task id="LOCAL-00123" summary="[docs] 인프런 스프링 핵심원리 study docs 추가">
+      <created>1637307559149</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1637307559149</updated>
+    </task>
+    <task id="LOCAL-00124" summary="[docs] 스프링으로 전환하기.md 추가">
+      <created>1637393832083</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1637393832083</updated>
+    </task>
+    <task id="LOCAL-00125" summary="[docs] SQL study 01 데이터베이스와 테이블 docs 추가">
+      <created>1637500474567</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1637500474567</updated>
+    </task>
+    <task id="LOCAL-00126" summary="[docs] 스프링 핵심원리 - 스프링 컨테이너와 스프링 빈 study">
+      <created>1638032825789</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1638032825789</updated>
+    </task>
+    <task id="LOCAL-00127" summary="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study">
+      <created>1638065893255</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1638065893255</updated>
+    </task>
+    <task id="LOCAL-00128" summary="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study07_스프링 컨테이너와 스프링 빈.md">
+      <created>1638072611093</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1638072611093</updated>
+    </task>
+    <task id="LOCAL-00129" summary="[docs] 인프런 스프링핵심원리 강의 스프링 컨테이너와 스프링 빈 study">
+      <created>1638414575716</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1638414575717</updated>
+    </task>
+    <task id="LOCAL-00130" summary="[docs] 인프런 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study.md 추가">
+      <created>1638639317394</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1638639317394</updated>
+    </task>
+    <task id="LOCAL-00131" summary="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study docs 추가">
+      <created>1638715437531</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1638715437531</updated>
+    </task>
+    <task id="LOCAL-00132" summary="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 docs 추가">
+      <created>1638828567610</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1638828567610</updated>
+    </task>
+    <task id="LOCAL-00133" summary="[docs] 스프링 핵심원리 - 다양한 설정 형식 지원 (자바 코드, XML) study docs 추가">
+      <created>1639149651422</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1639149651422</updated>
+    </task>
+    <task id="LOCAL-00134" summary="[docs] 스프링 핵심원리 스프링 빈 메타정보 docs 추가">
+      <created>1639278039621</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1639278039621</updated>
+    </task>
+    <task id="LOCAL-00135" summary="[docs] 인프런 스프링 핵심원리 싱글톤 컨테이너 docs 추가">
+      <created>1640103753671</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1640103753671</updated>
+    </task>
+    <task id="LOCAL-00136" summary="[docs] 인프런 스프링 싱글톤 컨테이너 study docs 추가">
+      <created>1640424975309</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1640424975309</updated>
+    </task>
+    <task id="LOCAL-00137" summary="[docs] 스프링 핵심원리 싱글톤 컨테이너 study docs 추가">
+      <created>1640506409994</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1640506409994</updated>
+    </task>
+    <task id="LOCAL-00138" summary="[docs] 스프링 핵심원리 @Configuration과 싱글톤 study docs 추가">
+      <created>1641128056380</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1641128056380</updated>
+    </task>
+    <task id="LOCAL-00139" summary="[docs] 인프런 스프링핵심원리 컴포넌트 스캔과 의존관계 자동주입 study docs 추가">
+      <created>1641473679462</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1641473679462</updated>
+    </task>
+    <task id="LOCAL-00140" summary="[docs] 인프런 스프링 핵심원리(김영한) 강의 스터디 &#10;컴포넌트 스캔과 의존관계 자동 주입 study docs 추가">
+      <created>1641614394472</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1641614394472</updated>
+    </task>
+    <task id="LOCAL-00141" summary="[docs] 인프런 스프링 핵심원리 study docs 추가">
+      <created>1641629651953</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1641629651953</updated>
+    </task>
+    <task id="LOCAL-00142" summary="[docs] 스프링 핵심원리 Filters study docs 추가">
+      <created>1641741077277</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1641741077277</updated>
+    </task>
+    <task id="LOCAL-00143" summary="[docs] 인프런 스프링 핵심원리 study12 중복 등록과 충돌.md 추가">
+      <created>1642247318446</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1642247318446</updated>
+    </task>
+    <task id="LOCAL-00144" summary="[docs] 스프링 핵심원리 study13_다양한 의존관계 주입방법.md 추가">
+      <created>1642307538510</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1642307538511</updated>
+    </task>
+    <task id="LOCAL-00145" summary="[docs] 인프런 스프링 핵심원리 study13_다양한 의존관계 주입방법.md 추가">
+      <created>1642737119920</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1642737119921</updated>
+    </task>
+    <task id="LOCAL-00146" summary="[docs] 인프런 스프링 핵심원리 study14_생성자주입.md 추가">
+      <created>1642863129491</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1642863129491</updated>
+    </task>
+    <task id="LOCAL-00147" summary="[docs] 인프런 스프링 핵심원리 study14_생성자주입.md 추가">
+      <created>1642866066890</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1642866066890</updated>
+    </task>
+    <task id="LOCAL-00148" summary="[docs] 인프런 스프링핵심원리 study14_생성자주입.md 추가">
+      <created>1642950841500</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1642950841501</updated>
+    </task>
+    <task id="LOCAL-00149" summary="[docs] SQL study01_데이터베이스와 테이블.md 추가">
+      <created>1643423959491</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1643423959491</updated>
+    </task>
+    <task id="LOCAL-00150" summary="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가">
+      <created>1643474719648</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1643474719649</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="jpa study06 note add" />
-    <MESSAGE value="jpa study07 note add" />
-    <MESSAGE value="add: #chapter6 자바 리팩토링 스터디 6장 클래스 추출" />
-    <MESSAGE value="add: jpa study note 07 엔티티매핑" />
-    <MESSAGE value="add: jpa study note 08 연관관계 매핑" />
-    <MESSAGE value="add: jpa study note 09 양방향 연관관계" />
-    <MESSAGE value="add: jpa study note 10 연관관계 매핑" />
-    <MESSAGE value="add: jpa study note 11 다대일" />
-    <MESSAGE value="add: jpa study note 12 일대다" />
-    <MESSAGE value="add: Elk stack" />
-    <MESSAGE value="add: jpa study note 13" />
-    <MESSAGE value="add: jpa study note 14" />
-    <MESSAGE value="add: jpa study note 15" />
-    <MESSAGE value="jpa 상속관계 study" />
-    <MESSAGE value="람다식 스터디" />
-    <MESSAGE value="java 람다식 스터디" />
-    <MESSAGE value="jpa study Note add" />
-    <MESSAGE value="객체지향 프로그래밍 study note add" />
-    <MESSAGE value="스프링부트 Study01 add" />
-    <MESSAGE value="모던리액트 study" />
-    <MESSAGE value="java study note add" />
-    <MESSAGE value="모두를 위한 딥러닝 강의 lecture 02 study" />
-    <MESSAGE value="java study" />
-    <MESSAGE value="modern react study" />
-    <MESSAGE value="엘라스틱서치 쿡북 스터디" />
-    <option name="LAST_COMMIT_MESSAGE" value="엘라스틱서치 쿡북 스터디" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="434" y="112" key="CommitChangelistDialog2" timestamp="1599500820853">
-      <screen x="0" y="23" width="1680" height="976" />
-    </state>
-    <state x="434" y="112" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.976@0.23.1680.976" timestamp="1599500820853" />
-    <state x="440" y="251" key="Vcs.Push.Dialog.v2" timestamp="1599500856817">
-      <screen x="0" y="23" width="1680" height="976" />
-    </state>
-    <state x="440" y="251" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.976@0.23.1680.976" timestamp="1599500856817" />
-    <state x="629" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599501185801">
-      <screen x="0" y="23" width="1680" height="976" />
-    </state>
-    <state x="629" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.23.1920.1057/0.23.1680.976@0.23.1680.976" timestamp="1599501185801" />
+    <MESSAGE value="[docs] SQL study 01 데이터베이스와 테이블 docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 - 스프링 컨테이너와 스프링 빈 study" />
+    <MESSAGE value="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study" />
+    <MESSAGE value="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study07_스프링 컨테이너와 스프링 빈.md" />
+    <MESSAGE value="[docs] 인프런 스프링핵심원리 강의 스프링 컨테이너와 스프링 빈 study" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study.md 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 - 다양한 설정 형식 지원 (자바 코드, XML) study docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 스프링 빈 메타정보 docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 싱글톤 컨테이너 docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 싱글톤 컨테이너 study docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 싱글톤 컨테이너 study docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 @Configuration과 싱글톤 study docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링핵심원리 컴포넌트 스캔과 의존관계 자동주입 study docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리(김영한) 강의 스터디 &#10;컴포넌트 스캔과 의존관계 자동 주입 study docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study docs 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 Filters study docs 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study12 중복 등록과 충돌.md 추가" />
+    <MESSAGE value="[docs] 스프링 핵심원리 study13_다양한 의존관계 주입방법.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study13_다양한 의존관계 주입방법.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study14_생성자주입.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링핵심원리 study14_생성자주입.md 추가" />
+    <MESSAGE value="[docs] SQL study01_데이터베이스와 테이블.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
