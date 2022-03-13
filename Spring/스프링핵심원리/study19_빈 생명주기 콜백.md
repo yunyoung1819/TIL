@@ -113,3 +113,6 @@ call: null message = 초기화 연결 메시지
   - 인터페이스(InitializingBean, DisposableBean)
   - 설정 정보에 초기화 메서드. 종료 메서드 지정
   - @PostConstruct, @PreDestory 애노테이션 지정
+
+
+### 인터페이스 InitializingBean, DisposableBean

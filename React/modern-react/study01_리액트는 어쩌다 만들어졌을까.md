@@ -7,7 +7,7 @@
 
 - JavaScript를 사용한 DOM 변형 
 
-![DOM업데이트](./image/DOM업데이트.png)
+![DOM업데이트](image/DOM업데이트.png)
 
 - Ember, Backbone, AngularJS, ...
 
@@ -16,7 +16,7 @@
 
 - Virtual DOM (가상의 DOM)
 
-![VirtualDOM](./image/virtualDOM.png)
+![VirtualDOM](image/virtualDOM.png)
 
 - UI를 어떻게 업데이트할지가 아니라 UI를 어떯게 보여줄지 집중!
 
@@ -33,7 +33,7 @@ const Hello = ({ name }) => <div> Hello, {name} </div>
 
 ### 작업환경 준비하기 
 
-![작업환경](./image/작업환경.png)
+![작업환경](image/작업환경.png)
 
 
 ### 새 프로젝트 만들어보기 
@@ -51,7 +51,7 @@ yarn start
 ```
 
 
-![프로젝트](./image/프로젝트생성.png)
+![프로젝트](image/프로젝트생성.png)
 
 
 ### JSX
@@ -110,7 +110,7 @@ return (
 
 ### props를 통해 컴포넌트에게 값 전달하기
 
-![props](./image/props.png)
+![props](image/props.png)
 
 
 ### useRef 로 특정 DOM 선택하기
