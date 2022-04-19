@@ -48,3 +48,42 @@
 - 정리
   - IP와 거의 같다 + PORT + 체크섬 정도만 추가
   - 애플리케이션에서 추가 작업 필요
+
+
+### PORT
+- 한번에 둘 이상 연결해야하면?
+![](./images/포트.png)
+
+- TCP/IP 패킷정보
+![](./images/패킷정보.png)
+
+### PORT - 같은 IP 내에서 프로세스 구분
+![](./images/포트2.png)
+
+
+### PORT 특징
+- 0 ~ 65535 할당 가능
+- 0 ~ 1023: 잘 알려진 포트, 사용하지 않는 것이 좋음
+  - FTP - 20, 21
+  - TELNET - 23
+  - HTTP - 80
+  - HTTPS - 443
+
+
+### DNS
+- IP는 기억하기 어렵다.
+- IP는 변경될 수 있다.
+
+### DNS 도메인 네임 시스템 (Domain Name System)
+- 전화번호부
+- 도메인 명을 IP 주소로 변환
+
+### DNS 사용
+![](./images/dns.png)
+
+### 인터넷 네트워크 정리
+- 인터넷 통신
+- IP (Internet Protocol)
+- TCP, UDP
+- PORT
+- DNS 
