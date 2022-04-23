@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="엘라스틱서치 쿡북 스터디">
+    <list default="true" id="70f6f352-57ab-48f0-9e7d-02169d93fe20" name="Default Changelist" comment="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가">
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/URI와 웹 브라우저 요청 흐름.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/uri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/url search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/웹브라우저요청흐름1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/웹브라우저요청흐름2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/웹브라우저요청흐름3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/웹브라우저요청흐름4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images/웹브라우저요청흐름5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/스프링핵심원리/study15_조회 빈이 2개 이상.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/스프링핵심원리/study15_조회 빈이 2개 이상.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +62,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1hBwOxGU9nIXaCbQ5VA7T5pgh5e" />
   <component name="ProjectLevelVcsManager">
@@ -72,7 +82,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599403680412" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SQL/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -83,16 +93,17 @@
       <recent name="Ch06_ExtractClass" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SQL/images" />
+      <recent name="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images" />
       <recent name="$PROJECT_DIR$/Spring/스프링핵심원리/image" />
+      <recent name="$PROJECT_DIR$/SQL/images" />
       <recent name="$PROJECT_DIR$/Velopert_React/chapter_05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Network/모든 개발자를 위한 HTTP 웹 기본 지식/images" />
+      <recent name="$PROJECT_DIR$/Network" />
       <recent name="$PROJECT_DIR$/Spring/스프링핵심원리/image" />
-      <recent name="$PROJECT_DIR$/java/image" />
-      <recent name="$PROJECT_DIR$/modern-react/image" />
-      <recent name="$PROJECT_DIR$/java" />
-      <recent name="$PROJECT_DIR$/deeplearning/image" />
+      <recent name="$PROJECT_DIR$/React" />
+      <recent name="$PROJECT_DIR$/Spring" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,161 +198,29 @@
       <workItem from="1642777491403" duration="6447000" />
       <workItem from="1643422978036" duration="1580000" />
       <workItem from="1643448440375" duration="472000" />
-      <workItem from="1643458704938" duration="6264000" />
-    </task>
-    <task id="LOCAL-00102" summary="객체지향 프로그래밍 study note add">
-      <created>1596940943469</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1596940943469</updated>
-    </task>
-    <task id="LOCAL-00103" summary="스프링부트 Study01 add">
-      <created>1596941501785</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1596941501785</updated>
-    </task>
-    <task id="LOCAL-00104" summary="스프링부트 Study01 add">
-      <created>1597069775933</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1597069775934</updated>
-    </task>
-    <task id="LOCAL-00105" summary="스프링부트 Study01 add">
-      <created>1597161806150</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1597161806151</updated>
-    </task>
-    <task id="LOCAL-00106" summary="스프링부트 Study01 add">
-      <created>1597334875573</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1597334875573</updated>
-    </task>
-    <task id="LOCAL-00107" summary="모던리액트 study">
-      <created>1597338071907</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1597338071907</updated>
-    </task>
-    <task id="LOCAL-00108" summary="java study note add">
-      <created>1597426749633</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1597426749635</updated>
-    </task>
-    <task id="LOCAL-00109" summary="모두를 위한 딥러닝 강의 lecture 02 study">
-      <created>1597474680220</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1597474680220</updated>
-    </task>
-    <task id="LOCAL-00110" summary="모두를 위한 딥러닝 강의 lecture 02 study">
-      <created>1597492669659</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1597492669659</updated>
-    </task>
-    <task id="LOCAL-00111" summary="java study">
-      <created>1597493987417</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1597493987417</updated>
-    </task>
-    <task id="LOCAL-00112" summary="modern react study">
-      <created>1597583741744</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1597583741744</updated>
-    </task>
-    <task id="LOCAL-00113" summary="modern react study">
-      <created>1597856585317</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1597856585317</updated>
-    </task>
-    <task id="LOCAL-00114" summary="modern react study">
-      <created>1598161780052</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1598161780052</updated>
-    </task>
-    <task id="LOCAL-00115" summary="modern react study">
-      <created>1598548548401</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1598548548401</updated>
-    </task>
-    <task id="LOCAL-00116" summary="modern react study">
-      <created>1598688535540</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1598688535540</updated>
-    </task>
-    <task id="LOCAL-00117" summary="엘라스틱서치 쿡북 스터디">
-      <created>1599387909805</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1599387909807</updated>
-    </task>
-    <task id="LOCAL-00118" summary="엘라스틱서치 쿡북 스터디">
-      <created>1599498927566</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1599498927567</updated>
-    </task>
-    <task id="LOCAL-00119" summary="엘라스틱서치 쿡북 스터디">
-      <created>1599500820948</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1599500820948</updated>
-    </task>
-    <task id="LOCAL-00120" summary="[docs] 인프런 스프링 핵심 원리 study05_관심사의 분리.md">
-      <created>1637015580174</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1637015580175</updated>
-    </task>
-    <task id="LOCAL-00121" summary="[docs] #자바8 함수형 인터페이스 study">
-      <created>1637046753394</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1637046753394</updated>
-    </task>
-    <task id="LOCAL-00122" summary="[docs] 회사 TIL 위키 docs 추가">
-      <created>1637240029546</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1637240029549</updated>
-    </task>
-    <task id="LOCAL-00123" summary="[docs] 인프런 스프링 핵심원리 study docs 추가">
-      <created>1637307559149</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1637307559149</updated>
+      <workItem from="1643458704938" duration="7251000" />
+      <workItem from="1643867352312" duration="1229000" />
+      <workItem from="1644139847437" duration="1838000" />
+      <workItem from="1644958913695" duration="1872000" />
+      <workItem from="1645879950669" duration="1131000" />
+      <workItem from="1646284977173" duration="6080000" />
+      <workItem from="1646322901261" duration="3000" />
+      <workItem from="1646323281170" duration="2000" />
+      <workItem from="1646541240004" duration="5334000" />
+      <workItem from="1646943091230" duration="1895000" />
+      <workItem from="1647132522535" duration="4929000" />
+      <workItem from="1648136213874" duration="6822000" />
+      <workItem from="1648776458573" duration="7968000" />
+      <workItem from="1648997787547" duration="1845000" />
+      <workItem from="1649078107418" duration="1068000" />
+      <workItem from="1649681395280" duration="1175000" />
+      <workItem from="1649683860492" duration="629000" />
+      <workItem from="1649691727820" duration="434000" />
+      <workItem from="1649946950907" duration="1416000" />
+      <workItem from="1650047647622" duration="1206000" />
+      <workItem from="1650270243908" duration="2824000" />
+      <workItem from="1650337203994" duration="1934000" />
+      <workItem from="1650713132009" duration="3367000" />
     </task>
     <task id="LOCAL-00124" summary="[docs] 스프링으로 전환하기.md 추가">
       <created>1637393832083</created>
@@ -532,27 +411,178 @@
       <option name="project" value="LOCAL" />
       <updated>1643474719649</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가">
+      <created>1643597113738</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1643597113738</updated>
+    </task>
+    <task id="LOCAL-00152" summary="[docs] 인프런 스프링 핵심원리 study16_애노테이션직접만들기.md 추가">
+      <created>1644140982658</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1644140982658</updated>
+    </task>
+    <task id="LOCAL-00153" summary="[docs] 인프런 스프링 핵심원리 study17_조회한 빈이 모두 필요할 때.md 추가">
+      <created>1644960902405</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1644960902406</updated>
+    </task>
+    <task id="LOCAL-00154" summary="[docs] 인프런 study05_IoC,DI 그리고 컨테이너.md 추가">
+      <created>1646310909862</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1646310909862</updated>
+    </task>
+    <task id="LOCAL-00155" summary="[docs] 인프런 스프링 핵심원리 study18_자동,수동의 올바른 실무 운영 기준.md 추가">
+      <created>1646546865771</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1646546865772</updated>
+    </task>
+    <task id="LOCAL-00156" summary="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md 추가">
+      <created>1646945066170</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1646945066170</updated>
+    </task>
+    <task id="LOCAL-00157" summary="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md">
+      <created>1647134134063</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1647134134063</updated>
+    </task>
+    <task id="LOCAL-00158" summary="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md 추가">
+      <created>1647185652405</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1647185652405</updated>
+    </task>
+    <task id="LOCAL-00159" summary="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md 추가">
+      <created>1647766522786</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1647766522786</updated>
+    </task>
+    <task id="LOCAL-00160" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1648137442687</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1648137442687</updated>
+    </task>
+    <task id="LOCAL-00161" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1648270007003</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1648270007004</updated>
+    </task>
+    <task id="LOCAL-00162" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1648279917911</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1648279917911</updated>
+    </task>
+    <task id="LOCAL-00163" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1648361237821</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1648361237821</updated>
+    </task>
+    <task id="LOCAL-00164" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1648780457327</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1648780457328</updated>
+    </task>
+    <task id="LOCAL-00165" summary="[docs] 인프런 HTTP 웹 기본 지식 study01.인터넷통신.md docs 추가">
+      <created>1648864765132</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1648864765132</updated>
+    </task>
+    <task id="LOCAL-00166" summary="[docs] 인프런 HTTP 웹 기본 지식 TCP &amp; UDP.md docs 추가">
+      <created>1648997837098</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1648997837099</updated>
+    </task>
+    <task id="LOCAL-00167" summary="[docs] 인프런 HTTP 웹 기본 지식 TCP&amp;UDP 추가">
+      <created>1649683552540</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1649683552541</updated>
+    </task>
+    <task id="LOCAL-00168" summary="[docs] 0412 TIL 작성">
+      <created>1649692296333</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1649692296333</updated>
+    </task>
+    <task id="LOCAL-00169" summary="[docs] 2022.04.14 TIL 추가">
+      <created>1649948342926</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1649948342926</updated>
+    </task>
+    <task id="LOCAL-00170" summary="[docs] TIL 0415 Docs Add">
+      <created>1650048254523</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1650048254523</updated>
+    </task>
+    <task id="LOCAL-00171" summary="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가">
+      <created>1650276215500</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1650276215500</updated>
+    </task>
+    <task id="LOCAL-00172" summary="[docs] 인프런 HTTP Study docs 추가">
+      <created>1650386230268</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1650386230269</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[docs] SQL study 01 데이터베이스와 테이블 docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 - 스프링 컨테이너와 스프링 빈 study" />
-    <MESSAGE value="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study" />
-    <MESSAGE value="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study07_스프링 컨테이너와 스프링 빈.md" />
-    <MESSAGE value="[docs] 인프런 스프링핵심원리 강의 스프링 컨테이너와 스프링 빈 study" />
-    <MESSAGE value="[docs] 인프런 스프링 핵심원리 스프링 컨테이너와 스프링 빈 study.md 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리: 스프링 컨테이너와 스프링 빈 study docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 스프링 컨테이너와 스프링 빈 docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 - 다양한 설정 형식 지원 (자바 코드, XML) study docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 스프링 빈 메타정보 docs 추가" />
-    <MESSAGE value="[docs] 인프런 스프링 핵심원리 싱글톤 컨테이너 docs 추가" />
-    <MESSAGE value="[docs] 인프런 스프링 싱글톤 컨테이너 study docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 싱글톤 컨테이너 study docs 추가" />
-    <MESSAGE value="[docs] 스프링 핵심원리 @Configuration과 싱글톤 study docs 추가" />
     <MESSAGE value="[docs] 인프런 스프링핵심원리 컴포넌트 스캔과 의존관계 자동주입 study docs 추가" />
     <MESSAGE value="[docs] 인프런 스프링 핵심원리(김영한) 강의 스터디 &#10;컴포넌트 스캔과 의존관계 자동 주입 study docs 추가" />
     <MESSAGE value="[docs] 인프런 스프링 핵심원리 study docs 추가" />
@@ -564,7 +594,21 @@
     <MESSAGE value="[docs] 인프런 스프링핵심원리 study14_생성자주입.md 추가" />
     <MESSAGE value="[docs] SQL study01_데이터베이스와 테이블.md 추가" />
     <MESSAGE value="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[docs] 인프런 스프링 핵심원리 study15_조회 빈이 2개 이상.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study16_애노테이션직접만들기.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study17_조회한 빈이 모두 필요할 때.md 추가" />
+    <MESSAGE value="[docs] 인프런 study05_IoC,DI 그리고 컨테이너.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study18_자동,수동의 올바른 실무 운영 기준.md 추가" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study19_빈 생명주기 콜백.md 추가" />
+    <MESSAGE value="[docs] 인프런 HTTP 웹 기본 지식 study01.인터넷통신.md docs 추가" />
+    <MESSAGE value="[docs] 인프런 HTTP 웹 기본 지식 TCP &amp; UDP.md docs 추가" />
+    <MESSAGE value="[docs] 인프런 HTTP 웹 기본 지식 TCP&amp;UDP 추가" />
+    <MESSAGE value="[docs] 0412 TIL 작성" />
+    <MESSAGE value="[docs] 2022.04.14 TIL 추가" />
+    <MESSAGE value="[docs] TIL 0415 Docs Add" />
+    <MESSAGE value="[docs] 인프런 스프링 핵심원리 study20_빈 스코프.md 추가" />
+    <MESSAGE value="[docs] 인프런 HTTP Study docs 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[docs] 인프런 HTTP Study docs 추가" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
