@@ -11,11 +11,10 @@
 
 - URI? URL? URN?
 - URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 수 있다.
-- 
 ![](./images/uri.png)
 
 ### URI 단어 뜻
-- 
+
 - Uniform: 리소스 식별하는 통일된 방식
 - Resources: 자원, URI로 식별할 수 있는 모든 것(제한없음)
 - Identifire: 다른 항목과 구분하는데 필요한 정보
