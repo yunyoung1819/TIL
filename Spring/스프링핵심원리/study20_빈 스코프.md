@@ -227,6 +227,3 @@ BUILD SUCCESSFUL in 2s
 > clientA -> prototypeBean@x01
 > clientB -> prototypeBean@x02
 > 물론 사용할 때마다 새로 생성되는 것은 아니다.
-
-
-### 
