@@ -91,7 +91,7 @@ public class OrderServiceImpl implements OrderService {
 - @ComponentScan은 @Component가 붙은 모든 클래스를 스프링 빈으로 등록한다.
 - 이때 스프링 빈의 기본 이름은 클래스명을 사용하되 맨 앞글자만 소문자를 사용한다.
     - 빈 이름 기본 전략: MemberServiceImpl 클래스 -> memberServiceImpl
-    - 빈 이름 직접 지정: 만약 스프링 빈의 이름을 직접 지정하고 싶으면 @Component(:memberService2") 이런 식으로 이름을 부여하면 된다.
+    - 빈 이름 직접 지정: 만약 스프링 빈의 이름을 직접 지정하고 싶으면 @Component("memberService2") 이런 식으로 이름을 부여하면 된다.
     
 ### @Autowired 의존관계 자동 주입
 ![](./image/autowired.png)
