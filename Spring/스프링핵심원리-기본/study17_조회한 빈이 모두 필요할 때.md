@@ -15,7 +15,7 @@ public class AllBeanTest {
         ApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class, DiscountService.class);
 
         DiscountService discountService = ac.getBean(DiscountService.class);
-        Member member = new Member(1L, "노나연", Grade.VIP);
+        Member member = new Member(1L, "수지", Grade.VIP);
         int discountPrice = discountService.discount(member, 10000, "fixDiscountPolicy");
 
         assertThat(discountService).isInstanceOf(DiscountService.class);
