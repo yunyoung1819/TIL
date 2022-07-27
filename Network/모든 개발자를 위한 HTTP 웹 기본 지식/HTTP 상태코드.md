@@ -21,3 +21,10 @@
 ### 1xx (Informational)
 - 요청이 수신되어 처리 중
 - 거의 사용하지 않으므로 생략
+
+### 2xx (Successful)
+- 클라이언트의 요청을 성공적으로 처리
+  - 200 OK
+  - 201 Created
+  - 202 Accepted
+  - 204 No Content
