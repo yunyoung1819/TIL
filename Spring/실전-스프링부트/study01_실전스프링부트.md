@@ -34,3 +34,18 @@
   - assertj: 테스트 코드를 좀 더 편하게 작성하게 도와주는 라이브러리
   - spring-test: 스프링 통합 테스트 지원
   
+
+### View 환경 설정
+- thymeleaf 템플릿 엔진 
+- 스프링 부트 thymeleaf viewName 매핑
+  - resources:`templates`/ + {ViewName} + `.html`
+
+### H2 데이터베이스 설치
+- 개발이나 테스트 용도로 가볍고 편리한 DB, 웹 화면 제공
+- https://www.h2database.com
+- 다운로드 및 설치 (1.4.99)
+- 데이터베이스 파일 생성 방법
+  - http://localhost:8082 접속
+  - jdbc:h2:~/jpashop (최소 한번, 세션키 유지한 상태로 실행)
+  - ~/jpashop.mv.db 파일 행성 확인
+  - 이후부터는 Jdbc:h2:tcp://localhost/~/jpashop 이렇게 접속
