@@ -17,13 +17,14 @@
 ### HTTP 헤더 분류 - RFC2616 (과거)
 
 ![](./images/헤더2.png)
+
 - 헤더 분류
   - General 헤더: 메시지 전체에 적용되는 정보, 예) Connection: close
   - Request 헤더: 요청 정보, 예) User-Agent: Mozilla/5.0 (Macintosh; ..)
   - Response 헤더: 응답 정보, 예) Server: Apache
   - Entity 헤더: 엔티티 바디 정보, 예) Content-Type: text/html, Content-Length: 3423
 
-### HTTP BODY message body - RFC2616(과거)
+### HTTP BODY message body - RFC2616 (과거)
 
 ![](./images/http바디1.png)
 
@@ -45,6 +46,7 @@
 ### HTTP BODY message body - RFC7230 (최신)
 
 ![](./images/http바디최신.png)
+
 - 메시지 본문(meesage body)을 통해 표현 데이터 전달
 - 메시지 본문 = 페이로드(payload)
 - 표현은 요청이나 응답에서 전달할 실제 데이터
