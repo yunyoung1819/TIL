@@ -2,7 +2,7 @@
 
 ## :pushpin: 살전! 스프링 부트와 JPA 활용
 
-### gradle 의존관계 보기
+### gradle 의존 관계 보기
 ```
 ./gradlew dependencies
 ```
