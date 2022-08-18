@@ -16,16 +16,17 @@
 정상적인 프로그램의 흐름에 어긋나는 경우 
 - 예외는 개발자가 직접 처리할 수 있기 때문에 예외 상황을 미리 예측하여 핸들링할 수 있음
 
+
 ### Exception Class 계층
 
 ![](../images/예외클래스.PNG)
 
 - 위 그림 예시는 예외클래스 구조임
-- 모든 예외클래스는 Throwable 클래스를 상속받고 있으며 Throwable은 최상위 클래스 Object의 자식 클래스
-- Throwable을 상속받는 클래스는 Error와 Exception이 있음
-- Exception은 수많은 자식 클래스들을 가지고 있는데 그 중 RuntimeException에 주목해야함
-- RuntimeException은 CheckedException과 uncheckedException을 구분하는 기준이며 Exception의 자식 클래스 중 RuntimeExcepton을 제외한
-모든 클래스는 CheckedException이며, RuntimeException과 그의 자식 클래스들은 Unchecked Exception이라 부름
+- 모든 예외클래스는 `Throwable` 클래스를 상속받고 있으며 Throwable은 최상위 클래스 `Object`의 자식 클래스이다.
+- `Throwable`을 상속받는 클래스는 `Error`와 `Exception`이 있다.
+- `Exception`은 수많은 자식 클래스들을 가지고 있는데 그 중 `RuntimeException`에 주목해야함
+- `RuntimeException`은 `CheckedException`과 `uncheckedException`을 구분하는 기준이며 Exception의 자식 클래스 중 RuntimeExcepton을 제외한
+모든 클래스는 CheckedException이며, **RuntimeException과 그의 자식 클래스들은 Unchecked Exception이라 부름**
 
 
 ### Checked Exception
@@ -33,19 +34,21 @@
 - 명시적인 예외 처리를 강제하기 때문에 Checked Exception이라고 함
 - 반드시 try ~ catch로 예외를 잡거나 throw로 호출한 메소드에게 예외를 던져야 함
 - Exception 처리 코드를 compiler가 check
-- ex) IOException, ClassNotFoundException 등
+- `IOException`
+- `ClassNotFoundException` 등
 
 
 ### Unchecked Exception
 
-- 배열의 범위를 벗어난다거나(IndexOutOfBoundsException) 값이 null인 참조변수의 멤버를 호출하거나 (NullPointerXception) 
-클래스 간의 형 변환을 잘못했다던가 (ClassCastException) 정수를 0으로 나누려 했다거나 (ArithmeticException)하는 경우에 발생하는 예외들
 - 컴파일하는데 문제없지만 실행하면 문제가 발생함
 - 명시적인 예외 처리를 강제하지 않기 때문에 Unchecked Exception이라고 함
 - 명시적인 예외 처리란 try ~ catch로 잡거나 throw로 호출한 메소드에게 예외를 던지지 않는 행위를 말함 
-- 등 NullPointerException, ClassCastException 등
+- 배열의 범위를 벗어난다거나(IndexOutOfBoundsException) 값이 null인 참조변수의 멤버를 호출하거나 (NullPointerException) 
+클래스 간의 형 변환을 잘못했다던가 (ClassCastException) 정수를 0으로 나누려 했다거나 (ArithmeticException)하는 경우에 발생하는 예외들
+- `NullPointerException`
+- `ClassCastException` 등
 
-|    |Checked Exception|Unchecked Exception|
+|구분 |Checked Exception|Unchecked Exception|
 |----|---|----|
 |처리 여부|반드시 예외를 처리해야함|명시적인 처리를 강제하지 않음|
 |확인 시점|컴파일 단계|실행단계
@@ -53,8 +56,8 @@
 |대표 예외|Exception을 상속받는 하위 클래스 중 RuntimeException을 제외한 모든 예외(대표적으로 IOException, SQLException)|RuntimeException 하위 예외 (대표적으로 NullPointerException, IllegalArgumentException, IndexOutOfBoundException, SystemException)
 
 - Checked Exception과 Unchecked Excepion의 가장 명확한 구분 기준은 `꼭 처리를 해야 하느냐`임
-- Checked Exception이 발생할 가능성이 있다면 반드시 try/catch로 감싸거나 throw로 던져서 처리해야함
-- 반면 Unchecked Exception은 명시적인 예외 처리를 하지 않아도됨. 이 예외는 피할 수 있지만 개발자가 부주의해서 발생하는 경우가 대부분이고 
+- `Checked Exception`이 발생할 가능성이 있다면 반드시 try/catch로 감싸거나 throw로 던져서 처리해야함
+- `Unchecked Exception`은 명시적인 예외 처리를 하지 않아도됨. 이 예외는 피할 수 있지만 개발자가 부주의해서 발생하는 경우가 대부분이고 
 미리 예측하지 못했던 상황에서 발생하는 예외가 아니기 때문에 굳이 로직으로 처리할 필요는 없음
 
 - 또한 `예외를 확인할 수 있는 시점`에서도 구분할 수 있음
