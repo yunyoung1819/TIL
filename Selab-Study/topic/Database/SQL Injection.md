@@ -43,3 +43,45 @@ SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
 - 해커는 단순히 `105 OR 1=1`을 입력 필드에 삽입하여 데이터베이스의 모든 사용자 이름과 암호에 액세스할 수 있음
 
 ### ""=""에 기반한 SQL 주입은 항상 TRUE 이다
+
+- 다음은 웹 사이트의 사용자 로그인 예시
+```
+사용자 이름: YYUN
+비밀번호: 1234
+```
+
+````
+uName = getRequestString("username");
+uPass = getRequestString("userpassword");
+
+sql = 'SELECT * FROM Users WHERE Name = "' + uName + '" AND Pass = "' + uPass + '"'
+````
+
+- 결과
+```
+SELECT * from Users WHERE Name = "YYUN" AND Pass = "1234"
+```
+
+- 해커는 사용자 이름 또는 암호 입력 박스에 " OR ""="를 삽입하기만 하면 데이터베이싀 사용자 이름과 암호에 액세스할 수 있음
+
+```
+사용자 이름: "or ""="
+비밀번호: " or""="
+```
+
+- 결과
+```
+SELECT * FROM Users WHERE Name = "" or ""="" AND Pass = "" or ""=""
+```
+
+- OR ""==""는 항상 TRUE 이므로 위의 SQL은 유효하며 "Users" 테이블의 모든 행 반환
+
+### 대응 방안
+- 입력 값에 대한 검증
+- Prepared Statement 구문 사용
+- Error Message 노출 금지
+- 웹 방화벽 사용
+
+
+### 참고
+- https://noirstar.tistory.com/264
