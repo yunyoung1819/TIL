@@ -114,3 +114,43 @@ Content-Length: 3423
 
 - 바이트 단위
 - Transfer-Encoding(전송 코딩)을 사용하면 Content-Length를 사용하면 안됨
+
+
+### 협상(콘텐츠 네고시에이션)
+#### 클라이언트가 선호하는 표현 요청
+
+- `Accept`: 클라이언트가 선호하는 `미디어 타입` 전달
+- `Accept-Charset`: 클라이언트가 선호하는 `문자 인코딩`
+- `Accept-Encoding`: 클라이언트가 선호하는 `압축 인코딩`
+- `Accept-Language`: 클라이언트가 선호하는 `자연 언어`
+- 협상 헤더는 `요청 시`에만 사용
+
+
+### Accept-Language 적용 전
+![](./images/네고시에이션1.png)
+
+
+### Accept-Language 적용 후
+![](./images/네고시에이션2.png)
+
+
+### 협상과 우선순위 1
+#### Quality Values(q)
+- `Quality Values(q)` 값 사용
+- `0~1`, `클수록 높은 우선 순위`
+- 생략하면 1
+- Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+    - ko-KR;q=1 (q생략)
+    - ko;q=0.9
+    - en-US;q=0.8
+    - en:q=0.7
+    
+### 협상과 우선순위 2
+#### Quality Values(q)
+
+- 구체적인 것이 우선한다.
+
+### 협상과 우선순위 3
+#### Quality Values(q)
+
+- 구체적인 것을 기준으로 미디어 타입을 맞춘다.
