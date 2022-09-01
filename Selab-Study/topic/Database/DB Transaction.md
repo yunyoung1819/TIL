@@ -69,4 +69,8 @@
     - 데이터베이스에 접속한 후 종료하기까지의 과정이 하나의 세션이며 이 세션이 유지되는 동안 여러 COMMIT, ROLLBACK 작업이 진행되기 때문
     - 세션이 트랜잭션보다 큰 단위
     
+    
+### 자주 보는 오류 메시지 
+- row was updated or deleted by another transaction (or unsaved-value mapping was incorrect
+    
  
