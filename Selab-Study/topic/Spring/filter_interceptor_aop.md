@@ -3,8 +3,7 @@
 
 ### 필터 (Filter)
 - `J2EE` 표준 스펙 기능
-- `디스패처 서블릿(Dispatcher Servlet)`에 요청이 전달되기 전/후에 
-`url 패턴에 맞는 모든 요청`에 대해 부가작업을 처리할 수 있는 기능을 제공
+- `디스패처 서블릿(Dispatcher Servlet)`에 요청이 전달되기 전/후에 url 패턴에 맞는 모든 요청에 대해 부가작업을 처리할 수 있는 기능을 제공
 - `디스패처 서블릿`은 스프링의 가장 앞단에 존재하는 프론트 컨트롤러이므로 필터는 `스프링 범위 밖에서 처리됨`
 - 즉 스프링 컨테이너가 아닌 톰캣(tomcat)과 같은 웹 컨테이너에 의해 관리가 됨 
 - 디스패처 서블릿 전/후에 처리함
@@ -50,3 +49,14 @@ public interface Filter {
 
 ![](../images/인터셉터.PNG)
 
+- 인터셉터를 추가하기 위해서는 org.springframework.web.servlet의 HandlerInterceptor 인터페이스를 구현해야 함
+- 다음 3가지 메서드가 있음
+    - preHandle 메서드
+    - postHandle 메서드
+    - afterCompletion 메서드
+    
+ ```java
+public interface HandlerInterceptor {
+    default boolean preHandle(HttpServletRequest request, httpServletResponse resp)
+}
+```
