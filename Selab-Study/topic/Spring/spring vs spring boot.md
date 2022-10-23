@@ -20,10 +20,10 @@
 
 
 ### Spring과 Spring Boot의 차이점
-1.`Embeded Tomcat`을 사용하기 때문에 따로 Tomcat을 설치하거나 매번 버전을 관리해주어야 하는 수고로움을 덜어줌
-2. `starter`를 통한 `dependency 자동화`
+- `Embeded Tomcat`을 사용하기 때문에 따로 Tomcat을 설치하거나 매번 버전을 관리해주어야 하는 수고로움을 덜어줌
+- `starter`를 통한 `dependency 자동화`
    - 과거 spring framework에서는 각각의 dependency들이 호환되는 버전을 일일이 맞추어 주어야 했디.
    - 따라서 하나의 버전을 올리고자 하면 다른 dependency에 까지 영향을 미쳐 버전 관리에 어려움이 많았다.
    - starter가 대부분의 dependency를 관리해 주기 때문에 이러한 걱정을 많이 덜게 되었다.
-3. `XML` 설정을 하지 않아도 됨
-4. `jar file`을 이용해 자바 옵션만으로 손쉽게 `배포` 가능
+- `XML` 설정을 하지 않아도 됨
+- `jar file`을 이용해 자바 옵션만으로 손쉽게 `배포` 가능
