@@ -44,5 +44,74 @@
     - 3rd normal form isn't optimal in many cases.
     - Optimized for Availability, Usability, Scailing, and Speed
     - Idiomatic development drivers
+   
+    
+### Atlas Managed Cluster
+- MongoDB Atlas is MongoDB as a service.
+
+
+### 저장 및 검색
+
+- Single Document
+    - Create: `insertOne(doc)`
+    - Read: `findOne(query, projection)`
+    - Update: `updateOne(query, change)`
+    - Delete: `deleteOne(query)`
+    
+- Multiple Documents
+    - Create: `insertMany([doc,doc,doc])`
+    - Read: `find(query, projection)`
+    - Update: `updateMany(query,change)`
+    - Delete: `deleteMany(query)`
+    
+    
+### Creating new documents - insertOnes()
+
+- insertOnes() adds a document to a collection.
+- Documents are essentially Objects.
+- `_id` field must be unique, it will be added if not supplied
+
+```text
+MongoDB> db.customers.insertOne({
+    _id : "yunyoung1819@gmail.com",
+    name" "Robert Smith", orders: [], spend: 0,
+    lastpurchase: null
+})
+```
+
+### Add Multiple Documents - insertMany()
+### Order of operations in insertMany()
+
+
+### Reading documents
+
+- findOne() retrieves a single document
+- Empty object (or no object) matches everything.
+- projection: choosing the fields to return
+- Fetch multiple documents using find()
+
+
+### Cursors
+- Here, we store the result of find to a variable
+- We then 
+
+
+### Exercise
+- Add two documents to a collection called diaries using the commands shown here.
+
+```text
+db.diaries.insertMany([
+    {
+        name: "dug", day: ISODate("2022-11-08"),
+        txt: "went for a walk"
+    },
+    {
+        name: "dug", day: ISODate("2022-11-09"),
+        txt: "got a treat"
+    }
+])
+```
+
+
 
 
