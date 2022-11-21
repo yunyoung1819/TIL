@@ -11,7 +11,7 @@
 - 뷰 정의문
 
 ```
--- 유저 테이블에서 주소가 서울시인 유저들의 NAME과 PHONE을 VIP람는 뷰로 만들어라--
+-- 유저 테이블에서 주소가 서울시인 유저들의 NAME과 PHONE을 VIP라는 뷰로 만들어라--
 CREATE VIEW VIP(NAME, PHONE)
 AS SELECT NAME, PHONE
 FROM USER
