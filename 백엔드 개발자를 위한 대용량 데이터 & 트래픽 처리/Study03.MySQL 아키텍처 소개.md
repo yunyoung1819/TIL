@@ -1,6 +1,6 @@
 # :book: 백엔드 개발자를 위한 대용량 데이터 & 트래픽 처리
 
-## :pushpin: MySQL 소개
+## :pushpin: Chapter 03. MySQL 소개
 ### :seedling: 01. MySQL을 학습하는 이유
 - 수많은 종류의 데이터베이스들
     - Document DB
