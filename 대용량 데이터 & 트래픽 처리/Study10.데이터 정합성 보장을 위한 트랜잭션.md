@@ -83,3 +83,67 @@
 <summary>DURABILITY - 완료된 트랜잭션을 유실되지 않는다</summary>
 - WAL을 통해 
 </details>
+
+
+### 3. 트랜잭션 격리레벨
+#### ISOLATION - 트랜잭션은 서로 간섭하지 않고 독립적으로 동작한다
+
+#### 트랜잭션 격리레벨
+- READ UNCOMMITTED
+- READ COMMITTED
+- REPEATABLE READ
+- SERIALIZABLE READ
+
+#### 3가지 이상 현상 
+- Dirty Read
+- Non Repeatable Read
+- Phantom READ
+
+#### Dirty Read
+홍길동: 1000원
+김국밥: 500원
+
+- 홍길동이 김국밥에게 900원을 송금
+- 김국밥 잔액에 대한 UPDATE가 실패했으므로 500원으로 되어야하지만 다른 트랜잭션이 업데이트가 실패하기전 잔고인 1400원을 읽어들이는 현상
+- 커밋되지 않은 데이터를 읽었다고해서 `Dirty Read`라고 한다.
+
+![](./images/더티리드1.png)
+![](./images/더티리드2.png)
+![](./images/더티리드3.png)
+![](./images/더티리드4.png)
+
+
+#### Non Repeatable Read
+- 하나의 트랜잭션에서 같은 데이터를 3번 읽었는데 다른 데이터가 나오는 현상 
+- 같은 데이터를 조회했는데 결과가 달라지는 것 
+![](./images/nonrepetable_read1.png)
+![](./images/nonrepetable_read2.png)
+![](./images/nonrepetable_read3.png)
+![](./images/nonrepetable_read4.png)
+
+#### Phantom Read
+- 같은 조건으로 데이터를 조회했을 때 없던 데이터가 생겼을 때 발생하는 현상
+
+![](./images/팬텀리드1.png)
+![](./images/팬텀리드2.png)
+![](./images/팬텀리드3.png)
+
+
+#### 트랜잭션 격리레벨
+|                  | Dirty Read | Non Repetable Read | Phantom Read |
+|------------------|------------|--------------------|--------------|
+| Read Uncommitted | O          | O                  | O            |
+|Read Committed|            | O                  | O            |
+|Repetable Read| | | O |
+|Serializable Read| | | |
+
+
+```
+READ UNCOMMITTED
+READ COMMITTED
+REPEATABLE READ
+SERIALIABLE READ
+```
+
+- 아래로 갈수록 이상현상이 없음 
+- 아래로 갈수록 동시 처리량이 낮다
