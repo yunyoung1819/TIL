@@ -63,3 +63,45 @@
 > 하지만 Setter는 문제가 다르다. Setter를 호출하면 데이터가 변한다. 
 > Setter를 막 열어두면 가까운 미래에 엔티티가 도대체 왜 변경되는지 추적하기 점점 힘들어진다. 
 > 그래서 엔티티를 변경할 때는 Setter 대신에 변경 지점이 명확하도록 변경을 위한 비즈니스 메서드를 별도로 제공해야 한다.
+
+
+- 참고: 실무에서는 @ManyToMany를 사용하지 말자
+- @ManyToMany는 편리한 것 같지만 중간 테이블(CATEGORY_ITEM)에 컬럼을 추가할 수 없고 세밀하게 쿼리를 실행하기 어렵기 때문에 실무에서 사용하기에는 한계가 있다.
+- 중간 엔티티(CategoryItem)를 만들고 @ManyToOne, @OneToMany로 매핑해서 사용하자.
+- 정리하면 다대다 매핑을 일대다, 다대일 매핑으로 풀어내서 사용하자.
+
+### 주소 값 타입
+```java
+package jpabook.jpashop.domain;
+import lombok.Getter;
+import lombok.Setter;
+import javax.persistence.Embeddable;
+
+@Embeddable
+@Getter
+public class Address {
+  private String city;
+  private String street;
+  private String zipcode;
+  protected Address() {
+  }
+  public Address(String city, String street, String zipcode) {
+    this.city = city;
+    this.street = street;
+    this.zipcode = zipcode;
+  } 
+}
+
+```
+- 값 타입은 변경 불가능하게 설계해야 한다.
+- @Setter를 제거하고 생성자에서 값을 모두 초기화해서 변경 불가능한 클래스를 만들자.
+- JPA 스펙상 엔티티나 임베디트 타입(@Embeddable)은 자바 기본 생성자를 public 또는 protected로 설정해야 한다.
+- JPA가 이런 제약을 두는 이유는 JPA 구현 라이브러리가 객체를 생성할 때 리플렉션 같은 기술을 사용할 수 있도록 
+지원해야 하기 때문이다.
+
+
+### 엔티티 설계시 주의점
+1. 엔티티에는 가급적 Setter를 사용하지 말자.
+   - Setter가 모두 열려있다. 변경포인트가 너무 많아서 유지보수가 어렵다. 
+2. 모든 연관관계는 지연로딩으로 설정
+3. 컬렉션은 필드에서 초기화 하자
