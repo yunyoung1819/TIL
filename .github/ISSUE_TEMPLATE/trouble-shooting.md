@@ -7,10 +7,10 @@ assignees: yunyoung1819
 
 ---
 
-## 상황
+### Issue Description
 
-## 원인
+### Cause
 
-## 해결
+### Solution
 
-## 참고
+### Reference
