@@ -1,6 +1,9 @@
-## Hexagonal Architecture
+## 실습1: Hexagonal Architecture
 
-### Hexagonal Project 패키기 구조 설계
+## 01. Spring Boot 개발 환경 세팅, Hexagonal 아키텍쳐
+
+## 02. JPA와 Hexagonal 아키텍처
+- Hexagonal Project 패키기 구조 설계
 
 ````
 fastcampus-pay
@@ -22,6 +25,27 @@ fastcampus-pay
 ````
 
 
-### 멤버십 서비스 정의, DB 설계
-- 멤버십 서비스
-  - fastcampus-pay 라는 비즈니스에서 제공하는 멤버십 서비스로서, 패캠 페이에 가입하는 개인/법인 고객의 정보를 소유(ownership)하고 관련 정보의 변경에 대한 의무를 가진 서비스
+### MVP 버전의 Membership Service 정의하기
+
+- 멤버십 서비스 
+  - fastcampus-pay (이하, 패캠 페이)라는 비즈니스에서 제공하는 멤버십 서비스로서, 패캠 페이에 가입하는 개인/법인 고객의 정보를 
+  소유(ownership)하고 관련 정보의 변경에 대한 의무를 가진 서비스
+
+- MVP Version
+  - fastcampus-pay (이하, 패캠 페이)라는 비즈니스에서 제공하는 멤버십 서비스로서, 패캠 페이에 가입하는
+  개인/법인 고객의 정보를 소유(ownership)하고 새로운 멤버십(개인/법인)의 추가가 가능하며 이에 대한 정보를 조회할 수 있는 기능을 제공하는 서비스
+
+
+## 03. JPA와 Hexagonal 아키텍처를 활용한 고객 서비스 개발 2
+### API 설계
+- Query
+  - 고객 정보(그중에서도 membershipId)를 통한 고객 정보의 조회
+  - find - membership (by membershipId)
+  - Request Params: membershipId
+  - Response: Membership (membershipId, name, addr, ...)
+
+- Command
+  - 필요한 고객 정보를 통한 신규 고객 멤버십의 생성
+  - register - membershipId
+  - Request Params: Membership (membershipId, name, addr, ...)
+  - Response: Registered Membership With Response Code (200, 400, 500, ...)
