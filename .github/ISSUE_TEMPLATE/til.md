@@ -6,9 +6,6 @@ labels: TIL
 assignees: yunyoung1819
 
 ---
-
-## Date
-
 ## Title
 
 ## Description
