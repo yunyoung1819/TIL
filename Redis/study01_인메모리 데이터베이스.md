@@ -86,3 +86,6 @@ Memory, Disk read/write 100만번 테스트
 1.. 메인 메모리
 2. 빠른 응답속도, 높은 처리량
 3. memcaced, redis
+
+
+
