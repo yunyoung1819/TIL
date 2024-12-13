@@ -1,8 +1,8 @@
 ## 인프런 시니어 백엔드 개발자가 알려주는 데이터베이스 개론 & SQL
 
-
 ### database (DB)
-- 전자적으로 (electronically) 저장되고 사용되는 관련있는(related) 데이터들의 조직화된 집합(organized collection)
+- 전자적으로 (electronically) 저장되고 사용되는 관련있는(related) 데이터들의 
+조직화된 집합(organized collection)
 
 
 ### DBMS 
