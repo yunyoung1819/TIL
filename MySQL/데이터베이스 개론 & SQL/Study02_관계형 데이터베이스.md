@@ -71,7 +71,7 @@
 {id} or {team_id, back_number}
 
 ### unique key
-= primary key가 아닌 candidate keys
+- primary key가 아닌 candidate keys
 - alternate key
 - e.g. PLAYER(id, name, team_id, back_number, birth_date)의 unique key는
 {team_id, back_number}
