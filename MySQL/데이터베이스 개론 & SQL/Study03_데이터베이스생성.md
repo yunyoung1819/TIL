@@ -1,4 +1,4 @@
-## ;pushpin; 인프런 시니어 백엔드 개발자가 알려주는 데이터베이스 개론 & SQL
+## :pushpin: 인프런 시니어 백엔드 개발자가 알려주는 데이터베이스 개론 & SQL
 
 ### SQL 뜻
 - **Structured Query Language** (SQL)
