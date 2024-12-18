@@ -96,3 +96,34 @@ from employee e inner join department d using(dept_id);
 ```
 
 ### natural join
+- 두 테이블에서 같은 이름을 가지는 모든 attribute pair에 대해서 equi join을 수행
+- join condition을 따로 명시하지 않음
+- FROM table1 NATURAL [INNER] JOIN table2
+- FROM table1 NATURAL LEFT [OUTER] JOIN table2
+
+```mysql
+select * 
+from employee e natural join department d;
+```
+
+### cross join
+- 두 테이블의 tuple pair로 만들 수 있는 모든 조합(=Cartesian product)을 result table로 반환한다
+- join condition이 없다
+- implicit cross join: FROM table1, table2
+- explicit cross join: FROM table1 CROSS JOIN table2
+
+```mysql
+select * 
+from employee cross join department;
+
+select *
+from employee, department;
+```
+
+### cross join @mysql
+- mysql에서는 cross join = inner join = join 이다
+- cross join에 on(or using)을 같이 쓰면 inner join으로 동작한다
+- inner join (or join)이 on(or using)없이 사용되면 cross join으로 동작한다
+
+### self join
+- table이 자기 자신에게 join 하는 경우
