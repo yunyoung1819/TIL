@@ -65,5 +65,16 @@ $$
 delimiter ;
 
 call change_nickname(1, 'ZIDANE');
+
+select * from users;
+select * from nickname_logs;
 ```
+
+### stored procedure
+- 이외에도 조건문을 통해 분기처리를 하거나
+- 반복문을 수행하거나
+- 에러를 핸들링하거나 에러를 일으키는 등의 다양한 로직을 정의할 수 있다
+
+### stored procedure vs stored function
+
 
