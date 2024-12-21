@@ -77,4 +77,60 @@ select * from nickname_logs;
 
 ### stored procedure vs stored function
 
+|            | stored procedure      | stored function     |
+|------------|-----------------------|---------------------|
+| create 문법  | create procedure ...  | create function ... |
+| return 키워드로 값 반환 | 불가능 | 가능 |
+| 파라미터로 값(들) 반환 | 가능 | 일부 가능 |
+| 값을 꼭 반환해야 하나? | 필수 아님 | 필수 |
+| SQL statement에서 호출 | 불가능 | 가능 |
+| transaction 사용 | 가능 | 대부분 불가능 |
+| 주된 사용 목적 | business loginc | computation |
+
+### PROCEDURE
+- `return` 키워드로 값 반환 불가능
+- 파라미티로 값(들) 반환 가능
+
+```mysql
+delimiter $$
+create procedure product(in a int, in b int, out result int)
+begin 
+    set result = a * b
+end $$
+delimiter ;
+```
+
+```mysql
+delimiter $$
+create procedure change_nickname(user_id int, new_nick varchar(30))
+begin 
+    insert into nickname_logs (
+        select id, nickname, now() from users where id = user_id
+    );
+    update users set nickname = new_nickname where id = user_id;
+end $$
+delimiter ;
+```
+- 반드시 무언가를 반환할 필요 없음
+
+### FUNCTION
+- return 키워드로 값 반환 가능
+- 파라미터로 값(들) 반환 불가능 
+
+```mysql
+delimiter $$
+create function product(a int, b int)
+returns int
+no sql
+begin 
+    return a * b;
+end $$
+delimiter ;
+```
+
+```mysql
+select *, product(price, order_count) from orders;
+```
+- product가 stored function이라면 SQL statement에서 호출 가능
+
 
