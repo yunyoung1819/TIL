@@ -146,3 +146,27 @@ public static void main(String[] args) {
 2. wait
 3. event
 4. i/o request
+
+
+### :seedling: Spring MVC vs Webflux
+
+Servlet Stack
+- `Servlet Containers`
+- `Servlet API`
+- `Spring Security`
+- `Spring MVC`
+- `Spring Data Repositories` (JDBC, JPA, NoSQl)
+
+Reactive Stack
+- `Netty`, `Servlet 3.1 + Containers`
+- `Reactive Streams Adapters`
+- `Spring Security Reactive`
+- `Spring Webflux`
+- `Spring Data Reactive Repositories  (Mongo, Cassandra, Redis, Couchbase, R2DBC)
+
+#### Spring MVC
+![](./images/spring_mvc.png)
+
+
+#### Spring Webflux
+![](./images/webflux.png)
