@@ -18,3 +18,29 @@
 - 입력 어탭터(Controller), 출력 어댑터(Repository)로 구성
 - 데이터 입출력, 메시지 생산(발행) / 소비 (가입)
 - API 제공 
+
+### 헥사고널 패키지 구조 생성
+- 패키지로 아키텍처를 표현, 아키텍처 코드 개 ㅂ또는 모델 코드 갭을 줄일 수 있는 효과적인 방법
+
+
+```text
+com 
+    |_ msa
+        |_ rentral
+            |_ RentalCardApplication.java
+            |_ application
+                |_ inputport
+                |_ outputport
+                |_ usecase
+            |_ config
+                |_ KafkaConfig.java
+                |_ SwaggerConfig.java
+            |_ domain
+                |_ model
+            |_ framework
+                |_ jpaadapter
+                |_ kafkaadapter
+                |_  web
+```
+ 
+![](./images/hexa2.png)
