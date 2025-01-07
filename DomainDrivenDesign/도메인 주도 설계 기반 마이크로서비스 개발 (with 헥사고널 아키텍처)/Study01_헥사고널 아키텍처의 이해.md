@@ -2,7 +2,7 @@
 
 ### 헥사고널 아키텍처의 이해
 
-![](./images/hexagonal.png)
+![](images/hexagonal.png)
 
 헥사고널 아키텍처는 도메인 + 애플리케이션 + 프레임워크 헥사곤으로 구성
 
@@ -43,4 +43,4 @@ com
                 |_  web
 ```
  
-![](./images/hexa2.png)
+![](images/hexa2.png)

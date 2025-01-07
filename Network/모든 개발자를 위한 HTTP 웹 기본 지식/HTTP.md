@@ -46,7 +46,7 @@
 - 클라이언트는 서버에 요청을 보내고, 응답을 대기
 - 서버가 요청에 대한 결과를 만들어서 응답
 
-![](./images/클라이언트서버구조.png)
+![](images/클라이언트서버구조.png)
 
 ### 무상태 프로토콜 
 > 스테이스리스(Stateless)
@@ -96,10 +96,10 @@
 - 무상태는 응답 서버를 쉽게 바꿀 수 있다. -> 무한한 서버 증설 가능 
 
 ### 상태 유지
-![](./images/stateful.png)
+![](images/stateful.png)
 
 ### 무상태
-![](./images/stateless.png)
+![](images/stateless.png)
 
 ### Stateless 실무 한계
 - 모든 것을 무상태로 설계할 수 있는 경우도 있고 없는 경우도 있다.
@@ -115,10 +115,10 @@
 ### 비 연결성 (connectionless)
 
 ### 연결을 유지하는 모델
-![](./images/연결유지모델.png)
+![](images/연결유지모델.png)
 
 ### 연결을 유지하지 않는 모델
-![](./images/비연결유지모델.png)
+![](images/비연결유지모델.png)
 
 ### 비 연결성
 - HTTP는 기본이 연결을 유지하지 않는 모델
@@ -136,11 +136,11 @@
 
 ### HTTP 초기 - 연결, 종료 낭비 
 
-![](./images/http초기.png)
+![](images/http초기.png)
 
 ### HTTP 지속 연결(Persistent Connections)
 
-![](./images/http지속연결.png)
+![](images/http지속연결.png)
 
 ### 스테이스리스를 기억하자 (서버 개발자들이 어려워하는 업무)
 - 정말 같은 시간에 딱 맞추어 발생하는 대용량 트래픽
@@ -156,9 +156,9 @@
 - 지금은 HTTP 시대!
 
 ### HTTP 메시지
-![](./images/http메시지.png)
+![](images/http메시지.png)
 
-![](./images/http메시지1.png)
+![](images/http메시지1.png)
 
 ```
 GET /search?q=hello&hl=ko HTTP/1.1

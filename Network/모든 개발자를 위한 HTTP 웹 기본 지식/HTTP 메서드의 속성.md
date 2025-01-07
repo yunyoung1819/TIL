@@ -6,7 +6,7 @@
 - 멱등 (Idempotent Methods)
 - 캐시 가능(Cacheable Methods)
 
-![](./images/http메서드속성.png)
+![](images/http메서드속성.png)
 
 
 ### 안전 (Safe)

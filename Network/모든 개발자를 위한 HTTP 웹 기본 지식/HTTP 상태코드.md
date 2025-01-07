@@ -112,10 +112,10 @@
   - 새로고침해도 GET으로 결과 화면만 조회
 
 #### PRG 사용전
-![](./images/PRG사용전.png)
+![](images/PRG사용전.png)
 
 #### PRG 사용후
-![](./images/PRG사용후.png)
+![](images/PRG사용후.png)
 
 ### 그래서 뭘 써야 하나요? (302, 307, 303)
 - 잠깐 정리

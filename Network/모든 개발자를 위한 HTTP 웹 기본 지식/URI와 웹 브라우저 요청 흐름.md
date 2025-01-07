@@ -11,7 +11,7 @@
 
 - URI? URL? URN?
 - URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 수 있다.
-![](./images/uri.png)
+![](images/uri.png)
 
 ### URI 단어 뜻
 
@@ -35,7 +35,7 @@
 
 > https://www.google.com/search?q=hello&hl=ko
 
-![](./images/url%20search.png)
+![](images/url search.png)
 
 ### URL 전체 문법
 
@@ -89,17 +89,17 @@
 ### 웹 브라우저 요청 흐름
 
 #### 요청 흐름 1
-![](./images/웹브라우저요청흐름1.png)
+![](images/웹브라우저요청흐름1.png)
 
 #### 요청 흐름2
-![](./images/웹브라우저요청흐름2.png)
+![](images/웹브라우저요청흐름2.png)
 
 #### 요청 흐름3
-![](./images/웹브라우저요청흐름3.png)
+![](images/웹브라우저요청흐름3.png)
 
 #### 요청 흐름4
-![](./images/웹브라우저요청흐름4.png)
+![](images/웹브라우저요청흐름4.png)
 
 #### 요청 흐름 5
-![](./images/웹브라우저요청흐름5.png)
+![](images/웹브라우저요청흐름5.png)
 

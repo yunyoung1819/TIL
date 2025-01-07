@@ -9,7 +9,7 @@
 - 네트워크 인터페이스 계층
 
 ### 프로토콜 계층
-![](./images/프로토콜.png)
+![](images/프로토콜.png)
 
 
 ### TCP 특징 
@@ -23,10 +23,10 @@
 
 
 ### TCP/IP 패킷 정보
-![](./images/패킷정보.png)
+![](images/패킷정보.png)
 
 ### TCP 3 way handshake
-![](./images/tcp.PNG)
+![](images/tcp.PNG)
 
 - SYN: 접속 요청
 - ACK: 요청 수락
@@ -35,7 +35,7 @@
 ### 데이터 전달 보증
 
 ### 순서 보장
-![](./images/순서보장.png)
+![](images/순서보장.png)
 
 ### UDP 특징
 > 사용자 데이터그램 프로토콜(User Datagram Protocol)
@@ -52,13 +52,13 @@
 
 ### PORT
 - 한번에 둘 이상 연결해야하면?
-![](./images/포트.png)
+![](images/포트.png)
 
 - TCP/IP 패킷정보
-![](./images/패킷정보.png)
+![](images/패킷정보.png)
 
 ### PORT - 같은 IP 내에서 프로세스 구분
-![](./images/포트2.png)
+![](images/포트2.png)
 
 
 ### PORT 특징
@@ -79,7 +79,7 @@
 - 도메인 명을 IP 주소로 변환
 
 ### DNS 사용
-![](./images/dns.png)
+![](images/dns.png)
 
 ### 인터넷 네트워크 정리
 - 인터넷 통신
