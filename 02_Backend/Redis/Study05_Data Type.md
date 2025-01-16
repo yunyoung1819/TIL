@@ -131,3 +131,61 @@ Key / Value (Data type)
 - Geospatial
 - Bitmap
 
+
+### Java 애플리케이션에서 Redis Client 사용하기
+
+build.gradle
+```text
+dependencies {
+    implementation 'redis.clients:jedis:4.3.1'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+```
+
+Main.java
+```java
+package org.example;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.Pipeline;
+
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+
+        try (var jedisPool = new JedisPool("127.0.0.1", 6379)) {
+            try (Jedis jedis = jedisPool.getResource()) {
+                jedis.set("users:300:email", "yujin@fastcompus.co.kr");
+                jedis.set("users:300:name", "Cho Yu Jin");
+                jedis.set("users:300:age", "20");
+
+                var userEmail = jedis.get("users:300:email");
+                System.out.println(userEmail);
+
+                List<String> userInfo = jedis.mget("users:300:email", "users:300:name", "users:300:age");
+                userInfo.forEach(System.out::println);
+
+                long counter = jedis.incr("counter");
+                System.out.println(counter);
+
+                counter = jedis.incrBy("counter", 10L);
+                System.out.println(counter);
+
+                counter = jedis.decr("counter");
+                System.out.println(counter);
+
+                Pipeline pipelined = jedis.pipelined();
+                pipelined.set("users:400:email", "zero@fastcomapus.co.kr");
+                pipelined.set("users:400:name", "zero");
+                pipelined.set("users:400:age", "37");
+                List<Object> objects = pipelined.syncAndReturnAll();
+                objects.forEach(i -> System.out.println(i.toString()));
+            }
+        }
+    }
+}
+```
