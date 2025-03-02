@@ -9,8 +9,8 @@
 
 -> 그러니 맘 편하게 Redis를 사용하자
 
-## :seedling: Section 5. 반드시 알아야하는 캐싱 전략
 
+## :seedling: Section 5. 반드시 알아야하는 캐싱 전략
 ### 캐싱 전략 Look_Aside
 ![image](../images/look_aside.png)
 
@@ -34,3 +34,24 @@
 - Write-Throuhg는 데이터를 DB와 Redis에 모두 저장하는 방법으로 Look-Aside와 가장 많이 사용이 되는 형태이다.
 
 3. 파레토 형태는 절대 무시해서는 안된다. 캐시를 적극적으로 활용하자
+
+
+## :seedling: Section 6. RDB vs AOF
+### RDB vs AOF
+![image](../images/backup.png)
+
+1. **RDB**: `Cron`의 형태로 데이터를 `SnapShot`하여 저장을 한다. 
+   - 스케쥴러의 형태이기 때문에 일부 데이터 유실 가능
+   - 하지만 빠르고 효과적이다.
+2. **AOF**: 모든 요청을 `커맨드`의 형태로 저장을 한다.
+   - 영속성을 절대적으로 보장하지만 빈번한 처리라 리소스가 더 소요가 된다.
+3. 무엇을 사용할지는 저장하는 데이터의 형태에 따라 다르다.
+
+## :seedling: Section 7. Redis의 아키텍처
+### Single Instance & Replication Instance
+![image](../images/architecture.png)
+
+### HA와 고가용성
+- HA: 고가용성 
+
+### Redis의 Sync 과정
