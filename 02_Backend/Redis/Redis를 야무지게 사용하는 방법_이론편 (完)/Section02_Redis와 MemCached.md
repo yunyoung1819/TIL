@@ -47,6 +47,7 @@
    - 영속성을 절대적으로 보장하지만 빈번한 처리라 리소스가 더 소요가 된다.
 3. 무엇을 사용할지는 저장하는 데이터의 형태에 따라 다르다.
 
+
 ## :seedling: Section 7. Redis의 아키텍처
 ### Single Instance & Replication Instance
 ![image](../images/architecture.png)
@@ -74,7 +75,16 @@
 3. **Sentinel**: *레디스 인스턴스들의 모니터링 시스템*을 의미한다. 인스턴스 장애시에는 `쿼럼`이라는 합의 과정을 통해 자동으로 복제 인스턴스를 메인 인스턴스로 승급시켜준다.
 4. **Cluster**: `샤딩 기법`을 활용해서 데이터를 분산 저장하는 아키텍처이다. `해시슬롯`이라는 방법을 통해서 샤드키의 위치를 효과적으로 관리한다. 
 
+
+## :seedling: Section 8. Redis의 Pub/Sub 모델
 ### Redis Pub/Sub
 1. Redis의 Pub/Sub은 휘발성 데이터이다. 메시지 수신을 보장하지 않고 유실이 가능하다.
 2. Pub/Sub은 모든 인스턴스에게 전달이 된다.
 3. Pub/Sub보다는 Stream 형태를 추천하며 Pub/Sub이 관심있다면 대표적인 Kafka에 대해서도 알아보자.
+
+
+## :seedling: Section 9. Redis Script
+### Script를 활용한 Redis Atomic 처리하는 방법
+1. *Lua Script*라는 형태를 활용하여 여러가지 요청을 *Atomic*하게 처리 가능하다.
+2. 주로 비동기식으로 요청을 받는 상황에서 매우 유용하게 활용이 가능하다.
+   - *Eval*이라는 커맨드를 참고하자
