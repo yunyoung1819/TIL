@@ -14,4 +14,4 @@ fun main() {
 }
 ```
 
-![img.png](img.png)
+![img.png](./img/img.png)
