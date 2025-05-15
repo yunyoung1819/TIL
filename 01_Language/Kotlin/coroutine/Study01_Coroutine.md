@@ -43,3 +43,65 @@ fun main() {
 - 여러 개의 스레드를 사용해 병렬 처리하면 해결 가능
 
 ![img.png](./img/img1-4.png)
+
+### 3. 스레드, 스레드 풀을 사용한 멀티 스레드 프로그래밍
+
+1. Thread를 사용한 멀티 스레드 프로그래밍
+
+```java
+public class Thread implements Runnable {}
+```
+
+```kotlin
+class ExampleThread : Thread() {
+    override fun run() {
+        println("[${Thread.currentThread().name}] 시작")
+        Thread.sleep(2000L)
+        println("[${Thread.currentThread().name}] 종료")
+    }
+}
+
+fun main() {
+    println("[${Thread.currentThread().name}] 시작")
+    ExampleThread().start()
+    Thread.sleep(1000L)
+    println("[${Thread.currentThread().name}] 종료")
+}
+```
+
+간단한 버전 
+```kotlin
+fun main() {
+    println("[${Thread.currentThread().name}] 시작")
+    thread {
+        println("[${Thread.currentThread().name}] 시작")
+        Thread.sleep(2000L)
+        println("[${Thread.currentThread().name}] 종료")
+    }
+    Thread.sleep(1000L)
+    println("[${Thread.currentThread().name}] 종료")
+}
+```
+
+![img.png](./img/img5.png)
+
+**Thread를 사용한 멀티 스레드 프로그래밍의 장점**
+1. 간단하게 병렬 처리가 가능하다.
+
+**Thread를 사용한 멀티 스레드 프로그래밍의 한계**
+1. Thread의 start 함수를 호출할 때마다 새로운 스레드가 생성되고 재사용이 어렵다.
+-> 스레드는 비싼 자원이다. 재사용이 어려운 것은 치명적이다.
+2. 개발자가 스레드 생성과 관리에 대한 책임을 가진다.
+-> 개발자의 실수나 오류로 인해 메모리 누수가 일어날 수 있다.
+-> 프로그램이 복잡해질수록 스레드의 생성과 관리를 직접 하는 것은 불가능에 가까워진다.
+
+**문제 해결 방법**
+- 한번 생성한 스레드를 간편하게 재사용할 수 있어야 한다.
+- 스레드의 관리를 미리 구축한 시스템에서 해야한다.
+    - 스레드 관리 책임을 시스템에 넘긴다.
+
+> Executor 프레임웍이 등장
+
+
+**Executor 프레임웍이란?**
+- 스레드의 집합인 스레드풀을 미리 생성해놓고, 작업을 요청받으면 쉬고 있는 스레드에 작업을 분배할 수 있는 시스템
