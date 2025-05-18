@@ -10,5 +10,18 @@
 
 ![img.png](./img/img2-1.png)
 
+### CoroutineDispatcher의 의미와 동작 방식
+CoroutineDispatcher의 의미
+- Dispatch (보내다) + er: 보내는 주체
+- Coroutine + Dispatcher: 코루틴을 보내는 주체
+- CoroutineDispatcher: 코루틴을 스레드로 보내 실행시키는 객체
 
+![img.png](./img/img2-2.png)
 
+CoroutineDispatcher 만들고 사용하기: 단일 스레드 디스패처
+```kotlin
+val singleThreadDispatcher: CoroutineDispatcher =
+    newSingleThreadContext("SingleThread")
+```
+
+![img.png](./img/img2-3.png)
