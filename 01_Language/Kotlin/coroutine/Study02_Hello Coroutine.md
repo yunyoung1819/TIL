@@ -24,4 +24,14 @@ val singleThreadDispatcher: CoroutineDispatcher =
     newSingleThreadContext("SingleThread")
 ```
 
-![img.png](./img/img2-3.png)
+![img.png](./img/img14.png)
+
+CoroutineDispatcher 만들고 사용하기: 멀티 스레드 디스패처
+
+```kotlin
+val multiThreadDispatcher: CoroutineDispatcher =
+    newFixedThreadPoolContext(2, "MultiThread")
+```
+
+
+![img.png](./img/img15.png)
