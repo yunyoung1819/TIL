@@ -9,9 +9,10 @@
 
 ![](images/1.png)
 
-
 ### Why Kubernetes?
 
 ![](images/2.png)
+
+### VM vs Container
 
 
