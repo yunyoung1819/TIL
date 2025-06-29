@@ -1,5 +1,4 @@
 # :book: 인프런 - 쿠버네티스 강의
-
 ## :pushpin: 기초편
 
 ### Introduction
