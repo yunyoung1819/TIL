@@ -12,6 +12,6 @@
 
 ### Why Kubernetes?
 
-![](images/img.png)
+![](images/2.png)
 
 
