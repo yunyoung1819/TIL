@@ -65,4 +65,5 @@ kubectl apply -f nginx-pod.yaml
 kubectl get pods
 ```
 
-- yaml 파일: 매니페스트 파일(Manifest File)
+- yaml 파일: 매니페스트 파일
+- 매니페스트 파일 (Manifest File): 쿠버네티스에서 다양한 여러가지의 리소스를 생성하고 관리하기 위해 사용하는 파일 
