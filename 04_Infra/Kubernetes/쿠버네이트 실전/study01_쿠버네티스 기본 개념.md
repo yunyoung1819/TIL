@@ -67,3 +67,39 @@ kubectl get pods
 
 - yaml 파일: 매니페스트 파일
 - 매니페스트 파일 (Manifest File): 쿠버네티스에서 다양한 여러가지의 리소스를 생성하고 관리하기 위해 사용하는 파일 
+
+
+### 파드(Pod)로 띄운 프로그램이 접속이 안되는 이유
+- 도커는 컨테이너 내부와 컨테이너 외부의 네트워크가 서로 독립적으로 분리되어 있다.
+- 쿠버네티스에서는 파드(Pod) 내부의 네트워크를 컨테이너가 공유해서 같이 사용한다.
+- 파드(Pod)의 네트워크는 로컬 컴퓨터의 네트워크와는 독립적으로 분리되어 있다. 
+- 이때문에 파드(Pod)로 띄운 Nginx에 아무리 요청을 보내도 응답이 업던 것이다.
+
+따라서 Nginx가 띄우는 웹 페이지에 접근하려면 2가지 방법이 있다.
+1. 파드(Pod) 내부로 들어가서 접근하기
+2. 파드(Pod) 내부 네트워크를 외부에서도 접속할 수 있도록 포트 포워딩(=포트 연결) 활용
+
+
+### 파드 내부로 들어가서 접근하기
+
+```text
+kubectl exec -it nginx-pod -- bash
+
+curl localhost:80
+```
+
+
+### 포트 포워딩을 활용해 Nginx로 요청보내기
+
+![](../images/kube02.png)
+
+```
+kubectl port-forward pod/nginx-pod 80:80 (pod/nginx-pod: pod 이름)
+
+sudo kubectl port-forward pod/nginx-pod 80:80 (mac은 sudo 권한 필요)
+
+kubectl delete pod ngin-pod (pod 삭제)
+
+kubectl get pods (pod 삭제 확인)
+```
+

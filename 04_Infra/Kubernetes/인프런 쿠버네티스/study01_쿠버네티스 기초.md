@@ -13,15 +13,15 @@ Linux (자원 격리 기술) -> VM (가상화 기술) -> Container (가상화 �
 - 도커 자체는 하나의 서비스를 컨테이너로 가상화시켜서 배포를 하는 것이고, 엄청 많은 서비스들을 운영할 때 일일이 배포하고 운영하는 역할을 해주지 않음.
 - 이런 것을 해주는 것이 `컨테이너 오케스트레이터`라는 개념으로 *여러 컨테니어들을 관리해주는 솔루션*
 
-![](images/1.png)
+![](../images/01.png)
 
 ### Why Kubernetes?
 
-![](images/2.png)
+![](../images/02.png)
 
 ### VM vs Container
 
-![](images/01.png)
+![](../images/03.png)
 
 VM
 - Host Server
