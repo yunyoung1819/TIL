@@ -107,8 +107,10 @@ kubectl get pods (pod 삭제 확인)
 
 1. Spring Boot 프로젝트 셋팅
 2. 간단한 코드 작성
-3. Dockerfile 생성
+3. 프로젝트 실행시켜보기
+4. Dockerfile 생성
 
+Dockerfile
 ```text
 FROM openjdk:17-jdk
 
@@ -117,17 +119,20 @@ COPY build/libs/*SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
 ```
 
-4. 명령어 실행 
+5. Spring Boot 프로젝트 빌드
 ```text
 ./gradle clean build
-
-docker build -t spring-server . (docker 이미지 생성)
-
-dokcer image ls
 ```
 
-5. 매니페스트 파일 만들기
+6. Dockerfile을 바탕으로 이미지 빌드
+```text
+docker build -t spring-server . (docker 이미지 생성)
 
+dokcer image ls (이미지가 잘 생성되었는지 확인)
+```
+
+
+7. 매니페스트 파일 만들기 
 spring-pod.yaml
 ```text
 apiVersion: v1
@@ -147,10 +152,16 @@ spec:
   - 이미지의 태그가 latest 이거나 명시되지 않은 경우: imagePullPolicy는 Always로 설정됨
   - 이미지의 태그가 latest가 아닌 경우: imagePullPolicy는 IfNotPresent로 설정됨
 
-6. 매니페스트 파일 기준으로 Pod 생성
+8. 매니페스트 파일 기반으로 Pod 생성
 
 ```
 kube apply -f spring-pod.yaml
+```
+
+9. 파드(Pod)가 잘 생성되었는지 확인 
+
+```text
+kubectl get pods
 ```
 
 
