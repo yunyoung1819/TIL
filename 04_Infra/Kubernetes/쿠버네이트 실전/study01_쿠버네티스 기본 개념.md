@@ -103,3 +103,116 @@ kubectl delete pod ngin-pod (pod 삭제)
 kubectl get pods (pod 삭제 확인)
 ```
 
+### 백엔드(Spring Boot) 서버를 파드(Pod)로 띄워보기
+
+1. Spring Boot 프로젝트 셋팅
+2. 간단한 코드 작성
+3. Dockerfile 생성
+
+```text
+FROM openjdk:17-jdk
+
+COPY build/libs/*SNAPSHOT.jar app.jar
+
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+```
+
+4. 명령어 실행 
+```text
+./gradle clean build
+
+docker build -t spring-server . (docker 이미지 생성)
+
+dokcer image ls
+```
+
+5. 매니페스트 파일 만들기
+
+spring-pod.yaml
+```text
+apiVersion: v1
+kind: Pod
+
+metadata:
+  nqme: spring-pod
+  
+spec:
+  containers:
+    - name: spring-contaier
+    image: spring-server
+    ports:
+      - containerPort:8080
+```
+- 위의 매니페스트 파일에서는 이미지 풀 정책을 따로 설정하지 않음. 이럴때는 아래와 같이 작동함
+  - 이미지의 태그가 latest 이거나 명시되지 않은 경우: imagePullPolicy는 Always로 설정됨
+  - 이미지의 태그가 latest가 아닌 경우: imagePullPolicy는 IfNotPresent로 설정됨
+
+6. 매니페스트 파일 기준으로 Pod 생성
+
+```
+kube apply -f spring-pod.yaml
+```
+
+
+### 이미지가 없다고 에러가 뜨는 이유 (이미지 풀 정책)
+
+이미지가 없다고 에러가 뜨는 이유
+- Spring Boot 프로젝트를 이미지로 빌드해서 파드로 띄웠다. 
+- 하지만 `ImagePullBackOff` 라는 에러가 발생함
+이 문제는 이미지 풀 정책(Iamge Pull Policy)때문에 발생한 것
+
+### 이미지 풀 정책 (Image Pull Policcy)
+- **이미지 풀 정책(Image Pull Policy)**: 쿠버네티스가 yaml 파일을 읽어들여 파드를 생성할 때, 이미지를 어떻게 Pull을 받아올 것인지에 대한 정책으리 의미
+
+1) Always: 로컬에서 이미지를 가져오지 않고 무조건 레지스트리(= Dockerhub, ECR과 같은 원격 이미지 저장소)에서 가져온다.
+2) IfNotPresent: 로컬에서 이미지를 먼저 가져온다. 만약 로컬에 이미지가 없는 경우에만 레지스트에서 가져온다.
+3) Never: 로컬에서만 이미지를 가져온다.
+
+
+#### 매니페스트 파일에 이미지 풀 정책 설정하는 방법
+
+```text
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spring-pod
+spec:
+  containers:
+    - name: spring-container
+    image: spring-server
+    ports:
+      - containerPort: 8080
+    imagePullPolicy: Always
+```
+
+명령어 실행
+```text
+kubectl delete pod spring-pod
+
+kubectl apply -f spring-pod.yaml
+
+kubectl get pods (STATUS가 Running인지 확인)
+```
+
+Hello, World 확인하기
+```text
+1) Pod 내부에 들어가서 확인 
+kubectl exec -it spring-pod -- bash
+
+curl localhost: 8080
+
+2) 포트포워딩 활용
+kubectl port-forward pod/spring-pod 12345:8080
+
+localhost:12345로 접속해서 확인 
+```
+
+![](../images/kube03.png)
+
+
+Pod 삭제
+```text
+kubectl delete pod spring-pod
+
+kubectl get pods
+```
