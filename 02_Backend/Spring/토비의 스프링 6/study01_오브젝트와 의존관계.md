@@ -75,3 +75,10 @@ public class Sort {
 
 #### 제어의 역전 (Inversion Of Control)
 > 제어권 이전을 통한 제어관계 역전 - 프레임워크의 기본 동작 원리
+
+#### 스프링 컨테이너와 의존관계 주입 (Dependency Injection)
+
+![](./images/007.png)
+
+![](./images/008.png)
+
