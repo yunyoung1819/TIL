@@ -18,3 +18,66 @@
 - `@Test` 테스트 메소드
 - `@BeforeEach` 테스트: 각 테스트 전에 실행된다
 - 테스트마다 새로운 인스턴스가 만들어진다.
+
+#### PaymentService 테스트
+PaymentService 개발
+- 요구사항
+  - 해외직구를 위한 원화 결제 준비 기능 개발
+  - 주문번호, 외국 통화 종류, 외국 통화 기준 결제 금액을 전달받아서 다음의 정보를 더해 Payment를 생성한다.
+    - 적용 환율 
+    - 원화 환산 금액
+    - 원화 환산 금액 유효 시간
+- PaymentService.prepare() 메소드로 개발
+  - Payment 오브젝트 리턴
+
+- 테스트 대상
+  - 적용 환율
+  - 원화 환산 금액
+  - 원화 환산 금액 유효 시간 
+
+```java
+package tobyspring.hellospring.payment;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import org.junit.jupiter.api.Test;
+import tobyspring.hellospring.exrate.WebApiExRateProvider;
+
+class PaymentServiceTest {
+
+    @Test
+    void prepare() throws IOException {
+        PaymentService paymentService = new PaymentService(new WebApiExRateProvider());
+
+        Payment payment = paymentService.prepare(1L, "USD", BigDecimal.TEN);
+
+        // 환율정보 가져온다
+        assertThat(payment.getExRate()).isNotNull();
+
+        // 원화환산금액 계산
+        assertThat(payment.getConvertedAmount())
+            .isEqualTo(payment.getExRate().multiply(payment.getForeignCurrencyAmount()));
+
+        // 원화환산금액의 유효시간 계산
+        assertThat(payment.getValidUntil()).isAfter(LocalDateTime.now());
+        assertThat(payment.getValidUntil()).isBefore(LocalDateTime.now().plusMinutes(30));
+    }
+}
+```
+
+#### PaymentService 테스트의 문제점
+
+
+
+1. 우리가 제어할 수 없는 외부 시스템에 문제가 생기면?
+2. ExRateProvider가 제공하는 환율 값으로 계산한 것인가?
+3. 환율 유효 시간 계산은 정확한 것인가?
+
+#### 테스트의 구성 요소
+
+![](./images/015.png)
+
+![](./images/016.png)
