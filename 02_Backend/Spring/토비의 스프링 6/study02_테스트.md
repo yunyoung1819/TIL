@@ -69,9 +69,6 @@ class PaymentServiceTest {
 ```
 
 #### PaymentService 테스트의 문제점
-
-
-
 1. 우리가 제어할 수 없는 외부 시스템에 문제가 생기면?
 2. ExRateProvider가 제공하는 환율 값으로 계산한 것인가?
 3. 환율 유효 시간 계산은 정확한 것인가?
@@ -81,3 +78,12 @@ class PaymentServiceTest {
 ![](./images/015.png)
 
 ![](./images/016.png)
+
+#### 테스트와 DI
+수동 DI를 이용하는 테스트
+- 테스트용 협력자(Collborator)/의존 오브젝트를 테스트 대상에 직접 주입하고 테스트
+
+스프링 DI를 이용하는 테스트
+- 테스트용 협력자(Collborator)/의존 오브젝트를 스프링의 구성 정보를 이용해서 지정하고 컨테이너로부터 테스트 대상을 가져와서 테스트
+- `@ContextConfiguration`
+- `@Autowired`
