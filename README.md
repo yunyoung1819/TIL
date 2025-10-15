@@ -55,7 +55,7 @@ TIL은 매일 학습한 내용을 체계적으로 정리하고 공유하기 위�
 #### [02_Backend](02_Backend/)
 - [Spring](02_Backend/Spring)
 - [SpringBoot](02_Backend/SpringBoot)
-- [JPA](02_Backend/JPA)
+- [JPA](02_Backend/JPA%20(完))
 - [Redis](02_Backend/Redis)
 - [ElasticSearch](02_Backend/ElasticSearch)
 - [Kafka](02_Backend/Kafka)
