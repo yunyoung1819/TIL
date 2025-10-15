@@ -53,13 +53,13 @@ public void method3() throws Exception {
 
 #### Error
 - 시스템에 비정상적인 상황이 발생
-- OutOfMemoryError
-- ThreadDeath
+- `OutOfMemoryError`
+- `ThreadDeath`
 
 #### 체크 예외(Exception)
-- catch나 throws를 강요
+- `catch`나 `throws`를 강요
 - 초기 라이브러리의 잘못된 예외 설계/사용
-- 복구할 수 없다면 RuntimeException이나 적절한 추상화 레벨의 예외로 전환해서 던질 것
+- 복구할 수 없다면 `RuntimeException`이나 적절한 추상화 레벨의 예외로 전환해서 던질 것
 
 #### 예외의 추상화와 전환
 - 사용 기술에 따라 같은 문제에 대해 다른 종류의 예외 발생
