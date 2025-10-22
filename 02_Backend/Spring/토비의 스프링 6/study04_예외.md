@@ -64,3 +64,9 @@ public void method3() throws Exception {
 #### 예외의 추상화와 전환
 - 사용 기술에 따라 같은 문제에 대해 다른 종류의 예외 발생
 - 적절한 예외 추상화와 예외 번역이 필요
+
+
+#### JPA Repository (애플리케이션 인프라스트럭처 빈)
+
+
+![](./images/018.png)
