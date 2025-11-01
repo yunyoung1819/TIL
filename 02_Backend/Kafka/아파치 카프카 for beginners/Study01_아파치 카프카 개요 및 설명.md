@@ -3,15 +3,15 @@
 ### :seedling: 아파치 카프카 개요 및 설명
 
 ### Before Kafka
-![](../images/before.png)
+![](images/before.png)
 
 ### After Kafka
-![](../images/after.png)
+![](images/after.png)
 
 ### Kafka feature
-![](../images/feature1.png)
+![](images/feature1.png)
 
-![](../images/feature2.png)
+![](images/feature2.png)
 
 ### Topic
 - 카프카에는 다양한 데이터가 들어갈 수 있는데 데이터가 들어가는 공간을 `토픽`이라고 부름
@@ -20,13 +20,13 @@
 - 이 토픽에 `프로듀서`가 데이터를 넣게되고 `컨슈머`는 데이터를 가져가게됨
 - 토픽은 이름을 가질 수 있는데 목적에 따라 `클릭로그`, `send_sms`, `location_log` 등과 같이 무슨 데이터를 담는지 명확하게 명시하면 추후 유지보수시 편리
 
-![](../images/topic.png)
+![](images/topic.png)
 
 ### 파티션
 - 하나의 `토픽`은 `여러개의 파티션으로 구성`될 수 있음
 - 첫번째 파티션은 0번부터 시작
 
-![](../images/topic2.png)
+![](images/topic2.png)
 
 
 #### 파티션이 여러개인 경우
@@ -62,7 +62,7 @@
 
 
 ### 파티셔너
-![](../images/partition.png)
+![](images/partition.png)
 
 - `파티셔너`는 카프카 프로듀서의 중요개념 중 하나
 - **프로듀서가 데이터를 보내면** 무조건 `파티셔너`를 통해서 브로커로 데이터가 전송된다.
