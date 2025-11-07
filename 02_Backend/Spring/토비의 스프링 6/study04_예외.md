@@ -71,12 +71,13 @@ public void method3() throws Exception {
 ![](./images/018.png)
 
 #### 스프링 데이터 액세스 예외 처리 (DataAccessException)
-JDBC SQLException
+**JDBC SQLException**
 - JDBC를 기반으로 하는 모든 기술에서 발생하는 예외
 - JDBC, MyBatis, JPA, ...
 - DB의 에러코드에 의존하거나 데이터 기술에 의존적인 예외처리 코드
 
-DataAccessException
+**DataAccessException**
 - DB의 에러코드와 데이터 액세스 기술에 독립적인 예외 구조
-- 적절한 예외 번역 (exception translation) 도구를 제공
+- 적절한 예외 번역(exception translation) 도구를 제공
 
+> 체계적인 예외 구조를 만들고 적절한 예외 처리 방법을 사용하고 있는지 살펴봅시다
