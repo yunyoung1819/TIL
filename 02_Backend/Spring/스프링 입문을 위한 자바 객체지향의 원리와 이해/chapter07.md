@@ -54,3 +54,41 @@ Car car = new Car();
 car.setTire(tire);
 ```
 
+#### 스프링을 통한 의존성 주입 - XML 파일 사용
+
+의사코드
+운전자가 종합 쇼핑몰에서 타이어를 구매한다.
+운전자가 종합 쇼핑몰에서 자동차를 구매한다.
+운전자가 자동차에 타이어를 장착한다.
+
+자바로 표현 - 속성 메서드 사용
+```text
+ApplicationContext context = new ClassPathXmlApplicationContext("expert002.xml", Driver.class);
+Tire tire = (Tire) context.getBean("tire");
+Car car = (Car) context.getBean("car");
+car.setTire(tire);
+```
+
+#### 스프링을 통한 의존성 주입 - 스프링 설정 파일(xML)에서 속성 주입
+
+의사코드
+운전자가 종합 쇼핑몰에서 자동차를 구매 요청한다.
+종합 쇼핑몰은 자동차를 생산한다.
+종합 쇼핑몰은 타이어를 생산한다.
+종합 쇼핑몰은 자동차에 타이어를 장착한다.
+종합 쇼핑몰은 운전자에게 자동차를 전달한다.
+
+자바로 표현 
+```text
+ApplicationContext context = new ClassPathXmlApplicationContext("expert003/expert003.xml");
+Car car = context.getBean("car", Car.class);
+```
+
+XML로 표현
+```text
+<bean id="koreaTire" class="expert003.KoreaTire"></bean>
+<bean id="americaTire" class="expert003.AmericaTire"></bean>
+<bean id="car" class="expert003.Car">
+  <property name="tire" ref="koreaTire"></property>
+</bean>
+```
