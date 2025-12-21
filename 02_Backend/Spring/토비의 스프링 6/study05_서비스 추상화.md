@@ -33,3 +33,22 @@
 - PaymentService - ExRateService에 적용된 DIP
 
 ![](./images/020.png)
+
+### 기술에 독립적인 애플리케이션 서비스
+OrderService
+- 데이터 액세스 기술의 하나인 JPA에 의존
+- JPA를 사용하는 Repository 클래스에 의존
+- JPA Transaction Manager에 의존
+
+Order
+- @Entity가 붙은 JPA 엔티티로 작성
+- 컴파일 시점에만 JPA 라이브러리에 의존
+- 클래스 코드에는 JPA 기술과 관련된 내용이 들어가지 않음
+- JPA를 사용하지 않으면 런타임에는 JPA 라이브러리에 의존하지 않음
+
+#### Order에서 JPA 메타데이터 분리
+- 애노테이션(`@Entity`)은 컴파일타임 라이브러리 의존성만 가진다
+- 엔티티의 동작에는 영향을 주지 않기 때문에 엔티티 클래스를 다른 데이터 기술에 사용해도 된다
+- 그래도 제거하고 싶다면 외부 XML 디스크럽터를 사용할 수 있다
+
+#### /META-INF/orm.xml
