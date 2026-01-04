@@ -52,3 +52,14 @@ Order
 - 그래도 제거하고 싶다면 외부 XML 디스크럽터를 사용할 수 있다
 
 #### /META-INF/orm.xml
+
+
+#### 특정 기술(JPA)에 의존하지 않는 애플리케이션 서비스 만들기
+- JPA Repository - OrderRepository에 의존하지 않도록 변경
+- 의존관계 역전 (DIP)
+
+![](./images/021.png)
+
+- DIP 적용
+
+![](./images/DIP.png)
