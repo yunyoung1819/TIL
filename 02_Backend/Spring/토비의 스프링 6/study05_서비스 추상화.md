@@ -97,3 +97,18 @@ con.commit();
 - 여러 인프라 서비스 기술의 공통적이고 핵심적인 기능을 인터페이스로 정의하고 이를 구현하는 어댑터를 만들어 일관된 사용이 가능하게 만드는 것이 서비스 추상화
 
 ![](./images/022.png)
+
+
+#### JdbcClient
+- Spring 6.1에서 추가
+- SQL을 사용하는 JDBC 데이터 처리 코드를 유연하게 작성하도록 도와줌
+- 일종의 템플릿/콜백
+- 스프링의 JdbcTemplate의 대체 기술 
+
+#### DataSource Transaction Manager
+- JDBC의 Connection을 이용하는 트랜잭션 매니저
+- Connection을 리턴하는 DataSource 오브젝트 필요 
+
+#### JDBC 데이터 액세스용 구성 정보
+- DataSource
+- DataSourceTransactionManager
