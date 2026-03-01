@@ -63,3 +63,37 @@ Order
 - DIP 적용
 
 ![](./images/DIP.png)
+
+
+#### 트랜잭션 서비스 추상화 (Platform Transaction Manager)
+OrderService
+- JPA를 사용하는 Repository 클래스에 의존
+- JPA Transaction Manager에 의존
+
+#### Transaction은 데이터 기술에 따라 방법이 다르다
+- JDBC
+- JPA
+- MyBatis
+- Jooq
+
+JPA 트랜잭션
+```text
+EntityTransaction txn = entityManager.getTransaction();
+txn.begin();
+...
+txn.commit();
+```
+
+JDBC 트랜잭션
+```text
+Connection con = ...
+con.setAutoCommit(false);
+...
+con.commit();
+```
+
+추상화
+- 구현의 복잡함과 디테일을 감추고 중요한 것만 남기는 기법
+- 여러 인프라 서비스 기술의 공통적이고 핵심적인 기능을 인터페이스로 정의하고 이를 구현하는 어댑터를 만들어 일관된 사용이 가능하게 만드는 것이 서비스 추상화
+
+![](./images/022.png)
