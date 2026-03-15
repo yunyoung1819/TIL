@@ -1,4 +1,5 @@
-## :pushpin: Part 1. Overview
+# :pushpin: The Red: Microsoft AI 개발자의 LLM 마스터 클래스: AI 서비스 개발부터 운영까지 by.양파
+## Part 1. Overview
 
 ### 02. LLM overview
 #### LLM
@@ -64,4 +65,3 @@
 - Post / pre processing
 - Embedding
 - LLM Ops (LLM Operations)
-
