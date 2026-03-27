@@ -39,3 +39,12 @@ public Order createOrder(String no, BigDecimal total) {
   - 트랜잭션 부가 기능을 제공하는 OrderServiceTxProxy 프록시
 
 ![](./images/025.png)
+
+
+#### 트랜잭션 프록시 적용
+- 동일한 OrderService 인터페이스를 구현한 프록시를 OrderClient에 주입
+
+![](./images/proxy.png)
+
+#### 스프링이 만들어주는 트랜잭션 프록시
+- `@Transactional` 애노테이션이 붙은 클래스의 메소드가 트랜잭션 안에서 실행되도록 프록시를 만들어줌
