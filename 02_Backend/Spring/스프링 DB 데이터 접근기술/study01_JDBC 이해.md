@@ -36,11 +36,13 @@ JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속할
 - JDBC는 1997년에 출시될 정도로 오래된 기술이고, 사용하는 방법도 복잡
 - 최근에는 JDBC를 직접 사용하기보다는 편리하게 사용하는 다양한 기술이 존재. 대표적으로 SQL Mapper와 ORM 기술이 있다.
 
-JDBC 직접 사용
+**JDBC 직접 사용**
+
 애플리케이션 로직 -> (SQL 전달) -> JDBC
 
-SQL Mapper
-애플리케이션 로직 -> (SQL 전달) -> SQL Mapper(JdbcTemplate, MyBatis) -> JDBC
+**SQL Mapper**
+
+애플리케이션 로직 (SQL 전달)-> SQL Mapper(JdbcTemplate, MyBatis) -> (SQL 전달) JDBC
 
 SQL Mapper
 - 장점: JDBC를 편리하게 사용하도록 도와줌
@@ -48,3 +50,13 @@ SQL Mapper
   - JDBC의 반복 코드를 제거해준다.
 - 단점: 개발자가 SQL을 직접 작성해야 한다.
 - 대표 기술: 스프링 JdbcTemplate, MyBatis
+
+**ORM 기술**
+
+애플리케이션 로직 (객체 전달)-> JPA (JPA 구현체: 하이버네이트, 이클립스링크) -> (SQL 전달) JDBC
+
+ORM 기술
+- ORM은 객체를 관계형 데이터베이스 테이블과 매핑해주는 기술. 이 기술 덕분에 개발자는 반복적인 SQL을 직접 작성하지 않고, ORM 기술이 개발자 대신에 sQL을 동적으로 만들어 실행해줌
+- 추가로 각각의 데이터베이스마다 다른 SQL을 사용하는 문제도 중간에서 해결해준다.
+- 대표 기술: JPA, 하이버네이트, 이클립스링크
+- JPA는 자바 진영의 ORM 표준 인터페이스이고, 이것을 구현한 것으로 하이버네이트와 이클립스링크 등의 구현기술이 있음
