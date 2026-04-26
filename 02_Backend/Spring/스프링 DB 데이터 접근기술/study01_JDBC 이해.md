@@ -31,3 +31,20 @@ JDBC(Java Database Connectivity)는 자바에서 데이터베이스에 접속할
 - java.sql.Statement: SQL을 담은 내용
 - java.sql.ResultSet: SQL 요청 응답
 
+
+### JDBC와 최신 데이터 접근 기술
+- JDBC는 1997년에 출시될 정도로 오래된 기술이고, 사용하는 방법도 복잡
+- 최근에는 JDBC를 직접 사용하기보다는 편리하게 사용하는 다양한 기술이 존재. 대표적으로 SQL Mapper와 ORM 기술이 있다.
+
+JDBC 직접 사용
+애플리케이션 로직 -> (SQL 전달) -> JDBC
+
+SQL Mapper
+애플리케이션 로직 -> (SQL 전달) -> SQL Mapper(JdbcTemplate, MyBatis) -> JDBC
+
+SQL Mapper
+- 장점: JDBC를 편리하게 사용하도록 도와줌
+  - SQL 응답 결과를 객체로 편리하게 변환해준다.
+  - JDBC의 반복 코드를 제거해준다.
+- 단점: 개발자가 SQL을 직접 작성해야 한다.
+- 대표 기술: 스프링 JdbcTemplate, MyBatis
