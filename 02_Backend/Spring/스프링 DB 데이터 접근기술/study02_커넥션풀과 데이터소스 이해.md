@@ -85,7 +85,7 @@ void dataSourceDriverManager() throws SQLException {
 
 private void useDataSource(DataSource dataSource) throws SQLException {
     Connection con1 = dataSource.getConnection();
-    Connection con2 = dataSource.getConnection():
+    Connection con2 = dataSource.getConnection();
 }
 ```
 
