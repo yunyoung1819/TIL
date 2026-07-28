@@ -38,3 +38,91 @@ Chat Options란 무엇일까?
 - Top-P (누적 확률 필터링)
   - 후보 단어들을 확률 높은 순으로 줄 세운 뒤, 누적 확률이 P(예: 90%)를 초과하기 전까지만 동적으로 단어 후보군을 선택
   - 상위 90%의 안전한 단어들 안에서만 고르게 하므로 문맥이 꼬이지 않으면서도 자연스러운 변화를 줌
+
+
+### Spring AI Prompts - 프롬프트 엔지니어링 9가지 패턴
+1. Zero-Shot Prompting (제로샷 프롬프팅): 사전 정보나 예시없이 AI에게 곧바로 질문을 던지는 가장 기본적인 방식
+
+```java
+@AiService
+public interface QAService {
+    @Prompt("이탈리아의 수도는 어디야?")
+    String answer();
+}
+```
+
+2. Few-Shot Prompting (퓨샷 프롬프팅): AI에게 1개(One-Shot) 또는 여러 개의 정답 예시를 미리 보여주고 ㅓ패턴을 학습시킨 뒤 질문을 던지는 방식
+
+```java
+@Prompt("""
+        Q: 2 + 2는? A: 4
+        Q: 3 + 5는? A: 8
+        Q: {{question}} A:
+        """)
+String solve(@V("question") String question);
+```
+
+3. Role & System Prompting (역할 및 시스템 프롬프팅): 시스템 프롬프트를 사용해 AI에게 '페르소나(직업, 성격, 톤앤매너)'를 부여
+
+```java
+@Prompt(system = "너는 아주 정중하고 핵심만 말하는 10년 차 내과 의사야.")
+String respondTo(String userQuestion);
+```
+
+4. Step-Back Prompting (한걸음 물러서기 프롬프팅): AI가 섣불리 대답하기 전에, 상황을 먼저 객관적으로 분석하고 성찰하도록 유도함
+
+```java
+@Prompt("""
+        답변하기 전에, 다음 상황을 주의 깊게 먼저 생각해 봐: {{situation}}
+        자, 이제 이 상황에서 가장 좋은 조언은 무엇일까?
+        """)
+String analyze(@V("situation") String situation);
+```
+
+5. Chain-of-Thought, CoT (생각의 사슬 프롬프팅): 단순히 답만 뱉는게 아니라 문제를 해결하는 과정을 단계별로 풀어서 설명하도록 지시하는 방식
+
+```java
+@Prompt("""
+        다음 문제를 단계별로 차근차근(step-by-step) 해결해줘:
+        {{problem}}
+        
+        정답:
+        """)
+String solveStepwise(@V("problem") String problem);
+```
+
+6. Self-Consistency Prompting (자기 일관성 프롬프팅): CoT(생각의 사슬) 프롬프트를 여러번 반복해서 호출한 뒤, 가장 많이 나온 (일관된) 답변을 최종 정답으로 채택하는 방식
+
+7. Tree-of-Thoughts, ToT (생각의 나무 프롬프팅): 하나의 문제에 대해 여러가지 해결책을 먼저 제안하게 하고, 그중 가장 좋은 것을 스스로 선택해 평가하게 만드는 방식
+
+```java
+@Prompt("""
+        이 문제를 해결할 수 있는 3가지 다른 접근법을 제안해봐:
+        {{challenge}}
+        
+        그런 다음, 3가지 중 가장 좋은 방법을 하나 고르고 그 이유를 설명해줘.
+        """)
+String solveWithToT(@V("challenge") String challenge);
+```
+
+8. Automatic Prompt Engineering (자동 프롬프트 엔지니어링): 내가 쓴 부실한 프롬프트를 AI에게 던져서 "네가 더 완벽한 프롬프트로 다듬어봐"라고 시키는 방식
+
+```java
+@Prompt("""
+        너는 세계 최고의 프롬프트 엔지니어의 역량을 가졌어. 다음 프롬프트의 명확성과 효과를 극대화해줘
+        {{originPrompt}}
+        """)
+String optimizePrompt(@V("originalPrompt") String originalPrompt);
+```
+
+9. Code Prompting (코드 프롬프팅): 사용자의 입력을 기반으로 코드를 생성하거나 분석하도록 요청하는 방식
+
+```java
+@Prompt("""
+        다음 요구사항을 수행하는 Java 함수를 작성해줘:
+        {{description}}
+        
+        Java Code:
+        """)
+String generateCode(@V("description") String description);
+```
