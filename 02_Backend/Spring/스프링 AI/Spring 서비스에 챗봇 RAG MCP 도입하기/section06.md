@@ -126,3 +126,33 @@ String optimizePrompt(@V("originalPrompt") String originalPrompt);
         """)
 String generateCode(@V("description") String description);
 ```
+
+### CLI 챗봇 개발 환경 아키텍쳐
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+1. Advisors 프로세스
+- 사용자가 입력한 순수한 형태의 질문을 Spring AI 내부에서 처리하고 다루기 쉬운 ChatClientRequest 객체로 변환
+- 이곳에 등록된 여러 Advisor들이 개입하여 요청 데이터를 검사하거나 변경함
+  - 예시: SimpleLoggerAdvisor는 이 단계에서 AI에게 어떤 질문(Prompt)을 보낼 예정인지 로그를 남기고, 다른 Advisor는 질문에 추가적인 컨텍스트나 시스템 프롬프트를 덧붙이는 작업을 함
+- Advisor들을 거치며 최종적으로 완성된 요청이 실제 AI 모델(OpenAI, Gemini 등)로 전송됨
+- 답변을 사용자에게 최종 반환하기 전에 Advisor들이 다시 한번 개입
+  - 예시: SimpleLoggerAdvisor는 이 단계에서 AI가 어떤 답변을 생성했는지 토큰을 얼마나 사용했는지 등을 로그로 출력함. 다른 Advisor들은 답변을 특정 포맷으로 파싱하거나 검증함
+- 모든 Advisor의 처리가 끝난 내부 응답 객체를 최종적으로 개발자(또는 사용자)가 받게될 표준 ChatResponse 형태로 변환하여 반환하면서 전체 프로세스가 종료됨
+
+![img_2.png](img_2.png)
+
+2. SimpleLoggerAdvisor 객체 생성
+- 이름 그대로 로깅(Logging)을 담당
+- 우리가 작성한 프롬프트가 실제로 어떤 형태의 JSON으로 변환되어 AI에게 날아가는지 그리고 AI가 대답을 생성하는데 걸린 시간과 정확한 응답 데이터가 무엇인지를 디버깅 콘솔에 전부 찍어줌
+
+3. chatMemory 객체 생성
+- 우리가 API를 통해 백엔드 서버에서 AI를 직접 호출할 때 LLM API는 무상태로 동작함. 즉 기억을 하지 못함
+- 우리가 새로운 질문을 던질 때마다 과거에 나누었던 대화 기록 전체를 프롬프트에 덧붙여서 같이 보내야함
+- 하나하나 우리가 붙이는 것은 불가능하기 때문에 Advisor를 활용하여 쉽게 구현할 수 있음
+  - 대화 기록(히스토리)을 차곡차곡 저장해두는 '수첩'
+  - 스프링에서는 기본적으로 메모리에 저장하는 InMemoryChatMemory를 제공
+
+4. MessageChatMemoryAdvisor 객체 생성
+- 짧은 질문만 던지더라도 해당 Advisor가 대답을 가로채서 기존의 대화 기록을 끼워넣은 다음 최종 프롬프트를 AI에게 대신 전달해줌
