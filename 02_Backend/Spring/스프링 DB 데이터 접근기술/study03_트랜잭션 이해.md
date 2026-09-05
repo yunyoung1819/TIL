@@ -200,3 +200,7 @@ select * from member where member_id = 'memberA' for update;
 - con.rollback(); // 실패시 롤백
   - catch(Ex) { ... } 를 사용해서 비즈니스 로직 수행 도중에 예외가 발생하면 트랜잭션을 롤백
 - release(con);
+
+
+### 남은 문제
+- 애플리케이션에서 DB 트랜잭션을 적용하려면 서비스 계층이 매우 지저분해지고, 생각보다 매우 복잡한 코드를 요구한다.
