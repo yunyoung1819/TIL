@@ -54,3 +54,93 @@
 - 데이터 접근 계층의 JDBC 구현 기술 예외가 서비스 계층으로 전파된다.
 - SQLException은 체크 예외이기 때문에 데이터 접근 계층을 호출한 서비스 게층에서 해당 예외를 잡아서 처리하거나 명시적으로 throws를 통해서 다시 밖으로 던져야 한다.
 - SQLException은 JDBC 전용 기술. 향후 JPA나 다른 데이터 접근 기술을 사용하면 그에 맞는 다른 예외로 변경해야 하고, 결국 서비스 코드도 수정해야한다.
+
+
+### 트랜잭션 추상화
+현재 서비스 계층은 트랜잭션을 사용하기 위해 JDBC 기술에 의존하고 있다. 
+향후 JDBC에서 JPA 같은 다른 데이터 접근 기술로 변경하면, 서비스 계층의 트랝개션 관련 코드도 모두 함께 수정해야 한다.
+
+구현 기술에 따른 트랜잭션 사용법
+- 구현 기술마다 트랜잭션을 사용하는 방법이 다르다.
+- JDBC: con.setAutoCommit(false);
+- JPA: transaction.begin
+
+JDBC 트랜잭션 코드 예시
+
+```java
+import java.sql.Connection;
+
+public void accountTransfer(String fromId, Strong toId, int money) throws SQLException {
+    Connection con = dataSource.getConnection();
+    try {
+        con.setAutoCommit(false); // 트랜잭션 시작
+        // 비즈니스 로직
+        bizLogic(con, fromId, toId, money);
+        con.commit(); // 성공시 커밋
+    } catch (Exception e) {
+        con.rollback(); // 실패시 롤백
+        throw new IllegalStateException(e);
+    } finnaly {
+        release(con);
+    }
+}
+```
+
+JPA 트랜잭션 코드 예시
+```java
+public static void main(String[] args) {
+    
+    // 엔티티 매니저 팩토리 생성
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpabook");
+    EntityManager em = emf.createEntityManager(); // 엔티티 매니저 생성
+    EntityTransaction tx = em.getTransaction(); // 트랜잭션 기능 획득
+    
+    try {
+        tx.begin(); // 트랜잭션 시작
+        logic(em);  // 비즈니스 로직
+        tx.commit(); // 트랜잭션 커밋
+    } catch (Exception e) {
+        tx.rollback(); // 트랜잭션 롤백 
+    } finally {
+        em.close(); // 엔티티 매니저 종료
+    }
+    emf.close(); // 엔티티 매니저 팩토리 종료 
+}
+```
+트랜잭션을 사용하는 코드는 데이터 접근 기술마다 다르다. 
+
+트랜잭션 추상화
+- 이 문제를 해결하려면 트랜잭션 기능을 추상화하면 된다.
+
+```java
+public interface TxManager {
+    begin();
+    commit();
+    rollback();
+}
+```
+
+트랜잭션은 사실 단순하다. 트랜잭션을 시작하고 비즈니스 로직의 수행이 끝나면 커밋하거나 롤백하면 된다.
+그리고 다음과 같이 TxManager 인터페이스를 기반으로 각각의 기술에 맞는 구현체를 만들면 된다.
+
+- JdbcTxManager: JDBC 트랜잭션 기능을 제공하는 구현체
+- JpaTxManager: JPA 트랜잭션 기능을 제공하는 구현체 
+
+- 클라이언트인 서비스는 인터페이스에 의존하고 DI를 사용한 덕분에 OCP 원칙을 지키게 되었다.
+- 이제 트랜잭션을 사용하는 서비스 코드를 전혀 변경하지 않고 트랜잭션 기술을 마음껏 변경할 수 있다.
+
+스프링의 트랜잭션 추상화
+- 우리는 스프링이 제공하는 트랜잭션 추상화 기술을 사용하면 된다.
+
+```java
+package org.springframework.transaction;
+
+public interface PlatformTransactionManager extends TransactionManager {
+    TransactionStatus getTransaction(@Nullable TransactionDefinition definition) throws TransactionException;
+    
+    void commit(Transaction status) throws TransactionException;
+    
+    void rollback(TransactionStatus status) throws TransactionException;
+}
+```
+
